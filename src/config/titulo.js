@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Entorno químico: principios, fenómenos y leyes.'

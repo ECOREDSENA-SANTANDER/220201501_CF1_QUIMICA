@@ -45,10 +45,19 @@ figcaption
     font-weight: normal !important
 
     background-color: #D2C3DD !important
-
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
+  background-color: $color-acento-botones !important
+  border: 0px
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
+.bg-fondo
+  &-1
+    background-image: url("../assets/curso/temas/bg/1.svg") !important
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+    border-radius: 45px;
 .p-full-width
   padding: 3rem 2.5rem!important;
 .bg-full-width
@@ -58,11 +67,16 @@ figcaption
   margin-inline: -3.3rem
 .bg-color
   &-1
-    color: $color-primario !important
-
+    background-color: #E6F9E6 !important
+  &-2
+    background-color: #fff
+  &-3
+    background-color: #FFE6F2
 .br
   &-1
     border-radius: 10px !important
+  &-4
+    border-radius: 25px !important
 
 .ml-cus
   &-1
@@ -71,9 +85,46 @@ figcaption
 .hcard
   &-1
     height: 750px !important
+.wcus
+  &-1
+    width: 30% !important
+  &-2
+    width: 42% !important    
+.pcus
+  &-1
+    padding-top: 3rem !important;
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+.text-left
+  text-align: left !important
 
-      
 
+
+
+.titulo-icono
+  background-color: $color-acento-contenido
+  border-radius: 30px
+  width: fit-content
+  position: relative;
+  left: 12px;
+  &-text
+    margin-right: 10px
+    margin-left: 50px;
+    color: $white
+  &-img
+    padding: 0px
+    position: absolute
+    top: -30px
+
+
+    &:before
+      position: relative
+      border-bottom-right-radius: 40px
+      @media screen and (max-width: 767px)
+        height: 280%
+    img
+      position: relative
+      max-width: 50px
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
@@ -101,3 +152,15 @@ figcaption
 @media screen and (max-width: $bp-min-sm)
   .mb-cus
     margin-bottom: 2em  !important
+
+  .titulo-icono
+    left: 0px;
+    &-text
+      margin-left: 10px;
+    &-img
+      display: none !important
+  .pcus
+    &-1
+      padding-top: 0rem !important;
+      padding-right: 0rem !important;
+      padding-left: 0rem !important;

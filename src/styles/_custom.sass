@@ -41,13 +41,39 @@
   color: $white !important  
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important
-figcaption 
+figcaption, table caption
     font-weight: normal !important
-
-    background-color: #D2C3DD !important
+    background-color: #E8E8E8 !important
 .linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
   background-color: $color-acento-botones !important
   border: 0px
+.lista-ul--color.color-primario li > i:first-of-type
+    color: $color-primario !important;
+.acordion__accion__btn--a 
+    background-color: $color-acento-botones !important
+.tarjeta.bg-color-5.acordion__activo
+    background-color: #E6F9E6 !important
+.tabs-a__tab
+    background-color: $color-acento-contenido
+    color: #fff 
+.tabs-a.color-acento-botones .tabs-a__tab__selected
+    background-color: #FFD500;
+    color: $color-sistema-texto;
+.slyder-f__btn i 
+    background-color: $color-acento-botones
+    border-radius: 50%;
+    border: none;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+.tabla-a th
+    background-color: #FFCCE5 !important
+.bloque-texto-f.color-acento-contenido:before
+    background-color: #CCF2CC !important
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -58,6 +84,14 @@ figcaption
     background-size: cover
     background-repeat: no-repeat
     border-radius: 45px;
+  &-2
+    background-image: url("../assets/curso/temas/bg/3.svg") !important
+    background-position: bottom
+  &-3
+    background-image: url("../assets/curso/temas/t2/48.svg") !important
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
 .p-full-width
   padding: 3rem 2.5rem!important;
 .bg-full-width
@@ -72,12 +106,46 @@ figcaption
     background-color: #fff
   &-3
     background-color: #FFE6F2
+  &-4
+    background-color: #E6FCFF
+  &-5
+    background-color: #CCF9FF
+  &-6
+    background-color: #ccf9ff
+    border-radius: 20px !important
+    width: fit-content !important
+  &-7
+    background-color: #99F2FF
+  &-8
+    background-color: $color-acento-contenido
+  &-9
+    background-color: #0AC675
+  &-10
+    background-color: #9AE59A
+    width: fit-content !important
+  &-11
+    background-color: #F3E6FF
+  &-12
+    background-color: #CCF2CC
+  &-13
+    background-color: #fff
+    width: fit-content !important
+  &-14
+    background-color: #CCF2CC
+    width: fit-content !important
+
+.w-fit
+  width: fit-content !important
 .br
   &-1
     border-radius: 10px !important
+  &-2
+    border-radius: 10px
+    border: 1px #017301 solid
   &-4
     border-radius: 25px !important
-
+  &-5
+    border-radius: 5px !important
 .ml-cus
   &-1
     margin-left: 30px !important
@@ -85,20 +153,36 @@ figcaption
 .hcard
   &-1
     height: 750px !important
+  &-2
+    height: 420px !important
+  &-3
+    height: 380px !important
+  &-4
+    height: 960px
 .wcus
   &-1
     width: 30% !important
   &-2
     width: 42% !important    
+  &-3
+    width: 15%
+  &-4
+    width: 6%
+  &-5
+    width: 20%
+  &-6
+    width: 15%
 .pcus
   &-1
     padding-top: 3rem !important;
     padding-right: 3rem !important;
     padding-left: 3rem !important;
+  &-2
+    padding-left: 4rem !important;
+  &-4
+    padding-top: 1rem !important;
 .text-left
   text-align: left !important
-
-
 
 
 .titulo-icono
@@ -125,6 +209,37 @@ figcaption
     img
       position: relative
       max-width: 50px
+
+.titulo-icono-b
+  
+  position: relative;
+  &-text
+    background-color: #E6F9E6
+    border-radius: 5px
+    margin-right: 10px
+    margin-left: 30px;
+    padding-left: 3rem
+    
+  &-img
+    padding: 0px
+    position: absolute
+    top: 18px
+
+
+    &:before
+      position: relative
+      border-bottom-right-radius: 40px
+      @media screen and (max-width: 767px)
+        height: 280%
+    img
+      position: relative
+      max-width: 70px
+mn 
+  font-family: 'Roboto', sans-serif; 
+  font-weight: 900;
+  line-height: 1.2;
+  color: #12263F;
+  font-size: 1rem;
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
@@ -145,18 +260,25 @@ figcaption
 @media screen and (max-width: $bp-min-md)
   .mb-cus
     margin-bottom: 2em  !important  
+  .slyder-f__btn i 
+    width: 40px;
+    height: 30px;
+    font-size: 1rem;
 
-  
+  .hcard
+    &-2, &-4, &-3
+      height: auto !important
 
 //// MOBILE 576--------------------------------------
 @media screen and (max-width: $bp-min-sm)
   .mb-cus
     margin-bottom: 2em  !important
 
-  .titulo-icono
+  .titulo-icono, .titulo-icono-b
     left: 0px;
     &-text
       margin-left: 10px;
+      padding-left: 10px;
     &-img
       display: none !important
   .pcus
@@ -164,3 +286,20 @@ figcaption
       padding-top: 0rem !important;
       padding-right: 0rem !important;
       padding-left: 0rem !important;
+    &-2
+      padding-left: 0.8rem !important;
+    &-3
+      padding-right: 1rem !important;
+      padding-left: 1rem !important;
+    &-4
+      padding-top: 0rem !important;
+  .slyder-f__btn i 
+    width: 40px;
+    height: 30px;
+    font-size: 1rem;
+  
+  .hcard
+    &-2, &-4
+      height: auto !important
+  .bg-full-width 
+    margin-inline: -1.3rem;

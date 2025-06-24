@@ -53,6 +53,11 @@ export default {
         desarrolloContenidos: true,
         subMenu: [
           {
+            numero: '2.1',
+            titulo: 'Sustancias puras y mezclas',
+            hash: 't_2_1',
+          },
+          {
             numero: '2.2',
             titulo: 'Los estados de la materia',
             hash: 't_2_2',

@@ -74,6 +74,12 @@ figcaption, table caption
     background-color: #FFCCE5 !important
 .bloque-texto-f.color-acento-contenido:before
     background-color: #CCF2CC !important
+.tarjeta--boton.bg-color-12
+    background-color: #CCF9FF;
+.tarjeta--boton.bg-color-12:active, .tarjeta--boton.bg-color-12:focus, .tarjeta--boton.bg-color-12:hover
+    background-color: #CCF2CC 
+.tabs-b__tab
+    background-color: #E6F9E6;
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -133,6 +139,12 @@ figcaption, table caption
   &-14
     background-color: #CCF2CC
     width: fit-content !important
+  &-15
+    background-color: $color-primario
+    width: fit-content !important
+  &-16
+    background-color: #9AE59A
+
 
 .w-fit
   width: fit-content !important
@@ -159,6 +171,8 @@ figcaption, table caption
     height: 380px !important
   &-4
     height: 960px
+  &-5
+    height: 360px !important
 .wcus
   &-1
     width: 30% !important
@@ -181,10 +195,17 @@ figcaption, table caption
     padding-left: 4rem !important;
   &-4
     padding-top: 1rem !important;
+  &-5
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
 .text-left
   text-align: left !important
 
-
+.tit-cus
+  &-1
+    color: #FFD500 !important
+  &-2
+    color: $color-sistema-texto !important
 .titulo-icono
   background-color: $color-acento-contenido
   border-radius: 30px
@@ -293,13 +314,16 @@ mn
       padding-left: 1rem !important;
     &-4
       padding-top: 0rem !important;
+    &-5
+      padding-right: 0.5rem !important;
+      padding-left: 0.5rem !important;
   .slyder-f__btn i 
     width: 40px;
     height: 30px;
     font-size: 1rem;
   
   .hcard
-    &-2, &-4
+    &-2, &-4, &-5
       height: auto !important
   .bg-full-width 
     margin-inline: -1.3rem;

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="90" viewBox="0 0 90 90">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_406103" data-name="Rectángulo 406103" width="58" height="58" transform="translate(1243.051 6142)" fill="#fff" stroke="#fff" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1108962" data-name="Grupo 1108962" transform="translate(-1227.051 -6126)">
+    <circle id="Elipse_11797" data-name="Elipse 11797" cx="45" cy="45" r="45" transform="translate(1227.051 6126)" fill="#0ac675"/>
+    <g id="Enmascarar_grupo_1098752" data-name="Enmascarar grupo 1098752" clip-path="url(#clip-path)">
+      <g id="enzimas" transform="translate(1243.051 6142)">
+        <path id="Trazado_899570" data-name="Trazado 899570" d="M26.33,50.855,29,49.3V39.516l-8.4-4.9-8.4,4.9V49.3l8.4,4.9L22.9,52.853" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.699"/>
+        <line id="Línea_660" data-name="Línea 660" y2="10.441" transform="translate(45.803 39.516)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.699"/>
+        <path id="Trazado_899571" data-name="Trazado 899571" d="M26.3,8.582,29,10.155v9.781l-8.4,4.9-8.4-4.9V10.155l8.4-4.9,2.28,1.33" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.699"/>
+        <path id="Trazado_899572" data-name="Trazado 899572" d="M39.773,6.637l6.03,3.517v9.781l-8.4,4.9" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.699"/>
+        <line id="Línea_661" data-name="Línea 661" x1="6.059" y2="3.533" transform="translate(45.803 6.621)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.699"/>
+        <path id="Trazado_899573" data-name="Trazado 899573" d="M37.4,34.616l8.4,4.9,6.065-3.537" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.699"/>
+        <line id="Línea_662" data-name="Línea 662" x1="8.401" y2="4.899" transform="translate(37.402 19.935)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.699"/>
+        <line id="Línea_663" data-name="Línea 663" y1="6.134" transform="translate(3.795 27.72)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.699"/>
+        <line id="Línea_664" data-name="Línea 664" y1="3.537" x2="6.064" transform="translate(6.133 19.935)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.699"/>
+        <circle id="Elipse_11798" data-name="Elipse 11798" cx="2.832" cy="2.832" r="2.832" transform="translate(42.971 49.957)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.699"/>
+        <circle id="Elipse_11799" data-name="Elipse 11799" cx="2.832" cy="2.832" r="2.832" transform="translate(51.486 31.73)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.699"/>
+        <circle id="Elipse_11800" data-name="Elipse 11800" cx="2.832" cy="2.832" r="2.832" transform="translate(0.85 22.058)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.699"/>
+        <circle id="Elipse_11801" data-name="Elipse 11801" cx="2.832" cy="2.832" r="2.832" transform="translate(0.85 33.852)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.699"/>
+        <circle id="Elipse_11802" data-name="Elipse 11802" cx="2.832" cy="2.832" r="2.832" transform="translate(51.486 2.379)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.699"/>
+        <circle id="Elipse_11803" data-name="Elipse 11803" cx="2.832" cy="2.832" r="2.832" transform="translate(34.494 2.379)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.699"/>
+        <path id="Trazado_899574" data-name="Trazado 899574" d="M20.6,31.709v2.908l8.4,4.9,8.4-4.9V24.835l-8.4-4.9-8.4,4.9v2.909" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.699"/>
+      </g>
+    </g>
+  </g>
+</svg>

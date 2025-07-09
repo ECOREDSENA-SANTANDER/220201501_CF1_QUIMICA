@@ -80,6 +80,25 @@ figcaption, table caption
     background-color: #CCF2CC 
 .tabs-b__tab
     background-color: #E6F9E6;
+.tabs-c__content-item
+    background-color: #FFE6F2;
+.tabs-c__header
+    margin-bottom: 0px !important
+.tabs-c
+    border-bottom: 0px !important
+.tabs-c.color-acento-contenido .tabs-c__tab--active
+  font-weight: bold !important
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number,
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #E6CCFF 
+    color: $color-sistema-texto
+.linea-tiempo-d__item__number,
+.linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #FF99CC
+.tarjeta.tarjeta--azul.acordion__activo
+  background-color: #CCF2CC !important
+.acordion .tarjeta--azul
+    background-color: #99F2FF;
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -144,8 +163,10 @@ figcaption, table caption
     width: fit-content !important
   &-16
     background-color: #9AE59A
-
-
+  &-17
+    background-color: #E6CCFF
+  &-18
+    background-color: #E8E8E8
 .w-fit
   width: fit-content !important
 .br
@@ -161,7 +182,8 @@ figcaption, table caption
 .ml-cus
   &-1
     margin-left: 30px !important
-      
+  &-2
+    margin-top: 50px !important    
 .hcard
   &-1
     height: 750px !important
@@ -173,6 +195,8 @@ figcaption, table caption
     height: 960px
   &-5
     height: 360px !important
+  &-6
+    height: 330px !important
 .wcus
   &-1
     width: 30% !important
@@ -186,6 +210,8 @@ figcaption, table caption
     width: 20%
   &-6
     width: 15%
+  &-7
+    width: 30%
 .pcus
   &-1
     padding-top: 3rem !important;
@@ -323,7 +349,7 @@ mn
     font-size: 1rem;
   
   .hcard
-    &-2, &-4, &-5
+    &-2, &-4, &-5, &-6
       height: auto !important
   .bg-full-width 
     margin-inline: -1.3rem;

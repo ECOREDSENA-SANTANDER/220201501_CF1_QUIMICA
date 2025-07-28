@@ -7,7 +7,7 @@
           span 4
         h1 Enlace químico y nomenclatura de compuestos
       
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-2.d-none.d-lg-block
           img(src='@/assets/curso/temas/t4/1.svg', alt='')
         .col-sm-12.col-lg-10
@@ -16,7 +16,7 @@
       Separador
       #t_4_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 4.1 Fórmula química
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-4.mb-cus
           img.wcus-7.mb-4.d-none.d-lg-block(src='@/assets/curso/temas/t4/2.svg', alt='')
           p.mb-0 La #[b fórmula molecular] de un compuesto indica el número exacto de átomos de cada elemento que están presentes en la unidad más pequeña de una sustancia y la proporción entre los átomos, como se presenta en la figura:
@@ -29,7 +29,7 @@
           p.mb-3.ml-cus-2 #[b Símbolos:] identifican los elementos constituyentes del compuesto. 
           p.mb-3 #[b Subíndices:] indican la atomicidad, es decir, el número de átomos presentes de cada elemento. 
           p.mb-0 #[b Paréntesis:] se usan para agrupar un conjunto de átomos que actúan como una unidad poliatómica (en el caso de la figura, el ion sulfato), viene acompañado de un subíndice para indicar el numero de veces que se repite la unidad en la fórmula.
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-8
           .row.justify-content-center.mb-0.bg-color-16.px-2.py-4.align-items-center
             .col-sm-12.col-lg-2.d-none.d-lg-block
@@ -44,7 +44,7 @@
       Separador
       #t_4_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 4.2 Enlaces químicos
-      p.mb-5 El desarrollo de la tabla periódica y el concepto de configuración electrónica dieron los fundamentos para entender cómo se forman las moléculas y los compuestos. La explicación propuesta por Gilbert Lewis es que los átomos se combinan para alcanzar la configuración electrónica más estable. La máxima estabilidad se logra cuando un átomo alcanza el mismo número de electrones de un gas noble.  
+      p.mb-5(data-aos='fade-right') El desarrollo de la tabla periódica y el concepto de configuración electrónica dieron los fundamentos para entender cómo se forman las moléculas y los compuestos. La explicación propuesta por Gilbert Lewis es que los átomos se combinan para alcanzar la configuración electrónica más estable. La máxima estabilidad se logra cuando un átomo alcanza el mismo número de electrones de un gas noble.  
        .row.justify-content-center.align-items-center.mb-5
         .col-sm-12.col-lg-2.mb-cus
           img(src='@/assets/curso/temas/t4/4.png', alt='')
@@ -54,7 +54,7 @@
         .col-sm-12.col-lg-5.d-none.d-lg-block
           img(src='@/assets/curso/temas/t4/5.png', alt='')
 
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-8
           .row.justify-content-center.mb-0.bg-color-16.px-2.py-4.align-items-center
             .col-sm-12.col-lg-2.d-none.d-lg-block
@@ -63,7 +63,7 @@
                 h5.mb-3 Nota
                 p.mb-0 Los metales de transición, lantánidos y actínidos, tienen capas internas incompletas y en general no es posible escribir sistemas sencillos de puntos de Lewis para ellos. 
       
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-8
           TabsC.color-acento-contenido
             .py-3.py-md-4.px-5(titulo="Enlace iónico")
@@ -88,7 +88,7 @@
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/temas/t4/6.png', alt='')
 
-      .row.justify-content-center.mb-5.align-items-end
+      .row.justify-content-center.mb-5.align-items-end(data-aos='fade-right')
         .col-sm-12.col-lg-6
             p.mb-3 Los átomos pueden formar distintos tipos de enlaces covalentes. En un #[b enlace sencillo], los átomos se unen por medio de un par de electrones. En muchos otros compuestos se forman enlaces múltiples, es decir, cuando los átomos comparten dos o más pares de electrones. Si dos átomos comparten dos pares de electrones, el enlace covalente se denomina enlace doble. Un enlace triple surge cuando dos átomos comparten tres pares de electrones.
             p.mb-0 Por otro lado, cuando un solo átomo aporta el par de electrones que se comparte con otro átomo que no tiene electrones disponibles, el enlace se denomina #[b enlace coordinado o dativo]. 
@@ -103,7 +103,7 @@
       #t_4_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 4.3 Estructuras de Lewis
       
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-4
           img.wfit-1.mb-4.d-none.d-lg-block(src='@/assets/curso/temas/t4/10.png', alt='')
           p.mb-0 Una estructura de Lewis es una representación de un enlace covalente, donde el par de electrones compartidos se indica con líneas o como pares de puntos entre dos átomos y los pares libres no compartidos se indican como pares de puntos en los átomos individuales. En una estructura de Lewis sólo se muestran los electrones de valencia y la formación de los enlaces para conseguir la estabilidad de la molécula o compuesto cumpliendo la #[b regla del octeto]. 
@@ -133,13 +133,13 @@
                   span.tit-cus-2 Enlace web
                   i.fas.fa-link.tit-cus-2
 
-      .row.align-items-center.mb-5.titulo-icono
+      .row.align-items-center.mb-5.titulo-icono(data-aos='fade-right')
         .col-auto.titulo-icono-img
           img(src='@/assets/curso/temas/bg/2.svg', alt='')
         .col
           h3.mb-0.titulo-icono-text.px-0.py-2 Pasos para realizar una estructura de Lewis
       
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-6
           LineaTiempoD.color-primario
             .row(numero="1" titulo="Paso 1")
@@ -179,10 +179,10 @@
       Separador
       #t_4_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 4.4 Nomenclatura de los compuestos inorgánicos
-      p.mb-5 Para iniciar el estudio de la #[b nomenclatura de los compuestos químicos], es necesario, primero distinguir entre compuestos inorgánicos y orgánicos. Los compuestos orgánicos contienen carbono, comúnmente combinados con elementos como hidrogeno, oxigeno, nitrógeno y azufre. El resto de los compuestos se clasifican como compuestos inorgánicos. Sin embargo, algunos compuestos que contienen carbono como monóxido de carbono (CO) y dióxido de carbono (CO2), se consideran compuestos inorgánicos. 
+      p.mb-5(data-aos='fade-right') Para iniciar el estudio de la #[b nomenclatura de los compuestos químicos], es necesario, primero distinguir entre compuestos inorgánicos y orgánicos. Los compuestos orgánicos contienen carbono, comúnmente combinados con elementos como hidrogeno, oxigeno, nitrógeno y azufre. El resto de los compuestos se clasifican como compuestos inorgánicos. Sin embargo, algunos compuestos que contienen carbono como monóxido de carbono (CO) y dióxido de carbono (CO2), se consideran compuestos inorgánicos. 
       .bg-color-6.mb-4(data-aos="fade-left")
           h3.px-4.py-1 Estados de oxidación
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-8
           p.mb-4 En estado natural, los átomos son eléctricamente neutros, es decir, el número de protones en su núcleo es igual al número de electrones que los rodean. Sin embargo, al formar compuestos, los átomos pueden ganar o perder electrones, lo que da lugar a un valor llamado #[b estado de oxidación o número de oxidación.]
           .bg-color-1.p-4
@@ -190,8 +190,8 @@
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/temas/t4/20.png', alt='')
         
-      p.mb-5 La #[b ubicación del elemento en la tabla periódica], específicamente el grupo al que pertenece, permite predecir los estados de oxidación más comunes. Por ejemplo:
-      .row.justify-content-center.align-items-center.mb-5
+      p.mb-5(data-aos='fade-right') La #[b ubicación del elemento en la tabla periódica], específicamente el grupo al que pertenece, permite predecir los estados de oxidación más comunes. Por ejemplo:
+      .row.justify-content-center.align-items-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-3
           .bg-color-17.br-4.p-5.align-items-center.hcard-6.mb-cus
             img.mb-4.wcus-7.m-auto(src='@/assets/curso/temas/t4/21.svg', alt='')
@@ -211,7 +211,7 @@
             img.mb-4.wcus-7.m-auto(src='@/assets/curso/temas/t4/24.svg', alt='')
             p.mb-0.text-center Elementos de transición: pueden tener múltiples estados de oxidación debido a la participación de electrones de los subniveles d.
 
-      p.mb-5 En la siguiente tabla se presentan los estados de oxidación más comunes tanto de elementos representativos como de elementos de transición. 
+      p.mb-5(data-aos='fade-right') En la siguiente tabla se presentan los estados de oxidación más comunes tanto de elementos representativos como de elementos de transición. 
       .row.justify-content-center.align-items-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-8
           .titulo-sexto.color-acento-contenido
@@ -321,15 +321,15 @@
 
       .bg-color-6.mb-4(data-aos="fade-left")
             h3.px-4.py-1 Grupos funcionales
-      p.mb-5 Los grupos funcionales son grupos de átomos, que juntos dan características específicas a las moléculas. Los principales grupos funcionales de la química inorgánica son los óxidos, los hidróxidos, los ácidos y las sales, como se presenta en la figura: 
-      .titulo-sexto.color-acento-contenido
+      p.mb-5(data-aos='fade-right') Los grupos funcionales son grupos de átomos, que juntos dan características específicas a las moléculas. Los principales grupos funcionales de la química inorgánica son los óxidos, los hidróxidos, los ácidos y las sales, como se presenta en la figura: 
+      .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           p.mb-0 #[b Figura 21.] Estructura de Lewis del ácido perclórico
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-10
           figure.mb-0
               img(src='@/assets/curso/temas/t4/25.svg', alt='Esquema de los grupos funcionales inorgánicos como los óxidos, los hidróxidos, los ácidos y las sales. Se expone el origen y la transformación de distintos compuestos a partir de elementos metálicos y no metálicos al reaccionar con el oxígeno, hidrógeno y agua. ')
               figcaption.mb-0 Fuente: https://www.lifeder.com/acido-perclorico/ 
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-9
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="Óxidos")
@@ -370,8 +370,8 @@
           img(src='@/assets/curso/temas/t4/26.png', alt='')
       .bg-color-6.mb-4(data-aos="fade-left")
             h3.px-4.py-1 Nomenclatura de los compuestos inorgánicos
-      p.mb-5 La nomenclatura de los compuestos inorgánicos sigue reglas definidas por la IUPAC (Unión Internacional de Química Pura y Aplicada), y permite nombrar sustancias según su composición química, valencia y grupo funcional. Hay tres sistemas de nomenclatura principales: sistemática, stock y tradicional.
-      .row.justify-content-center.mb-5
+      p.mb-5(data-aos='fade-right') La nomenclatura de los compuestos inorgánicos sigue reglas definidas por la IUPAC (Unión Internacional de Química Pura y Aplicada), y permite nombrar sustancias según su composición química, valencia y grupo funcional. Hay tres sistemas de nomenclatura principales: sistemática, stock y tradicional.
+      .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-9
           TabsA.color-acento-botones
             .tarjeta.bg-color-5.p-4(titulo="Nomenclatura sistemática")

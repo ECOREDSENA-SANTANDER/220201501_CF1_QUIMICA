@@ -78,7 +78,7 @@ figcaption, table caption
     cursor: pointer;
 .tabla-a table
     min-width: 600px;
-    background-color: #fff;
+    background-color: #fff !important
 .tabla-a th
     background-color: #FFCCE5 !important
 .bloque-texto-f.color-acento-contenido:before
@@ -256,6 +256,8 @@ figcaption, table caption
   &-7
     padding-right: 3rem !important;
     padding-left: 3rem !important;
+  &-8
+    padding: 1.5rem !important;
 .text-left
   text-align: left !important
 .text-right-cus
@@ -334,7 +336,25 @@ table.table-cus td
 
 .denominator 
   display: block;
-  
+
+.tarjeta-avatar-cus
+    height: 100%;
+    position: relative;
+    margin-bottom: 3rem
+.tarjeta-avatar-cus > img
+    display: inline-block;
+    height: 100%;
+    margin-left: 45%
+    margin-top: 3%
+    width: 55%;
+.tarjeta-avatar-cus .tarjeta 
+    position: absolute;
+    transform: translateX(-50%);
+    left: 31%;
+    display: block;
+    margin: 0 auto;
+    
+
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
@@ -343,13 +363,42 @@ table.table-cus td
 @media screen and (max-width: $bp-min-xxl)
   .mb-cus
     margin-bottom: 2em  !important 
+  .tarjeta-avatar-cus
+    height: 100%;
+    position: relative;
+    margin-bottom: 3rem
+  .tarjeta-avatar-cus > img
+      display: inline-block;
+      height: 100%;
+      margin-left: 53%
+      width: 55%;
+      margin-top: 4%
+
+  .tarjeta-avatar-cus .tarjeta 
+      left: 25%;
+      top: -14.5%
 
 //// TABLET 992--------------------------------------
-@media screen and (max-width: $bp-max-md)
+@media screen and (max-width: 1200px)
   .mb-cus
     margin-bottom: 2em  !important  
-  
-  
+  .tarjeta-avatar-cus
+    height: 100%;
+    position: initial;
+    margin-bottom: -7rem
+
+  .tarjeta-avatar-cus > img
+      display: none
+  .tarjeta-avatar-cus .tarjeta 
+      position: initial;
+      transform: none
+      left: 0
+      display: block;
+      margin: 0 auto;
+  .pcus
+    &-8
+      padding-right: 0rem !important;
+      padding-left: 0rem !important;
   
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
@@ -400,7 +449,7 @@ table.table-cus td
     &-6
       padding-right: 1rem !important;
       padding-left: 1rem !important;
-    &-7
+    &-7, &-8
       padding-right: 0rem !important;
       padding-left: 0rem !important;
   .slyder-f__btn i 
@@ -420,4 +469,16 @@ table.table-cus td
       width: 50%
     &-9
       width: 100%
-  
+  .tarjeta-avatar-cus
+    height: 100%;
+    position: initial;
+    margin-bottom: -7rem
+
+  .tarjeta-avatar-cus > img
+      display: none
+  .tarjeta-avatar-cus .tarjeta 
+      position: initial;
+      transform: none
+      left: 0
+      display: block;
+      margin: 0 auto;

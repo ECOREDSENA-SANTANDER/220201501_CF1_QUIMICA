@@ -467,60 +467,65 @@
             p.mb-0 Los científicos coincidían en la necesidad de establecer un sistema de unidades que pudiera ser adoptado universalmente, independientemente de la cultura o de la ubicación geográfica. Así fue, que durante la XI Conferencia General de Pesas y Medidas, celebrada en París en 1960, se propuso un sistema métrico revisado, al que se le llamó #[b Sistema Internacional de Unidades] (SI, del francés #[em Système Internationale d’Unites]). 
       p.mb-3 Este sistema fue adoptado oficialmente sin reparos por la mayoría de países del mundo, a excepción de Estados Unidos, Birmania, Puerto Rico, entre otros, quienes consideraron pertinente mantener su legado colonial y conservar su sistema imperial o anglosajón de unidades.
       p.mb-5 En la siguiente tabla se muestras las 7 unidades de medición básicas o fundamentales del SI.
-      .row.justify-content-center.align-items-center.mb-5
-        .col-sm-12.col-lg-10
-          .row.justify-content-center.align-items-center.mb-5
-            
-            .col-sm-12.col-lg-9
-              .titulo-sexto.color-acento-contenido
+      .row.mb-5.justify-content-center.align-items-center
+        .col-sm-12.col-md-12.col-lg-10.mb-5.mb-lg-0
+          .tarjeta-avatar-cus
+            .tarjeta
+              .pcus-8
+                .titulo-sexto.color-acento-contenido
                   p.mb-0 #[b Tabla 1.] Unidades básicas del Sistema Internacional
-              .tabla-a.color-acento-contenido.mb-5
-                table(alt="La tabla presenta las siete magnitudes físicas fundamentales establecidas por el Sistema Internacional de Unidades, junto con el nombre de unidad correspondiente y su símbolo. Entre ellas están la longitud, la masa, el tiempo, la corriente eléctrica, la temperatura, la cantidad de sustancia y la intensidad luminosa. ")
-                  caption Fuente: Chang, (2017).
-                  thead
-                    tr
-                      th Cantidad básica
-                      th  Nombre de la unidad
-                      th.w-25  Símbolo
-                  tbody
-                    tr
-                      td Longitud
-                      td Metro
-                      td M
+                .tabla-a.color-acento-contenido.mb-5
+                  table(alt="La tabla presenta las siete magnitudes físicas fundamentales establecidas por el Sistema Internacional de Unidades, junto con el nombre de unidad correspondiente y su símbolo. Entre ellas están la longitud, la masa, el tiempo, la corriente eléctrica, la temperatura, la cantidad de sustancia y la intensidad luminosa. ")
+                    caption Fuente: Chang, (2017).
+                    thead
+                      tr
+                        th Cantidad básica
+                        th  Nombre de la unidad
+                        th.w-25  Símbolo
+                    tbody
+                      tr
+                        td Longitud
+                        td Metro
+                        td M
 
-                    tr
-                      td Masa
-                      td Kilogramo
-                      td Kg
+                      tr
+                        td Masa
+                        td Kilogramo
+                        td Kg
 
-                    tr
-                      td Tiempo
-                      td Segundo
-                      td S
+                      tr
+                        td Tiempo
+                        td Segundo
+                        td S
 
-                    tr
-                      td Corriente eléctrica
-                      td Amperio
-                      td A
+                      tr
+                        td Corriente eléctrica
+                        td Amperio
+                        td A
 
-                    tr
-                      td Temperatura
-                      td Kelvin
-                      td K
+                      tr
+                        td Temperatura
+                        td Kelvin
+                        td K
 
-                    tr
-                      td Cantidad de sustancia
-                      td Mol
-                      td mol
+                      tr
+                        td Cantidad de sustancia
+                        td Mol
+                        td mol
 
-                    tr
-                      td Intensidad luminosa
-                      td Candela
-                      td cd
-
-            
-            .col-sm-12.col-lg-3.bg-fondo-3.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t2/48.svg', alt='')
+                      tr
+                        td Intensidad luminosa
+                        td Candela
+                        td cd
+            img.d-none.d-lg-block(src='@/assets/curso/temas/t2/48.svg' alt='')
+      
+      
+      
+      
+      
+      
+      
+      
       .row.justify-content-center.mb-5.align-items-center
         .col-sm-12.col-lg-1.d-none.d-lg-block
           img(src='@/assets/curso/temas/t2/49.svg', alt='')

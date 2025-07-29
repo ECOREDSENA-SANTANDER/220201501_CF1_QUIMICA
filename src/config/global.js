@@ -4,19 +4,19 @@ export default {
     Description:
       'El siguiente componente formativo está diseñado para propiciar en el aprendiz la apropiación de los conceptos esenciales, así como la adquisición y el desarrollo de habilidades y destrezas relacionadas con la química. Comprender cómo interactúan las sustancias y cómo se transforman, es fundamental para interpretar procesos fisicoquímicos, aplicar principios químicos y tomar decisiones informadas en situaciones propias cotidianas o del entorno laboral.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-      {
         clases: ['banner-principal-decorativo-3'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
     ],
   },

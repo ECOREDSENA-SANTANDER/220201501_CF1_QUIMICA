@@ -70,7 +70,7 @@
 
             .bg-color-15.mb-4.m-auto(data-aos="fade-left")
               h3.px-4.py-1.text-center Electrón
-            p.mb-0 Es una partícula subatómica con carga negativa (-1.6022 x 10-19 C, donde C corresponde a coulombs) y masa de 9.1 x 10-28 g, que se localiza con probabilidad en la periferia del átomo. 
+            p.mb-0.text-center Es una partícula subatómica con carga negativa (-1.6022 x 10-19 C, donde C corresponde a coulombs) y masa de 9.1 x 10-28 g, que se localiza con probabilidad en la periferia del átomo. 
         .col-sm-6.col-lg-4.mb-4.mb-lg-0
           .tarjeta--boton.bg-color-12.p-4.hcard-5
             .row.justify-content-center.mb-3
@@ -79,7 +79,7 @@
 
             .bg-color-15.mb-4.m-auto(data-aos="fade-left")
               h3.px-4.py-1.text-center Protón
-            p.mb-0 Es una partícula subatómica con carga positiva (1.6022 x 10-19 C), que se encuentra en el núcleo atómico y que tienen una masa de 1.67262 x 10-24 g. 
+            p.mb-0.text-center Es una partícula subatómica con carga positiva (1.6022 x 10-19 C), que se encuentra en el núcleo atómico y que tienen una masa de 1.67262 x 10-24 g. 
 
         .col-sm-6.col-lg-4.mb-4.mb-lg-0
           .tarjeta--boton.bg-color-12.p-4.hcard-5
@@ -89,7 +89,7 @@
 
             .bg-color-15.mb-4.m-auto(data-aos="fade-left")
               h3.px-4.py-1.text-center Neutrón
-            p.mb-0 Es una partícula eléctricamente neutra presente en el núcleo atómico, con una masa ligeramente mayor que la masa de los protones (1.67493 x 10-24 g). 
+            p.mb-0.text-center Es una partícula eléctricamente neutra presente en el núcleo atómico, con una masa ligeramente mayor que la masa de los protones (1.67493 x 10-24 g). 
       
       .tarjeta.color-acento-contenido.px-3.py-4.mb-5(data-aos="fade-left")
         .row.justify-content-around.align-items-center
@@ -253,8 +253,8 @@
               .titulo-sexto.color-acento-contenido
                   p.mb-0 #[b Figura 9.] Aplicación del principio de exclusión de Pauli para el helio
               figure.mb-0
-                  img.w-50(src='@/assets/curso/temas/t3/20.svg', alt='Configuración electrónica del helio, cuyo número atómico es 2 y se representa como 1s2, indicando que los dos electrones del átomo se encuentran en el subnivel 1s y que el orbital tiene dos electrones con pines opuestos representados con dos flechas en posiciones opuestas (una hacia arriba y otra hacia abajo), de acuerdo con el principio de exclusión de Pauli. ')
-                  figcaption.mb-0.w-50 #[b Fuente:] Chang (2021).
+                  img.wcus-9(src='@/assets/curso/temas/t3/20.svg', alt='Configuración electrónica del helio, cuyo número atómico es 2 y se representa como 1s2, indicando que los dos electrones del átomo se encuentran en el subnivel 1s y que el orbital tiene dos electrones con pines opuestos representados con dos flechas en posiciones opuestas (una hacia arriba y otra hacia abajo), de acuerdo con el principio de exclusión de Pauli. ')
+                  figcaption.mb-0.wcus-9 #[b Fuente:] Chang (2021).
       
         .py-4.py-md-5(titulo="Regla de Hund" :icono="require('@/assets/curso/temas/t3/23.svg')")
             .row.justify-content-center.align-items-center.mb-0
@@ -277,7 +277,12 @@
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-8.mb-cus
           .bg-color-1.pcus-5.py-4
-            img(src='@/assets/curso/temas/t3/24.svg', alt='')
+            .row.justify-content-end.mb-0.align-items-end
+              .col-sm-12.col-lg-6
+                img(src='@/assets/curso/temas/t3/24.svg', alt='')
+              .col-sm-12.col-lg-6
+                p.mb-0 Su número atómico (Z) corresponde al número de protones, y por tanto de electrones.
+                p.mb-0.fw-bold Z = 17
         .col-sm-12.col-lg-4
           p.mb-3 Si Z = 17, significa que tiene 17 electrones para distribuir en los orbitales atómicos. 
           p.mb-4 Se construye la configuración electrónica de acuerdo con el diagrama de Moeller: 
@@ -412,7 +417,7 @@
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           p.mb-0 #[b Figura 12.] Símbolos químicos en la tabla periódica
       .bg-color-1.pcus-5.py-5.mb-5(data-aos='fade-right')
-          img(src='@/assets/curso/temas/t3/34.svg', alt='Tabla periódica de los elementos, codificada por colores para identificar los distintos tipos de elementos químicos según su clasificación. Cada casilla contiene el símbolo químico, número atómico, nombre y masa atómica del elemento.')
+          img(src='@/assets/curso/temas/t3/34.png', alt='Tabla periódica de los elementos, codificada por colores para identificar los distintos tipos de elementos químicos según su clasificación. Cada casilla contiene el símbolo químico, número atómico, nombre y masa atómica del elemento.')
       .mb-5 &nbsp;
       .row.align-items-center.mb-5.titulo-icono(data-aos='fade-right')
         .col-auto.titulo-icono-img
@@ -455,8 +460,8 @@
         .col-sm-12.col-lg-7
           .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Figura 15.] Regiones o categorías en la tabla periódica
-          figure.mb-0
-              img(src='@/assets/curso/temas/t3/39.svg', alt='Tabla periódica de los elementos, codificada por colores para identificar las distintas regiones o categorías de elementos. Se tienen 3 regiones o categorías que son: metales, no metales y metaloides.')
+          figure.mb-0.bg-color-1.br-5.p-4
+              img(src='@/assets/curso/temas/t3/39.png', alt='Tabla periódica de los elementos, codificada por colores para identificar las distintas regiones o categorías de elementos. Se tienen 3 regiones o categorías que son: metales, no metales y metaloides.')
               figcaption.mb-0  #[b Fuente:] Chang, (2021).  
       .mb-5 &nbsp;
       .row.align-items-center.mb-5.titulo-icono(data-aos='fade-right')

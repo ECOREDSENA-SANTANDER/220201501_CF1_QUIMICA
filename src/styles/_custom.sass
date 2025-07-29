@@ -4,12 +4,12 @@
     position: absolute
     bottom: 10%
     left: 0%
-  &-2
+  &-3
     animation: float1 2.0s ease-in-out infinite alternate
     position: absolute
     bottom: 10%
     right: 5%
-  &-3
+  &-2
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
     bottom: 10%
@@ -56,9 +56,15 @@ figcaption, table caption
 .tabs-a__tab
     background-color: $color-acento-contenido
     color: #fff 
+    white-space: normal !important
 .tabs-a.color-acento-botones .tabs-a__tab__selected
     background-color: #FFD500;
-    color: $color-sistema-texto;
+    color: $color-sistema-texto 
+.tabs-a.color-acento-botones .tabs-a__tab:hover, 
+.tabs-a.color-acento-botones .tabs-a__tab:active, 
+.tabs-a.color-acento-botones .tabs-a__tab:focus 
+    background-color: #FFD500;
+    color: $color-sistema-texto
 .slyder-f__btn i 
     background-color: $color-acento-botones
     border-radius: 50%;
@@ -70,6 +76,9 @@ figcaption, table caption
     align-items: center;
     justify-content: center;
     cursor: pointer;
+.tabla-a table
+    min-width: 600px;
+    background-color: #fff;
 .tabla-a th
     background-color: #FFCCE5 !important
 .bloque-texto-f.color-acento-contenido:before
@@ -80,6 +89,11 @@ figcaption, table caption
     background-color: #CCF2CC 
 .tabs-b__tab
     background-color: #E6F9E6;
+.tabs-b.color-acento-contenido .tabs-b__tab--active
+    background-color: #fff;
+
+.tabs-b__tab--active .tabs-b__tab__icon img
+    filter: brightness(0) saturate(100%) invert(11%) sepia(100%) saturate(5327%) hue-rotate(270deg) brightness(107%) contrast(127%);
 .tabs-c__content-item
     background-color: #FFE6F2;
 .tabs-c__header
@@ -204,7 +218,7 @@ figcaption, table caption
   &-4
     height: 960px
   &-5
-    height: 360px !important
+    height: 340px !important
   &-6
     height: 330px !important
 .wcus
@@ -222,6 +236,8 @@ figcaption, table caption
     width: 15%
   &-7
     width: 30%
+  &-9
+    width: 50%
 .pcus
   &-1
     padding-top: 3rem !important;
@@ -237,6 +253,9 @@ figcaption, table caption
   &-6
     padding-right: 10rem !important;
     padding-left: 10rem !important;
+  &-7
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
 .text-left
   text-align: left !important
 .text-right-cus
@@ -304,6 +323,18 @@ figcaption, table caption
       max-width: 70px
 table.table-cus td
     padding: 17px 15px;
+.fraction 
+    display: inline-block;
+    text-align: center;
+    margin-left: 1rem;
+  
+.numerator 
+  border-bottom: 1px solid #000;
+  display: block;
+
+.denominator 
+  display: block;
+  
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
@@ -332,7 +363,13 @@ table.table-cus td
   .hcard
     &-2, &-4, &-3
       height: auto !important
-
+  .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
+    width: 98% !important
+  .wcus
+    &-8
+      width: 30%
+    &-9
+      width: 100%
 //// MOBILE 576--------------------------------------
 @media screen and (max-width: $bp-min-sm)
   .mb-cus
@@ -363,6 +400,9 @@ table.table-cus td
     &-6
       padding-right: 1rem !important;
       padding-left: 1rem !important;
+    &-7
+      padding-right: 0rem !important;
+      padding-left: 0rem !important;
   .slyder-f__btn i 
     width: 40px;
     height: 30px;
@@ -375,3 +415,9 @@ table.table-cus td
     margin-inline: -1.3rem;
   .text-right-cus
     text-align: center !important
+  .wcus
+    &-8
+      width: 50%
+    &-9
+      width: 100%
+  

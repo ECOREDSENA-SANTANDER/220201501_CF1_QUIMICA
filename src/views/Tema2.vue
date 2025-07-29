@@ -260,7 +260,7 @@
       SlyderF.mb-5(columnas="col-lg-4 col-xl-4")
         .tarjeta.bg-color-7.p-3.p-md-3.p-lg-5
             .row.align-items-center.my-4.justify-content-center.hide-icon-sm.d-none.d-lg-block
-                .col-sm-3.col-md-3.col-lg-5
+                .col-sm-3.col-md-3.col-lg-5.m-auto
                     img(src='@/assets/curso/temas/t2/23.svg', alt='')
             .bg-color-8.mb-4.m-auto(data-aos="fade-left")
               h3.px-4.py-1.text-white.text-center Masa
@@ -268,7 +268,7 @@
             p.mb-0.text-center La masa de un cuerpo es la misma masa en cualquier parte de la tierra y se expresa en gramos (g) o kilogramos (kg). 
         .tarjeta.bg-color-7.p-3.p-md-3.p-lg-5
             .row.align-items-center.my-4.justify-content-center.d-none.d-lg-block
-                .col-sm-12.col-md-3.col-lg-5
+                .col-sm-12.col-md-3.col-lg-5.m-auto
                     img(src='@/assets/curso/temas/t2/24.svg', alt='')
             .bg-color-8.mb-4.m-auto(data-aos="fade-left")
               h3.px-4.py-1.text-white.text-center Volumen
@@ -276,7 +276,7 @@
 
         .tarjeta.bg-color-7.p-3.p-md-3.p-lg-5
             .row.align-items-center.my-4.justify-content-center.d-none.d-lg-block
-                .col-sm-12.col-md-3.col-lg-5
+                .col-sm-12.col-md-3.col-lg-5.m-auto
                     img(src='@/assets/curso/temas/t2/25.svg', alt='')
             .bg-color-8.mb-4.m-auto(data-aos="fade-left")
               h3.px-4.py-1.text-white.text-center Peso
@@ -284,7 +284,7 @@
 
         .tarjeta.bg-color-7.p-3.p-md-3.p-lg-5
             .row.align-items-center.my-4.justify-content-center.d-none.d-lg-block
-                .col-sm-12.col-md-3.col-lg-5
+                .col-sm-12.col-md-3.col-lg-5.m-auto
                     img(src='@/assets/curso/temas/t2/26.svg', alt='')
             .bg-color-8.mb-4.m-auto(data-aos="fade-left")
               h3.px-4.py-1.text-white.text-center Divisibilidad
@@ -292,7 +292,7 @@
 
         .tarjeta.bg-color-7.p-3.p-md-3.p-lg-5
             .row.align-items-center.my-4.justify-content-center.d-none.d-lg-block
-                .col-sm-12.col-md-3.col-lg-5
+                .col-sm-12.col-md-3.col-lg-5.m-auto
                     img(src='@/assets/curso/temas/t2/27.svg', alt='')
             .bg-color-8.mb-4.m-auto(data-aos="fade-left")
               h3.px-4.py-1.text-white.text-center Porosidad
@@ -300,7 +300,7 @@
 
         .tarjeta.bg-color-7.p-3.p-md-3.p-lg-5
             .row.align-items-center.my-4.justify-content-center.d-none.d-lg-block
-                .col-sm-12.col-md-3.col-lg-5
+                .col-sm-12.col-md-3.col-lg-5.m-auto
                     img(src='@/assets/curso/temas/t2/28.svg', alt='')
             .bg-color-8.mb-4.m-auto(data-aos="fade-left")
               h3.px-4.py-1.text-white.text-center Inercia
@@ -308,7 +308,7 @@
 
         .tarjeta.bg-color-7.p-3.p-md-3.p-lg-5
             .row.align-items-center.my-4.justify-content-center.d-none.d-lg-block
-                .col-sm-12.col-md-3.col-lg-5
+                .col-sm-12.col-md-3.col-lg-5.m-auto
                     img(src='@/assets/curso/temas/t2/29.svg', alt='')
             .bg-color-8.mb-4.m-auto(data-aos="fade-left")
               h3.px-4.py-1.text-white.text-center Movilidad
@@ -316,7 +316,7 @@
 
         .tarjeta.bg-color-7.p-3.p-md-3.p-lg-5
             .row.align-items-center.my-4.justify-content-center.d-none.d-lg-block
-                .col-sm-12.col-md-3.col-lg-5
+                .col-sm-12.col-md-3.col-lg-5.m-auto
                     img(src='@/assets/curso/temas/t2/30.svg', alt='')
             .bg-color-8.mb-4.m-auto(data-aos="fade-left")
               h3.px-4.py-1.text-white.text-center Elasticidad
@@ -329,16 +329,20 @@
       SlyderF.mb-5(columnas="col-lg-4 col-xl-4")
         .tarjeta.bg-color-9.p-3.p-md-3.p-lg-4
             .row.align-items-center.my-4.justify-content-center.d-none.d-lg-block
-                .col-sm-12.col-md-3.col-lg-5
+                .col-sm-12.col-md-3.col-lg-5.m-auto
                     img(src='@/assets/curso/temas/t2/31.svg', alt='')
             .bg-color-10.mb-4.m-auto(data-aos="fade-left")
               h3.px-4.py-1.text-center Densidad
             p.mb-3.text-center Se define como la masa de un objeto dividida entre su volumen, es decir, es la relación entre la masa y el volumen que ocupa la materia y se expresa matemáticamente con la fórmula:
-            img(src='@/assets/curso/temas/t2/38.svg', alt='')
+            .bg-color-2.br-5.p-2.w-fit.m-auto.px-3
+              p.d-flex.align-items-center.my-2.justify-content-center Densidad (d) = 
+                span.fraction
+                  span.numerator (masa (m))
+                  span.denominator (volumen (v))
 
         .tarjeta.bg-color-9.p-3.p-md-3.p-lg-4
             .row.align-items-center.my-4.justify-content-center.d-none.d-lg-block
-                .col-sm-12.col-md-3.col-lg-5
+                .col-sm-12.col-md-3.col-lg-5.m-auto
                     img(src='@/assets/curso/temas/t2/32.svg', alt='')
             .bg-color-10.mb-4.m-auto(data-aos="fade-left")
               h3.px-4.py-1.text-center Punto de fusión
@@ -346,7 +350,7 @@
 
         .tarjeta.bg-color-9.p-3.p-md-3.p-lg-4
             .row.align-items-center.my-4.justify-content-center.d-none.d-lg-block
-                .col-sm-12.col-md-3.col-lg-5
+                .col-sm-12.col-md-3.col-lg-5.m-auto
                     img(src='@/assets/curso/temas/t2/33.svg', alt='')
             .bg-color-10.mb-4.m-auto(data-aos="fade-left")
               h3.px-4.py-1.text-center Punto de ebullición
@@ -354,7 +358,7 @@
 
         .tarjeta.bg-color-9.p-3.p-md-3.p-lg-4
             .row.align-items-center.my-4.justify-content-center.d-none.d-lg-block
-                .col-sm-12.col-md-3.col-lg-5
+                .col-sm-12.col-md-3.col-lg-5.m-auto
                     img(src='@/assets/curso/temas/t2/34.svg', alt='')
             .bg-color-10.mb-4.m-auto(data-aos="fade-left")
               h3.px-4.py-1.text-center Maleabilidad
@@ -362,7 +366,7 @@
 
         .tarjeta.bg-color-9.p-3.p-md-3.p-lg-4
             .row.align-items-center.my-4.justify-content-center.d-none.d-lg-block
-                .col-sm-12.col-md-3.col-lg-5
+                .col-sm-12.col-md-3.col-lg-5.m-auto
                     img(src='@/assets/curso/temas/t2/35.svg', alt='')
             .bg-color-10.mb-4.m-auto(data-aos="fade-left")
               h3.px-4.py-1.text-center Ductilidad
@@ -370,7 +374,7 @@
 
         .tarjeta.bg-color-9.p-3.p-md-3.p-lg-4
             .row.align-items-center.my-4.justify-content-center.d-none.d-lg-block
-                .col-sm-12.col-md-3.col-lg-5
+                .col-sm-12.col-md-3.col-lg-5.m-auto
                     img(src='@/assets/curso/temas/t2/36.svg', alt='')
             .bg-color-10.mb-4.m-auto(data-aos="fade-left")
               h3.px-4.py-1.text-center Electronegatividad
@@ -378,7 +382,7 @@
 
         .tarjeta.bg-color-9.p-3.p-md-3.p-lg-4
             .row.align-items-center.my-4.justify-content-center.d-none.d-lg-block
-                .col-sm-12.col-md-3.col-lg-5
+                .col-sm-12.col-md-3.col-lg-5.m-auto
                     img(src='@/assets/curso/temas/t2/37.svg', alt='')
             .bg-color-10.mb-4.m-auto(data-aos="fade-left")
               h3.px-4.py-1.text-center Reactividad
@@ -429,12 +433,12 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-sm-12.col-lg-6
           .bg-color-12.br-4.p-5.align-items-center.hcard-2.mb-cus
-            img.mb-4.d-none.d-lg-block(src='@/assets/curso/temas/t2/43.svg', alt='')
+            img.mb-4.d-none.d-lg-block(src='@/assets/curso/temas/t2/44.png', alt='')
             h4.text-center Nominal
             p.mb-0.text-center Las variables se distinguen por categorías o etiquetas, sin establecer o sin que exista un criterio de jerarquía o importancia entre ellas. Por ejemplo: el género de una persona, su estado civil, la ciudad de residencia o el grupo sanguíneo, entre otras.
         .col-sm-12.col-lg-6
           .bg-color-5.br-4.p-5.align-items-center.hcard-2
-            img.mb-4.d-none.d-lg-block(src='@/assets/curso/temas/t2/44.svg', alt='')
+            img.mb-4.d-none.d-lg-block(src='@/assets/curso/temas/t2/43.png', alt='')
             h4.text-center Ordinal
             p.mb-0.text-center Las variables se distinguen por categorías o etiquetas que, a su vez, pueden ser asociadas a un grado u orden específico. Por ejemplo: el grado de escolaridad o el nivel de satisfacción con un servicio, entre otros.
 
@@ -457,7 +461,7 @@
 
       .row.justify-content-center.mb-5
         .col-sm-12.col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t2/47.svg', alt='')
+          img(src='@/assets/curso/temas/t2/47.png', alt='')
         .col-sm-12.col-lg-7
             p.mb-4 Se define como un conjunto de medidas estandarizadas y consistentes que resultan útiles para cuantificar magnitudes físicas. Por convención, se han establecido siete magnitudes fundamentales o básicas: masa, longitud, tiempo, temperatura, corriente eléctrica, cantidad de sustancia e intensidad luminosa. Una magnitud se describe mediante una cifra numérica y una unidad de medida lo que le confiere un sentido físico. 
             p.mb-0 Los científicos coincidían en la necesidad de establecer un sistema de unidades que pudiera ser adoptado universalmente, independientemente de la cultura o de la ubicación geográfica. Así fue, que durante la XI Conferencia General de Pesas y Medidas, celebrada en París en 1960, se propuso un sistema métrico revisado, al que se le llamó #[b Sistema Internacional de Unidades] (SI, del francés #[em Système Internationale d’Unites]). 
@@ -741,10 +745,10 @@
             p.mb-0 Siendo #[b m] cualquier número real (𝑚 ∈ ℝ) en el intervalo de 1 a 10, sin incluir este último (1 ≤ 𝑚 < 10).
             p.mb-4 Y, #[b n], cualquier número entero positivo o negativo (𝑛 ∈ 𝑍), que indica qué tan grande o qué tan pequeña es la cifra. 
             .bg-color-3.mb-5.w-fit.px-5.br-5.m-auto
-              h5.px-5.py-3 1 200 000 puede expresarse como 1.2 x 10#[sup 4]
+              h5.pcus-7.py-3 1 200 000 puede expresarse como 1.2 x 10#[sup 4]
             p.mb-4 El punto, ubicado al final del último cero a la derecha del número grande se desplazó seis (6) lugares hacia la IZQUIERDA (n será positivo y con un valor de 6), hasta que el número formado estuvo entre 1 y 10. 
             .bg-color-3.mb-0.w-fit.px-5.br-5.m-auto
-              h5.px-5.py-3 0.0000012 puede expresarse como 1.2 x 10#[sup -6]
+              h5.pcus-7.py-3 0.0000012 puede expresarse como 1.2 x 10#[sup -6]
   
   
       .row.justify-content-center.mb-5

@@ -43,7 +43,7 @@
                   img(src='@/assets/curso/temas/t5/3.svg', alt='')
           
           p.mb-5 #[b Reacciones de síntesis o combinación:] dos o más sustancias se combinan para formar un solo producto. 
-          img(src='@/assets/curso/temas/t5/4.svg', alt='')
+          img(src='@/assets/curso/temas/t5/4.png', alt='')
 
         .tarjeta.bg-color-12.p-3.p-md-3.p-lg-4
           .row.my-4.justify-content-start.d-none.d-lg-block
@@ -51,7 +51,7 @@
                   img(src='@/assets/curso/temas/t5/3.svg', alt='')
           
           p.mb-2 #[b Reacciones de descomposición:] una sustancia se descompone en dos o más productos simples. En este caso, un reactivo da lugar a dos o más productos, en un proceso que requiere de energía para desarrollarse. 
-          img(src='@/assets/curso/temas/t5/5.svg', alt='')
+          img(src='@/assets/curso/temas/t5/5.png', alt='')
 
 
         .tarjeta.bg-color-12.p-3.p-md-3.p-lg-4
@@ -60,7 +60,7 @@
                   img(src='@/assets/curso/temas/t5/3.svg', alt='')
           
           p.mb-4 #[b Reacciones de sustitución o desplazamiento simple:] se produce cuando un elemento toma el lugar de otro durante la formación de un compuesto. 
-          img(src='@/assets/curso/temas/t5/6.svg', alt='')
+          img(src='@/assets/curso/temas/t5/6.png', alt='')
 
         .tarjeta.bg-color-12.p-3.p-md-3.p-lg-4
           .row.my-4.justify-content-start.d-none.d-lg-block
@@ -68,7 +68,7 @@
                   img(src='@/assets/curso/temas/t5/3.svg', alt='')
           
           p.mb-4 #[b Reacciones de sustitución doble:] ocurre cuando dos compuestos intercambian sus componentes iónicos para generar productos completamente diferentes. 
-          img(src='@/assets/curso/temas/t5/7.svg', alt='')
+          img(src='@/assets/curso/temas/t5/7.png', alt='')
 
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-4.d-none.d-lg-block

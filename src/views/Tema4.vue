@@ -44,10 +44,14 @@
       Separador
       #t_4_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 4.2 Enlaces químicos
-      p.mb-5(data-aos='fade-right') El desarrollo de la tabla periódica y el concepto de configuración electrónica dieron los fundamentos para entender cómo se forman las moléculas y los compuestos. La explicación propuesta por Gilbert Lewis es que los átomos se combinan para alcanzar la configuración electrónica más estable. La máxima estabilidad se logra cuando un átomo alcanza el mismo número de electrones de un gas noble.  
-       .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-5(data-aos='fade-right')
+        .col-sm-12.col-lg-11
+            p.mb-0 El desarrollo de la tabla periódica y el concepto de configuración electrónica dieron los fundamentos para entender cómo se forman las moléculas y los compuestos. La explicación propuesta por Gilbert Lewis es que los átomos se combinan para alcanzar la configuración electrónica más estable. La máxima estabilidad se logra cuando un átomo alcanza el mismo número de electrones de un gas noble.  
+        .col-sm-12.col-lg-1.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t4/28.svg', alt='')
+      .row.justify-content-center.align-items-center.mb-5
         .col-sm-12.col-lg-2.mb-cus
-          img(src='@/assets/curso/temas/t4/4.png', alt='')
+          img.wcus-8.m-auto(src='@/assets/curso/temas/t4/4.png', alt='')
         .col-sm-12.col-lg-5
           p.mb-3 Cuando los átomos interactúan para formar un enlace químico, sólo entran en contacto sus regiones más externas. Por esta razón, cuando se estudian los enlaces químicos se consideran sobre todo los electrones de valencia de los átomos. Para reconocer los electrones de valencia y asegurarse de que el número total de electrones no cambia en una reacción química, se utiliza el #[b sistema de puntos desarrollado por Lewis]. 
           p.mb-0 En los elementos representativos, a excepción del helio, el número de electrones de valencia de cada átomo es igual al número del grupo del elemento. Por ejemplo, el litio (Li) es un elemento del grupo 1A y tienen un electrón de valencia, el berilio (Be) es un elemento del grupo 2A y tiene dos electrones de valencia, y así sucesivamente. Los elementos de un mismo grupo poseen configuraciones electrónicas externas similares y, por tanto, también sus puntos de Lewis. 
@@ -72,7 +76,7 @@
               .titulo-sexto.color-acento-contenido
                   p.mb-0 #[b Figura 18.]  Enlace iónico en el cloruro de sodio (NaCl)
               figure.mb-0
-                  img.mb-1(src='@/assets/curso/temas/t4/7.svg', alt='Esquema del enlace tipo iónico que se presenta entre el sodio y el cloro, en donde el sodio le transfiere su único electrón de valencia al cloro formándose los iones Na+ y Cl-. ')
+                  img.mb-1(src='@/assets/curso/temas/t4/7.png', alt='Esquema del enlace tipo iónico que se presenta entre el sodio y el cloro, en donde el sodio le transfiere su único electrón de valencia al cloro formándose los iones Na+ y Cl-. ')
                   figcaption.mb-0 Fuente: https://www.shutterstock.com/es/image-vector/vector-illustration-sodium-chloride-formation-by-2231546289 
         
             .py-3.py-md-4.px-5(titulo="Enlace covalente")
@@ -89,7 +93,7 @@
           img(src='@/assets/curso/temas/t4/6.png', alt='')
 
       .row.justify-content-center.mb-5.align-items-end(data-aos='fade-right')
-        .col-sm-12.col-lg-6
+        .col-sm-12.col-lg-6.mb-cus
             p.mb-3 Los átomos pueden formar distintos tipos de enlaces covalentes. En un #[b enlace sencillo], los átomos se unen por medio de un par de electrones. En muchos otros compuestos se forman enlaces múltiples, es decir, cuando los átomos comparten dos o más pares de electrones. Si dos átomos comparten dos pares de electrones, el enlace covalente se denomina enlace doble. Un enlace triple surge cuando dos átomos comparten tres pares de electrones.
             p.mb-0 Por otro lado, cuando un solo átomo aporta el par de electrones que se comparte con otro átomo que no tiene electrones disponibles, el enlace se denomina #[b enlace coordinado o dativo]. 
         .col-sm-12.col-lg-6
@@ -104,7 +108,7 @@
         h2 4.3 Estructuras de Lewis
       
       .row.justify-content-center.align-items-center.mb-5(data-aos='fade-right')
-        .col-sm-12.col-lg-4
+        .col-sm-12.col-lg-4.mb-cus
           img.wfit-1.mb-4.d-none.d-lg-block(src='@/assets/curso/temas/t4/10.png', alt='')
           p.mb-0 Una estructura de Lewis es una representación de un enlace covalente, donde el par de electrones compartidos se indica con líneas o como pares de puntos entre dos átomos y los pares libres no compartidos se indican como pares de puntos en los átomos individuales. En una estructura de Lewis sólo se muestran los electrones de valencia y la formación de los enlaces para conseguir la estabilidad de la molécula o compuesto cumpliendo la #[b regla del octeto]. 
         .col-sm-12.col-lg-4.mb-cus
@@ -192,21 +196,21 @@
         
       p.mb-5(data-aos='fade-right') La #[b ubicación del elemento en la tabla periódica], específicamente el grupo al que pertenece, permite predecir los estados de oxidación más comunes. Por ejemplo:
       .row.justify-content-center.align-items-center.mb-5(data-aos='fade-right')
-        .col-sm-12.col-lg-3
+        .col-sm-12.col-md-6.col-lg-3
           .bg-color-17.br-4.p-5.align-items-center.hcard-6.mb-cus
             img.mb-4.wcus-7.m-auto(src='@/assets/curso/temas/t4/21.svg', alt='')
             p.mb-0.text-center Grupo 1 o 1A (alcalinos): siempre presentan +1, porque pierden un electrón fácilmente.
-        .col-sm-12.col-lg-3
+        .col-sm-12.col-md-6.col-lg-3
           .bg-color-17.br-4.p-5.align-items-center.hcard-6.mb-cus
             img.mb-4.wcus-7.m-auto(src='@/assets/curso/temas/t4/22.svg', alt='')
             p.mb-0.text-center Grupo 2 o 2A (alcalinotérreos): típicamente +2.
 
-        .col-sm-12.col-lg-3
+        .col-sm-12.col-md-6.col-lg-3
           .bg-color-17.br-4.p-5.align-items-center.hcard-6.mb-cus
             img.mb-4.wcus-7.m-auto(src='@/assets/curso/temas/t4/23.svg', alt='')
             p.mb-0.text-center Grupo 17 o 7A (halógenos): usualmente -1 cuando se combinan con metales, aunque pueden presentar otros estados positivos en compuestos con oxígeno.
 
-        .col-sm-12.col-lg-3
+        .col-sm-12.col-md-6.col-lg-3
           .bg-color-17.br-4.p-5.align-items-center.hcard-6.mb-cus
             img.mb-4.wcus-7.m-auto(src='@/assets/curso/temas/t4/24.svg', alt='')
             p.mb-0.text-center Elementos de transición: pueden tener múltiples estados de oxidación debido a la participación de electrones de los subniveles d.
@@ -370,7 +374,7 @@
           img(src='@/assets/curso/temas/t4/26.png', alt='')
       .bg-color-6.mb-4(data-aos="fade-left")
             h3.px-4.py-1 Nomenclatura de los compuestos inorgánicos
-      p.mb-5(data-aos='fade-right') La nomenclatura de los compuestos inorgánicos sigue reglas definidas por la IUPAC (Unión Internacional de Química Pura y Aplicada), y permite nombrar sustancias según su composición química, valencia y grupo funcional. Hay tres sistemas de nomenclatura principales: sistemática, stock y tradicional.
+      p.mb-5(data-aos='fade-right') La nomenclatura de los compuestos inorgánicos sigue reglas definidas por la IUPAC (Unión Internacional de Química Pura y Aplicada), y permite nombrar sustancias según su composición química, valencia y grupo funcional. Hay tres sistemas de nomenclatura principales: sistemática, #[i stock] y tradicional.
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-9
           TabsA.color-acento-botones
@@ -382,10 +386,38 @@
                     p CO2 = dióxido de carbono. 
                     p N2O3 = trióxido de dinitrógeno.
                     p.mb-0 Fe2O3 = trióxido de dihierro.
-            .tarjeta.bg-color-5.p-4(titulo="Nomenclatura stock")
+            .tarjeta.bg-color-5.p-4(titulo="Nomenclatura <i>stock</i>")
                   h4.mb-4 Nomenclatura #[i stock]
                   p.mb-4 En este sistema se incluyen números romanos que indican la valencia de los átomos presentes en la molécula del compuesto. Se construye colocando el nombre del grupo funcional, seguido del nombre del átomo que lo acompaña y entre paréntesis en números romanos, se coloca el estado de oxidación del elemento. Por ejemplo:
+                  .titulo-sexto.color-acento-contenido
+                    p.mb-0 #[b Tabla 6.]  Prefijos y sufijos usados en la nomenclatura tradicional
+                  .tabla-a.color-acento-contenido.mb-4
+                    table(alt="Tabla que presenta los prefijos y sufijos usados en la nomenclatura tradicional de compuestos inorgánicos para los diferentes tipos de valencia. ")
+                      thead
+                        tr
+                          th.w-25 Estado de oxidación
+                          th.w-25 Prefijo
+                          th.w-25 Sufijo
+                      tbody
+                        tr
+                          td Menor
+                          td hipo-
+                          td -oso
+                        tr
+                          td Medio menor
+                          td -
+                          td -oso
+                        tr
+                          td Medio mayor
+                          td -
+                          td -ico
+                        tr
+                          td Mayor
+                          td per-
+                          td -ico
+                  p.mb-4 Por ejemplo:     
                   .bg-color-2.br-4.p-4
+                    p FeO = óxido ferroso.
                     p Fe2O3 = óxido de hierro (III).
                     p Ni2O3 = óxido de níquel (III).
                     p CuO = óxido de cobre (II).

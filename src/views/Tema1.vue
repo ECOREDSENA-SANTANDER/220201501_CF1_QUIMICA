@@ -179,69 +179,72 @@
           .bg-color-3.p-4
             p.mb-0 El método científico es una metodología o serie de tácticas implementadas para descubrir y construir conocimiento de manera válida (Holton, 1988), y aunque éste suele asociarse de manera exclusiva a las ciencias naturales, en realidad, todas las demás disciplinas emplean este método hipotético-deductivo en su ejercicio científico, por supuesto, adaptándolo según sus necesidades, contexto y objetivos particulares. 
       p.mb-5(data-aos="fade-right") Esta estrategia, a grandes rasgos, consta de las siguientes etapas:
-      PasosA.color-acento-contenido.mb-5(tipo="n")(data-aos="fade-right")
-        .row
-          .col-sm-12.col-md-12.col-lg-10.mb-4.mb-md-0
-            h3 Observación
-            p.mb-0 Es el punto de partida el proceso. Consiste en examinar detenidamente un fenómeno, hecho o situación. El resultado de un ejercicio de observación minucioso es formular una pregunta y, de esta manera, plantear un problema.
-          .col-sm-12.col-md-6.col-lg-2.d-none.d-lg-block
-            figure
-              img(src='@/assets/curso/temas/t1/20.svg', alt='')
-        
-        .row
-          .col-sm-12.col-md-6.col-lg-2.d-none.d-lg-block
-            figure
-              img(src='@/assets/curso/temas/t1/21.svg', alt='')
-          .col-sm-12.col-md-12.col-lg-10.mb-4.mb-md-0.text-left
-            h3 Documentación
-            p.mb-0 La documentación o revisión del “estado del arte” consiste en la indagación documental que se realiza de manera previa, con el objetivo de profundizar en materia. Esto permite identificar los antecedentes bibliográficos y verificar si determinado problema ya ha sido abordado y resuelto. Es fundamental que dicha revisión se base en fuentes confiables y verificables de rigor científico. 
-        
-        .row
-          .col-sm-12.col-md-12.col-lg-10.mb-4.mb-md-0
-            h3 Formulación de la hipótesis
-            p.mb-0 Una vez culminada la etapa de revisión bibliográfica, se define una pregunta de investigación clara y se propone una posible respuesta o explicación, denominada hipótesis, que será puesta a prueba mediante la experimentación. La hipótesis surge como elemento deductivo y lógico. 
-          .col-sm-12.col-md-6.col-lg-2.d-none.d-lg-block
-            figure
-              img(src='@/assets/curso/temas/t1/22.svg', alt='')
-  
-        .row
-          .col-sm-12.col-md-6.col-lg-2.d-none.d-lg-block
-            figure
-              img(src='@/assets/curso/temas/t1/23.svg', alt='')
-          .col-sm-12.col-md-12.col-lg-10.mb-4.mb-md-0.text-left
-            h3 Experimentación
-            p.mb-0 A continuación, prosigue la verificación experimental de la hipótesis. Se establece un diseño de experimentos o pruebas específicas, que permitan, bajo condiciones controladas, manipular una serie de factores y variables, logrando recopilar datos cuantitativos y/o cualitativos de forma rigurosa, que permitirán estudiar el efecto de cada uno de estos en el objeto de estudio. Resulta fundamental garantizar que las observaciones y los datos obtenidos sean reproducibles y no el resultado de azar o de errores experimentales. Además, se debe asegurar que los datos experimentales provengan de una muestra representativa. 
-        
-        .row
-          .col-sm-12.col-md-12.col-lg-10.mb-4.mb-md-0
-            h3 Análisis de resultados
-            p.mb-0 Consiste en el procesamiento, interpretación y análisis objetivo y racional de la información recolectada y de los datos obtenidos experimentalmente, de manera que permita confrontar, deducir e inferir si la evidencia obtenida sustenta, respalda o refuta la hipótesis planteada inicialmente.
-          .col-sm-12.col-md-6.col-lg-2.d-none.d-lg-block
-            figure
-              img(src='@/assets/curso/temas/t1/24.svg', alt='')
+      .row.justify-content-center.mb-5
+        .col-sm-12.col-lg-9
+          PasosA.color-acento-contenido.mb-5(tipo="n")(data-aos="fade-right")
+            .row
+              .col-sm-12.col-md-12.col-lg-10.mb-4.mb-md-0
+                h3 Observación
+                p.mb-0 Es el punto de partida el proceso. Consiste en examinar detenidamente un fenómeno, hecho o situación. El resultado de un ejercicio de observación minucioso es formular una pregunta y, de esta manera, plantear un problema.
+              .col-sm-12.col-md-6.col-lg-2.d-none.d-lg-block
+                figure
+                  img(src='@/assets/curso/temas/t1/20.svg', alt='')
+            
+            .row
+              .col-sm-12.col-md-6.col-lg-2.d-none.d-lg-block
+                figure
+                  img(src='@/assets/curso/temas/t1/21.svg', alt='')
+              .col-sm-12.col-md-12.col-lg-10.mb-4.mb-md-0.text-left
+                h3 Documentación
+                p.mb-0 La documentación o revisión del “estado del arte” consiste en la indagación documental que se realiza de manera previa, con el objetivo de profundizar en materia. Esto permite identificar los antecedentes bibliográficos y verificar si determinado problema ya ha sido abordado y resuelto. Es fundamental que dicha revisión se base en fuentes confiables y verificables de rigor científico. 
+            
+            .row
+              .col-sm-12.col-md-12.col-lg-10.mb-4.mb-md-0
+                h3 Formulación de la hipótesis
+                p.mb-0 Una vez culminada la etapa de revisión bibliográfica, se define una pregunta de investigación clara y se propone una posible respuesta o explicación, denominada hipótesis, que será puesta a prueba mediante la experimentación. La hipótesis surge como elemento deductivo y lógico. 
+              .col-sm-12.col-md-6.col-lg-2.d-none.d-lg-block
+                figure
+                  img(src='@/assets/curso/temas/t1/22.svg', alt='')
+      
+            .row
+              .col-sm-12.col-md-6.col-lg-2.d-none.d-lg-block
+                figure
+                  img(src='@/assets/curso/temas/t1/23.svg', alt='')
+              .col-sm-12.col-md-12.col-lg-10.mb-4.mb-md-0.text-left
+                h3 Experimentación
+                p.mb-0 A continuación, prosigue la verificación experimental de la hipótesis. Se establece un diseño de experimentos o pruebas específicas, que permitan, bajo condiciones controladas, manipular una serie de factores y variables, logrando recopilar datos cuantitativos y/o cualitativos de forma rigurosa, que permitirán estudiar el efecto de cada uno de estos en el objeto de estudio. Resulta fundamental garantizar que las observaciones y los datos obtenidos sean reproducibles y no el resultado de azar o de errores experimentales. Además, se debe asegurar que los datos experimentales provengan de una muestra representativa. 
+            
+            .row
+              .col-sm-12.col-md-12.col-lg-10.mb-4.mb-md-0
+                h3 Análisis de resultados
+                p.mb-0 Consiste en el procesamiento, interpretación y análisis objetivo y racional de la información recolectada y de los datos obtenidos experimentalmente, de manera que permita confrontar, deducir e inferir si la evidencia obtenida sustenta, respalda o refuta la hipótesis planteada inicialmente.
+              .col-sm-12.col-md-6.col-lg-2.d-none.d-lg-block
+                figure
+                  img(src='@/assets/curso/temas/t1/24.svg', alt='')
 
 
-        .row
-          .col-sm-12.col-md-6.col-lg-2.d-none.d-lg-block
-            figure
-              img(src='@/assets/curso/temas/t1/25.svg', alt='')
-          .col-sm-12.col-md-12.col-lg-10.mb-4.mb-md-0.text-left
-            h3 Conclusión
-            p.mb-0 Una vez se cuenta con todos los elementos, a partir del análisis anterior, se extraen conclusiones que confirmen, modifiquen o rechacen la hipótesis planteada inicialmente. Si es necesario, se plantea una nueva hipótesis y se reinicia el proceso.
-        
-        .row
-          .col-sm-12.col-md-12.col-lg-10.mb-4.mb-md-0
-            h3 Comunicación de resultados
-            p.mb-0 Finalmente, los hallazgos y las conclusiones deben ser presentados a la comunidad científica, de manera clara, ordenada y replicable, en función del avance del conocimiento, para una revisión rigurosa. Este proceso permite validar y fortalecer los hallazgos e identificar áreas de profundización y/o mejora. 
-          .col-sm-12.col-md-6.col-lg-2.d-none.d-lg-block
-            figure
-              img(src='@/assets/curso/temas/t1/26.svg', alt='')
-  
-  
-  
-  
-  
-  
+            .row
+              .col-sm-12.col-md-6.col-lg-2.d-none.d-lg-block
+                figure
+                  img(src='@/assets/curso/temas/t1/25.svg', alt='')
+              .col-sm-12.col-md-12.col-lg-10.mb-4.mb-md-0.text-left
+                h3 Conclusión
+                p.mb-0 Una vez se cuenta con todos los elementos, a partir del análisis anterior, se extraen conclusiones que confirmen, modifiquen o rechacen la hipótesis planteada inicialmente. Si es necesario, se plantea una nueva hipótesis y se reinicia el proceso.
+            
+            .row
+              .col-sm-12.col-md-12.col-lg-10.mb-4.mb-md-0
+                h3 Comunicación de resultados
+                p.mb-0 Finalmente, los hallazgos y las conclusiones deben ser presentados a la comunidad científica, de manera clara, ordenada y replicable, en función del avance del conocimiento, para una revisión rigurosa. Este proceso permite validar y fortalecer los hallazgos e identificar áreas de profundización y/o mejora. 
+              .col-sm-12.col-md-6.col-lg-2.d-none.d-lg-block
+                figure
+                  img(src='@/assets/curso/temas/t1/26.svg', alt='')
+
+        .row.justify-content-center.mb-5(data-aos="fade-right")  
+    
+    
+    
+    
+    
   </template>
 
 <script>

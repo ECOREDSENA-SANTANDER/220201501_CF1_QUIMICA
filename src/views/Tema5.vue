@@ -13,7 +13,7 @@
             .bloque-texto-f__comillas
               i.fas.fa-quote-left
               i.fas.fa-quote-right
-            h4.text-regular.bloque-texto-f__texto Cuesta reconocer que absolutamente todo alrededor es resultado de la química y sus reacciones, que lo asombroso de esta ciencia no se limita a recipientes burbujeantes en un laboratorio; fue gracias a esta que el universo, el cosmos y la misma vida en la tierra tuvieron un principio. Las transformaciones químicas toman lugar a cada instante y en todo momento, en lugares insospechados. Se dice que cada segundo se dan 100 000 reacciones químicas solo en el cerebro humano.
+            h5.text-regular.bloque-texto-f__texto Cuesta reconocer que absolutamente todo alrededor es resultado de la química y sus reacciones, que lo asombroso de esta ciencia no se limita a recipientes burbujeantes en un laboratorio; fue gracias a esta que el universo, el cosmos y la misma vida en la tierra tuvieron un principio. Las transformaciones químicas toman lugar a cada instante y en todo momento, en lugares insospechados. Se dice que cada segundo se dan 100 000 reacciones químicas solo en el cerebro humano.
             .bloque-texto-f__autor.mb-3.text-right
               h3.mb-0.text-right-cus (El País, 2017)
             .bloque-texto-f__avatar
@@ -26,10 +26,10 @@
             .col-sm-12.col-lg-2.d-none.d-lg-block
               img.w-95(src='@/assets/curso/temas/t5/1.svg', alt='')
             .col-sm-12.col-lg-10
-                p.mb-0 Una reacción química es un proceso en el que una o más sustancias de partida, denominadas reactivos, se transforman en otras químicamente diferentes, denominadas productos, mediante separación, intercambio y/o reordenamiento de los átomos constituyentes. Una #[b ecuación química], es una representación alfanumérica que utiliza los símbolos químicos para mostrar que sucede durante una reacción química. 
+                p.mb-0 Una reacción química es un proceso en el que una o más sustancias de partida, denominadas #[b reactivos], se transforman en otras químicamente diferentes, denominadas #[b productos], mediante separación, intercambio y/o reordenamiento de los átomos constituyentes. Una #[b ecuación química], es una representación alfanumérica que utiliza los símbolos químicos para mostrar qué sucede durante una reacción química. 
           p.mb-3 A continuación, se presenta una ecuación química genérica, en la que se asume que A y B son reactivos y C y D, los productos formados. 
           .bg-color-1.py-3.mb-3.w-fit.br-5.justify-self-center.m-auto
-              p.mb-0.fw-bold.text-center.pcus-6 aA+bB → cC+dD
+              p.mb-0.fw-bold.text-center.pcus-6 aA + bB → cC + dD
         
         .col-sm-12.col-lg-5.d-none.d-lg-block
           img(src='@/assets/curso/temas/t5/2.png', alt='')
@@ -80,13 +80,13 @@
 
       p.mb-5(data-aos='fade-right')  Al usar este método, se recomienda realizar el balanceo siguiendo el siguiente orden:
       .row.justify-content-center.mb-5.align-items-center(data-aos='fade-right')
-        .col-sm-12.col-md-6.col-lg-3.d-none.d-lg-block
+        .col-sm-12.col-md-6.col-lg-3.mb-cus
           img(src='@/assets/curso/temas/t5/9.svg', alt='')
-        .col-sm-12.col-md-6.col-lg-3.d-none.d-lg-block
+        .col-sm-12.col-md-6.col-lg-3.mb-cus
           img(src='@/assets/curso/temas/t5/10.svg', alt='')
-        .col-sm-12.col-md-6.col-lg-3.d-none.d-lg-block
+        .col-sm-12.col-md-6.col-lg-3.mb-cus
           img(src='@/assets/curso/temas/t5/11.svg', alt='')
-        .col-sm-12.col-md-6.col-lg-3.d-none.d-lg-block
+        .col-sm-12.col-md-6.col-lg-3
           img(src='@/assets/curso/temas/t5/12.svg', alt='')
 
       h4(data-aos='fade-right') Ejemplo
@@ -96,8 +96,10 @@
           .bg-color-1.py-3.mb-3.w-fit.br-5.justify-self-center.m-auto
               p.mb-0.fw-bold.text-center.pcus-6 Fe#[sub 2]O#[sub 3] + C → Fe + CO
           p Se realiza una inspección previa y se comprueba que la cantidad de átomos de cada elemento es diferente a cada lado de la ecuación. Por tanto, se deben ajustar ambos lados de la ecuación. 
+          .titulo-sexto.color-acento-contenido
+            p.mb-0 #[b Tabla 7.] Cantidad de átomos de cada elemento en la ecuación
           .tabla-a.color-acento-contenido.mb-5
-            table.table-cus
+            table.table-cus(alt="Tabla comparativa que indica el número de átomos de cada elemento a ambos lados de la ecuación química (reactivos y productos).")
               thead
                 tr
                   th Elemento

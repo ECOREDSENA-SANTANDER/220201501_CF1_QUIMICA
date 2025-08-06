@@ -19,7 +19,7 @@
       .row.justify-content-center.align-items-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-4.mb-cus
           img.wcus-7.mb-4.d-none.d-lg-block(src='@/assets/curso/temas/t4/2.svg', alt='')
-          p.mb-0 La #[b fórmula molecular] de un compuesto indica el número exacto de átomos de cada elemento que están presentes en la unidad más pequeña de una sustancia y la proporción entre los átomos, como se presenta en la figura:
+          p.mb-0 La #[b fórmula molecular] de un compuesto indica el número exacto de átomos de cada elemento que están presentes en la unidad más pequeña de una sustancia y la proporción entre ellos, como se presenta en la figura:
         .col-sm-12.col-lg-3
           .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Figura 17.] Elementos de una fórmula química
@@ -28,7 +28,7 @@
         .col-sm-12.col-lg-5
           p.mb-3.ml-cus-2 #[b Símbolos:] identifican los elementos constituyentes del compuesto. 
           p.mb-3 #[b Subíndices:] indican la atomicidad, es decir, el número de átomos presentes de cada elemento. 
-          p.mb-0 #[b Paréntesis:] se usan para agrupar un conjunto de átomos que actúan como una unidad poliatómica (en el caso de la figura, el ion sulfato), viene acompañado de un subíndice para indicar el numero de veces que se repite la unidad en la fórmula.
+          p.mb-0 #[b Paréntesis:] se usan para agrupar un conjunto de átomos que actúan como una unidad poliatómica (en el caso de la figura, el ion sulfato), viene acompañado de un subíndice para indicar el número de veces que se repite la unidad en la fórmula.
       .row.justify-content-center.align-items-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-8
           .row.justify-content-center.mb-0.bg-color-16.px-2.py-4.align-items-center
@@ -36,7 +36,7 @@
               img.w-75.m-auto(src='@/assets/curso/temas/t3/26.svg', alt='')
             .col-sm-12.col-lg-10
                 h5.mb-3 Nota
-                p.mb-0 En el caso del H2O, no aparece subíndice para el O, debido a que sólo hay un átomo de oxígeno en una molécula de agua; de esta manera se omite el subíndice “uno” en las fórmulas.
+                p.mb-0 En el caso del H#[sub 2]O, no aparece subíndice para el O, debido a que sólo hay un átomo de oxígeno en una molécula de agua; de esta manera se omite el subíndice “uno” en las fórmulas.
       
      
 
@@ -72,29 +72,29 @@
           TabsC.color-acento-contenido
             .py-3.py-md-4.px-5(titulo="Enlace iónico")
               h4 Enlace iónico:
-              p.mb-3 El enlace iónico se da por la interacción entre un metal y un no metal, presentándose una transferencia completa de electrones del elemento metálico hacia el no metálico. Este tipo de enlace es característico en compuestos iónicos como las sales, un ejemplo de ello es el cloruro de sodio (NaCl) o sal de cocina, en el que el sodio (Na) pierde un electrón para formar un catión (Na+), y el cloro gana un electrón para formar un anión (Cl-).
+              p.mb-3 El enlace iónico se da por la interacción entre un metal y un no metal, presentándose una transferencia completa de electrones del elemento metálico hacia el no metálico. Este tipo de enlace es característico en compuestos iónicos como las sales, un ejemplo de ello es el cloruro de sodio (NaCl) o sal de cocina, en el que el sodio (Na) pierde un electrón para formar un catión (Na#[sup +]), y el cloro gana un electrón para formar un anión (Cl#[sup -]).
               .titulo-sexto.color-acento-contenido
                   p.mb-0 #[b Figura 18.]  Enlace iónico en el cloruro de sodio (NaCl)
               figure.mb-0
                   img.mb-1(src='@/assets/curso/temas/t4/7.png', alt='Esquema del enlace tipo iónico que se presenta entre el sodio y el cloro, en donde el sodio le transfiere su único electrón de valencia al cloro formándose los iones Na+ y Cl-. ')
-                  figcaption.mb-0 Fuente: https://www.shutterstock.com/es/image-vector/vector-illustration-sodium-chloride-formation-by-2231546289 
+                  figcaption.mb-0 #[b Fuente:] : https://www.shutterstock.com/es/image-vector/vector-illustration-sodium-chloride-formation-by-2231546289 
         
             .py-3.py-md-4.px-5(titulo="Enlace covalente")
               h4 Enlace covalente:
-              p.mb-3 en enlace covalente ocurre cuando se establece una unión entre átomos no metálicos. En este enlace no se produce una transferencia completa de electrones, sino que uno o más pares de electrones son compartidos por los átomos para alcanzar una configuración electrónica más estable. 
-              p.mb-3 Un ejemplo de ello es la molécula de flúor (F2), cada átomo de flúor tiene siete electrones de valencia, uno de ellos no apareado o libre, por tanto, cada átomo comparte su electrón no apareado con el otro átomo para alcanzar una configuración más estable. Los demás electrones no enlazantes, se llaman pares libres. 
+              p.mb-3 el enlace covalente ocurre cuando se establece una unión entre átomos no metálicos. En este enlace no se produce una transferencia completa de electrones, sino que uno o más pares de electrones son compartidos por los átomos para alcanzar una configuración electrónica más estable. 
+              p.mb-3 Un ejemplo de ello es la molécula de flúor (F#[sub 2]), cada átomo de flúor tiene siete electrones de valencia, uno de ellos no apareado o libre, por tanto, cada átomo comparte su electrón no apareado con el otro átomo para alcanzar una configuración más estable. Los demás electrones no enlazantes, se llaman pares libres. 
 
               .titulo-sexto.color-acento-contenido
-                  p.mb-0 #[b Figura 19.]   Enlace covalente en el flúor (F2)
+                  p.mb-0 #[b Figura 19.]   Enlace covalente en el flúor (F#[sub 2])
               figure.mb-0
                   img.mb-1(src='@/assets/curso/temas/t4/8.svg', alt='Esquema del enlace covalente que se presenta en la molécula de flúor, en donde los dos átomos se comparten el electrón desapareado para alcanzar la configuración más estable. ')
-                  figcaption.mb-0 Fuente: Chang, (2021). 
+                  figcaption.mb-0 #[b Fuente:] : Chang, (2021). 
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/temas/t4/6.png', alt='')
 
       .row.justify-content-center.mb-5.align-items-end(data-aos='fade-right')
         .col-sm-12.col-lg-6.mb-cus
-            p.mb-3 Los átomos pueden formar distintos tipos de enlaces covalentes. En un #[b enlace sencillo], los átomos se unen por medio de un par de electrones. En muchos otros compuestos se forman enlaces múltiples, es decir, cuando los átomos comparten dos o más pares de electrones. Si dos átomos comparten dos pares de electrones, el enlace covalente se denomina enlace doble. Un enlace triple surge cuando dos átomos comparten tres pares de electrones.
+            p.mb-3 Los átomos pueden formar distintos tipos de enlaces covalentes. En un #[b enlace sencillo], los átomos se unen por medio de un par de electrones. En muchos otros compuestos se forman enlaces múltiples, es decir, cuando los átomos comparten dos o más pares de electrones. Si dos átomos comparten dos pares de electrones, el enlace covalente se denomina #[b enlace doble]. Un #[b enlace triple] surge cuando dos átomos comparten tres pares de electrones.
             p.mb-0 Por otro lado, cuando un solo átomo aporta el par de electrones que se comparte con otro átomo que no tiene electrones disponibles, el enlace se denomina #[b enlace coordinado o dativo]. 
         .col-sm-12.col-lg-6
           .titulo-sexto.color-acento-contenido
@@ -116,7 +116,7 @@
               p.mb-0 #[b Figura 21.] Estructura de Lewis del ácido perclórico
           figure.mb-0
               img.mb-1(src='@/assets/curso/temas/t4/11.svg', alt='Estructura de Lewis del ácido perclórico (HClO4). En el centro se tiene un átomo de cloro enlazado a cuatro átomos de oxígeno. Tres de los oxígenos están unidos al cloro mediante enlaces dobles. El cuarto oxígeno está enlazado al cloro mediante un enlace sencillo y a su vez está enlazado a un átomo de hidrógeno, formando un grupo hidroxilo. La estructura muestra la distribución de los electrones alrededor de los átomos, exponiendo el tipo de enlaces químicos que se dan en ese compuesto. ')
-              figcaption.mb-0 Fuente: https://www.lifeder.com/acido-perclorico/ 
+              figcaption.mb-0 #[b Fuente:] : https://www.lifeder.com/acido-perclorico/ 
         .col-sm-12.col-lg-4
             img.wcus-7.mb-4.d-none.d-lg-block(src='@/assets/curso/temas/t4/12.svg', alt='')
             .bg-color-16.px-3.py-3.mb-3
@@ -131,10 +131,10 @@
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
                 h4.mb-1.tit-cus-1 Excepciones a la regla del octeto. 
-                p.mb-0 Para profundizar en las excepciones a la regla del octeto, se invita a consultar el numeral 9.9 de la Química de Raymond Chang, disponible en el siguiente enlace: https://archive.org/details/libro-de-quimica-raymond-chang-12va-edi/page/392/mode/1up  
+                p.mb-0 Para profundizar en las excepciones a la regla del octeto, se invita a consultar el numeral 9.9 de la Química de Raymond Chang, disponible en el siguiente enlace.
               .col-sm-auto
                 a.boton.color-acento-botones(href="https://archive.org/details/libro-de-quimica-raymond-chang-12va-edi/page/392/mode/1up" target="_blank")
-                  span.tit-cus-2 Enlace web
+                  span.tit-cus-2 Ir al sitio
                   i.fas.fa-link.tit-cus-2
 
       .row.align-items-center.mb-5.titulo-icono(data-aos='fade-right')
@@ -148,7 +148,7 @@
           LineaTiempoD.color-primario
             .row(numero="1" titulo="Paso 1")
               .col-m-auto
-                p.mb-3 Escribir la fórmula del compuesto (H2SO4) y determinar la cantidad de átomos presentes.
+                p.mb-3 Escribir la fórmula del compuesto (H#[sub 2]SO#[sub 4]) y determinar la cantidad de átomos presentes.
               img(src='@/assets/curso/temas/t4/14.svg', alt='')
             .row(numero="2" titulo="Paso 2")
               .col-m-auto
@@ -183,7 +183,7 @@
       Separador
       #t_4_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 4.4 Nomenclatura de los compuestos inorgánicos
-      p.mb-5(data-aos='fade-right') Para iniciar el estudio de la #[b nomenclatura de los compuestos químicos], es necesario, primero distinguir entre compuestos inorgánicos y orgánicos. Los compuestos orgánicos contienen carbono, comúnmente combinados con elementos como hidrogeno, oxigeno, nitrógeno y azufre. El resto de los compuestos se clasifican como compuestos inorgánicos. Sin embargo, algunos compuestos que contienen carbono como monóxido de carbono (CO) y dióxido de carbono (CO2), se consideran compuestos inorgánicos. 
+      p.mb-5(data-aos='fade-right') Para iniciar el estudio de la #[b nomenclatura de los compuestos químicos], es necesario, primero distinguir entre compuestos inorgánicos y orgánicos. Los compuestos orgánicos contienen carbono, comúnmente combinados con elementos como hidrogeno, oxígeno, nitrógeno y azufre. El resto de los compuestos se clasifican como compuestos inorgánicos. Sin embargo, algunos compuestos que contienen carbono como monóxido de carbono (CO) y dióxido de carbono (CO#[sub 2]), se consideran compuestos inorgánicos. 
       .bg-color-6.mb-4(data-aos="fade-left")
           h3.px-4.py-1 Estados de oxidación
       .row.justify-content-center.mb-5(data-aos='fade-right')
@@ -199,21 +199,21 @@
         .col-sm-12.col-md-6.col-lg-3
           .bg-color-17.br-4.p-5.align-items-center.hcard-6.mb-cus
             img.mb-4.wcus-7.m-auto(src='@/assets/curso/temas/t4/21.svg', alt='')
-            p.mb-0.text-center Grupo 1 o 1A (alcalinos): siempre presentan +1, porque pierden un electrón fácilmente.
+            p.mb-0.text-center #[b Grupo 1 o 1A (alcalinos):] siempre presentan +1, porque pierden un electrón fácilmente.
         .col-sm-12.col-md-6.col-lg-3
           .bg-color-17.br-4.p-5.align-items-center.hcard-6.mb-cus
             img.mb-4.wcus-7.m-auto(src='@/assets/curso/temas/t4/22.svg', alt='')
-            p.mb-0.text-center Grupo 2 o 2A (alcalinotérreos): típicamente +2.
+            p.mb-0.text-center #[b Grupo 2 o 2A (alcalinotérreos):] típicamente +2.
 
         .col-sm-12.col-md-6.col-lg-3
           .bg-color-17.br-4.p-5.align-items-center.hcard-6.mb-cus
             img.mb-4.wcus-7.m-auto(src='@/assets/curso/temas/t4/23.svg', alt='')
-            p.mb-0.text-center Grupo 17 o 7A (halógenos): usualmente -1 cuando se combinan con metales, aunque pueden presentar otros estados positivos en compuestos con oxígeno.
+            p.mb-0.text-center #[b Grupo 17 o 7A (halógenos):] usualmente -1 cuando se combinan con metales, aunque pueden presentar otros estados positivos en compuestos con oxígeno.
 
         .col-sm-12.col-md-6.col-lg-3
           .bg-color-17.br-4.p-5.align-items-center.hcard-6.mb-cus
             img.mb-4.wcus-7.m-auto(src='@/assets/curso/temas/t4/24.svg', alt='')
-            p.mb-0.text-center Elementos de transición: pueden tener múltiples estados de oxidación debido a la participación de electrones de los subniveles d.
+            p.mb-0.text-center #[b Elementos de transición:] pueden tener múltiples estados de oxidación debido a la participación de electrones de los subniveles d.
 
       p.mb-5(data-aos='fade-right') En la siguiente tabla se presentan los estados de oxidación más comunes tanto de elementos representativos como de elementos de transición. 
       .row.justify-content-center.align-items-center.mb-5(data-aos='fade-right')
@@ -292,23 +292,23 @@
                 tr
                   td Cloro
                   td Cl
-                  td +7, -5, +3, +1, -1
+                  td +7, +5, +3, +1, -1
                 tr
                   td 8A (18)
                   td Gases nobles
                   td He, Ne, Ar
                   td 0 (no reaccionan)
                 tr
-                  td(rowspan="2") VIII (8)
+                  td VIII (8)
                   td Hierro
                   td Fe
                   td +2, +3
                 tr
+                  td(rowspan="3") IB (11)
                   td Cobre
                   td Cu
                   td +1, +2
                 tr
-                  td(rowspan="2") IB (11)
                   td Plata
                   td Ag
                   td +1
@@ -327,18 +327,18 @@
             h3.px-4.py-1 Grupos funcionales
       p.mb-5(data-aos='fade-right') Los grupos funcionales son grupos de átomos, que juntos dan características específicas a las moléculas. Los principales grupos funcionales de la química inorgánica son los óxidos, los hidróxidos, los ácidos y las sales, como se presenta en la figura: 
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          p.mb-0 #[b Figura 21.] Estructura de Lewis del ácido perclórico
+          p.mb-0 #[b Figura 22.] Grupos funcionales inorgánicos
       .row.justify-content-center.mb-5(data-aos='fade-right')
-        .col-sm-12.col-lg-10
+        .col-sm-12.col-lg-12
           figure.mb-0
-              img(src='@/assets/curso/temas/t4/25.svg', alt='Esquema de los grupos funcionales inorgánicos como los óxidos, los hidróxidos, los ácidos y las sales. Se expone el origen y la transformación de distintos compuestos a partir de elementos metálicos y no metálicos al reaccionar con el oxígeno, hidrógeno y agua. ')
-              figcaption.mb-0 Fuente: https://www.lifeder.com/acido-perclorico/ 
+              img(src='@/assets/curso/temas/t4/25.svg', alt='Esquema de los grupos funcionales inorgánicos como los óxidos, los hidróxidos, los ácidos y las sales. Se expone el origen y la transformación de distintos compuestos a partir de elementos metálicos y no metálicos al reaccionar con el oxígeno, hidrógeno y agua.')
+              
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-9
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="Óxidos")
               .col-sm-12.col-lg-12
-                p.mb-0 Son compuestos binarios formados por la combinación del oxígeno con otro elemento de la tabla periódica, ya sea un metal o un no metal. Cuando el oxigeno se combina con un metal, se forman los óxidos básicos, y cuando el oxígeno se combina con un no metal, se forman los óxidos ácidos. 
+                p.mb-0 Son compuestos binarios formados por la combinación del oxígeno con otro elemento de la tabla periódica, ya sea un metal o un no metal. Cuando el oxígeno se combina con un metal, se forman los #[b óxidos básicos], y cuando el oxígeno se combina con un no metal, se forman los #[b óxidos ácidos]. 
 
             .row(titulo="Hidróxidos")
               .col-sm-12.col-lg-12
@@ -346,7 +346,7 @@
 
             .row(titulo="Ácidos")
               .col-sm-12.col-lg-12
-                p.mb-0 Son compuestos químicos que se forman de la unión del hidrógeno con un no metal, en presencia o no del oxígeno. Existen dos tipos de ácidos: los ácidos oxácidos, en donde el hidrogeno se unió a un no metal en presencia del oxígeno, por ejemplo, el ácido sulfúrico (H2SO4), y los ácidos hidrácidos, en donde el hidrogeno se unió a un no metal en ausencia de oxígeno, como en el caso del ácido clorhídrico (HCl). 
+                p.mb-0 Son compuestos químicos que se forman de la unión del hidrógeno con un no metal, en presencia o no del oxígeno. Existen dos tipos de ácidos: los ácidos oxácidos, en donde el hidrogeno se unió a un no metal en presencia del oxígeno, por ejemplo, el ácido sulfúrico (H#[sub 2]SO#[sub 4]), y los ácidos hidrácidos, en donde el hidrogeno se unió a un no metal en ausencia de oxígeno, como en el caso del ácido clorhídrico (HCl). 
 
             .row(titulo="Sales")
               .col-sm-12.col-lg-12
@@ -383,12 +383,24 @@
                   p.mb-4 En este sistema se nombran los compuestos en base al número de átomos de cada elemento, usando prefijos numéricos como mono- (para uno), di- (para dos), tri- (para tres), y así sucesivamente. Por ejemplo:
                   .bg-color-2.br-4.p-4
                     p CO = monóxido de carbono.
-                    p CO2 = dióxido de carbono. 
-                    p N2O3 = trióxido de dinitrógeno.
-                    p.mb-0 Fe2O3 = trióxido de dihierro.
+                    p CO#[sub 2] = dióxido de carbono. 
+                    p N#[sub 2]O#[sub 3] = trióxido de dinitrógeno.
+                    p.mb-0 Fe#[sub 2]O#[sub 3] = trióxido de dihierro.
             .tarjeta.bg-color-5.p-4(titulo="Nomenclatura <i>stock</i>")
                   h4.mb-4 Nomenclatura #[i stock]
+                  
                   p.mb-4 En este sistema se incluyen números romanos que indican la valencia de los átomos presentes en la molécula del compuesto. Se construye colocando el nombre del grupo funcional, seguido del nombre del átomo que lo acompaña y entre paréntesis en números romanos, se coloca el estado de oxidación del elemento. Por ejemplo:
+                  .bg-color-2.br-4.p-4
+                    p FeO = óxido ferroso.
+                    p Fe#[sub 2]O#[sub 3] = óxido de hierro (III).
+                    p Ni#[sub 2]O#[sub 3] = óxido de níquel (III).
+                    p CuO = óxido de cobre (II).
+                    p Al(OH)#[sub 3] = hidróxido de aluminio (III)
+                    p.mb-0 Pb(OH)#[sub 2] = hidróxido de plomo (II). 
+                   
+            .tarjeta.bg-color-5.p-4(titulo="Nomenclatura tradicional")
+                  h4.mb-4 Nomenclatura tradicional
+                  p En este sistema se emplean diversos prefijos y sufijos como #[b hipo-, per-, -oso, -ico], según la valencia atómica de los elementos del compuesto, como se indica en la tabla. 
                   .titulo-sexto.color-acento-contenido
                     p.mb-0 #[b Tabla 6.]  Prefijos y sufijos usados en la nomenclatura tradicional
                   .tabla-a.color-acento-contenido.mb-4
@@ -418,22 +430,11 @@
                   p.mb-4 Por ejemplo:     
                   .bg-color-2.br-4.p-4
                     p FeO = óxido ferroso.
-                    p Fe2O3 = óxido de hierro (III).
-                    p Ni2O3 = óxido de níquel (III).
-                    p CuO = óxido de cobre (II).
-                    p Al(OH)3 = hidróxido de aluminio (III)
-                    p.mb-0 Pb(OH)2 = hidróxido de plomo (II). 
-            .tarjeta.bg-color-5.p-4(titulo="Nomenclatura tradicional")
-                  h4.mb-4 Nomenclatura tradicional
-                  p.mb-4 En este sistema se emplean diversos prefijos y sufijos como hipo-, per-, -oso, -ico, según la valencia atómica de los elementos del compuesto, como se indica en la tabla. 
-                  p.mb-4 Por Ejemplo:
-                  .bg-color-2.br-4.p-4
-                    p FeO = óxido ferroso.
-                    p Fe2O3 = óxido férrico. 
+                    p Fe#[sub 2]O#[sub 3] = óxido férrico. 
                     p HClO = ácido hipocloroso.
-                    p HClO2 = ácido cloroso.
-                    p HClO3 = acido clórico.
-                    p.mb-0 HClO4 = ácido perclórico.  
+                    p HClO#[sub 2] = ácido cloroso.
+                    p HClO#[sub 3] = acido clórico.
+                    p.mb-0 HClO#[sub 4] = ácido perclórico.
         .col-sm-12.col-lg-3.d-none.d-lg-block
           img(src='@/assets/curso/temas/t4/27.png', alt='')
   

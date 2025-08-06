@@ -12,7 +12,7 @@
             .col-sm-12.col-lg-3.d-none.d-lg-block
               img(src='@/assets/curso/temas/t3/1.svg', alt='')
             .col-sm-12.col-lg-9
-                p.mb-0 Los primeros en cuestionarse acerca de la composición de la materia fueron los griegos Leucipo y su discípulo Demócrito en el siglo V a. de C. Estos filósofos expresaron la idea de que toda la materia estaba formada por muchas partículas pequeñas e indivisibles llamadas átomos. No obstante, otros pensadores de la época sostenían que la materia era continua, es decir, que podía dividirse indefinidamente.  Una característica de esta época fue la ausencia de experimentación y verificación empírica de las ideas, por lo que las conclusiones se basaban únicamente en el razonamiento lógico. 
+                p.mb-0 Los primeros en cuestionarse acerca de la composición de la materia fueron los griegos Leucipo y su discípulo Demócrito en el siglo V a. de C. Estos filósofos expresaron la idea de que toda la materia estaba formada por muchas partículas pequeñas e indivisibles llamadas #[b átomos]. No obstante, otros pensadores de la época sostenían que la materia era continua, es decir, que podía dividirse indefinidamente.  Una característica de esta época fue la ausencia de experimentación y verificación empírica de las ideas, por lo que las conclusiones se basaban únicamente en el razonamiento lógico. 
           p.mb-0 Estas inquietudes fueron retomadas en Europa solo hasta el siglo XVII, cuando se intentó explicar las propiedades de los gases, entre ellos, el aire. La experimentación comenzó a formar parte del ejercicio de los científicos, lo que les permitió medir las cantidades de sustancias que reaccionaban para formar otras diferentes. Las evidencias experimentales de algunas investigaciones científicas apoyaron el concepto del “atomismo”, lo que condujo de manera gradual, a las definiciones modernas de elementos y compuestos. 
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/temas/t3/2.svg', alt='')
@@ -59,7 +59,7 @@
         .col-sm-12.col-lg-2.d-none.d-lg-block
           img(src='@/assets/curso/temas/t3/5.svg', alt='')
         .col-sm-12.col-lg-10
-            p.mb-0 Con base en la teoría atómica de Dalton, un átomo se describe como una partícula extremadamente pequeña e indivisible. Sin embargo, una serie de investigaciones iniciadas aproximadamente en 1850, y que continuaron hasta el siglo XX, demostraron que los átomos tienen estructura interna, es decir, que están formados por partículas subatómicas. Estas investigaciones condujeron al descubrimiento de tres partículas: electrones, protones y neutrones. 
+            p.mb-0 Con base en la teoría atómica de Dalton, un átomo se describe como una partícula extremadamente pequeña e indivisible. Sin embargo, una serie de investigaciones iniciadas aproximadamente en 1850, y que continuaron hasta el siglo XX, demostraron que los átomos tienen estructura interna, es decir, que están formados por #[b partículas subatómicas]. Estas investigaciones condujeron al descubrimiento de tres partículas: electrones, protones y neutrones. 
       
       .row.justify-content-center.mb-5.align-items-center(data-aos='fade-right')
         .col-sm-6.col-lg-4.mb-4.mb-lg-0
@@ -70,7 +70,7 @@
 
             .bg-color-15.mb-4.m-auto(data-aos="fade-left")
               h3.px-4.py-1.text-center Electrón
-            p.mb-0.text-center Es una partícula subatómica con carga negativa (-1.6022 x 10-19 C, donde C corresponde a coulombs) y masa de 9.1 x 10-28 g, que se localiza con probabilidad en la periferia del átomo. 
+            p.mb-0.text-center Es una partícula subatómica con carga negativa (-1.6022 x 10#[sup -19] C, donde C corresponde a coulombs) y masa de 9.1 x 10-#[sup -28] g, que se localiza con probabilidad en la periferia del átomo. 
         .col-sm-6.col-lg-4.mb-4.mb-lg-0
           .tarjeta--boton.bg-color-12.p-4.hcard-5
             .row.justify-content-center.mb-3
@@ -79,7 +79,7 @@
 
             .bg-color-15.mb-4.m-auto(data-aos="fade-left")
               h3.px-4.py-1.text-center Protón
-            p.mb-0.text-center Es una partícula subatómica con carga positiva (1.6022 x 10-19 C), que se encuentra en el núcleo atómico y que tienen una masa de 1.67262 x 10-24 g. 
+            p.mb-0.text-center Es una partícula subatómica con carga positiva (1.6022 x 10#[sup -19] C), que se encuentra en el núcleo atómico y que tiene una masa #[br] de 1.67262 x 10#[sup -24] g. 
 
         .col-sm-6.col-lg-4.mb-4.mb-lg-0
           .tarjeta--boton.bg-color-12.p-4.hcard-5
@@ -89,7 +89,7 @@
 
             .bg-color-15.mb-4.m-auto(data-aos="fade-left")
               h3.px-4.py-1.text-center Neutrón
-            p.mb-0.text-center Es una partícula eléctricamente neutra presente en el núcleo atómico, con una masa ligeramente mayor que la masa de los protones (1.67493 x 10-24 g). 
+            p.mb-0.text-center Es una partícula eléctricamente neutra presente en el núcleo atómico, con una masa ligeramente mayor que la masa de los protones (1.67493 x 10#[sup -24] g). 
       
       .tarjeta.color-acento-contenido.px-3.py-4.mb-5(data-aos="fade-left")
         .row.justify-content-around.align-items-center
@@ -99,10 +99,10 @@
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
                 h4.mb-1.tit-cus-1 Modelos atómicos.
-                p.mb-0 Para profundizar sobre la evolución de los modelos atómicos a lo largo de la historia, lo invitamos a consultar el siguiente sitio web: https://concepto.de/modelos-atomicos/ 
+                p.mb-0 Para profundizar sobre la evolución de los modelos atómicos a lo largo de la historia, lo invitamos a consultar el siguiente sitio web.
               .col-sm-auto
                 a.boton.color-acento-botones(href="https://concepto.de/modelos-atomicos/" target="_blank")
-                  span.tit-cus-2 Enlace web
+                  span.tit-cus-2 Ir al sitio
                   i.fas.fa-link.tit-cus-2
 
       .mb-5 &nbsp;
@@ -130,11 +130,12 @@
           p.mb-3 Lo que es igual que:
           .bg-color-4.mb-4.m-auto.w-fit.br-5
               h5.px-5.py-3 Número de masa = número atómico + número de neutrones
-          p.mb-0 Por tanto, el número de neutrones es un átomo es igual a la resta entre el número de masa y el número atómico (A-Z).
-
+          p.mb-3 Por tanto, el número de neutrones es un átomo es igual a la resta entre el número de masa y el número atómico (A - Z).
+          .bg-color-4.mb-0.m-auto.w-fit.br-5
+              h5.px-5.py-3 Número de neutrones = número de masa - número de atómico
       .row.justify-content-center.mb-5.align-items-center(data-aos='fade-right')
         .col-sm-12.col-lg-10
-            p.mb-0 No todos los átomos de un elemento determinado tienen la misma masa. Los isótopos son átomos que tienen el mismo número de atómico pero diferente número de masa. La mayoría de los elementos tiene dos o más isótopos. Por ejemplo, existen tres isótopos de hidrógeno. Uno de ellos, que se conoce como hidrógeno, tiene un protón y no tiene neutrones. El isótopo llamado deuterio contiene un protón y un neutrón, y el tritio tiene un protón y dos neutrones (Chang, 2021). La forma para denotar el número atómico y el número de masa para los isótopos de hidrógeno es como sigue:
+            p.mb-0 No todos los átomos de un elemento determinado tienen la misma masa. Los #[b isótopos] son átomos que tienen el mismo número atómico pero diferente número de masa. La mayoría de los elementos tiene dos o más isótopos. Por ejemplo, existen tres isótopos de hidrógeno. Uno de ellos, que se conoce como hidrógeno, tiene un protón y no tiene neutrones. El isótopo llamado deuterio contiene un protón y un neutrón, y el tritio tiene un protón y dos neutrones (Chang, 2021).
         .col-sm-12.col-lg-2.d-none.d-lg-block
           img(src='@/assets/curso/temas/t3/12.svg', alt='')
 
@@ -154,13 +155,13 @@
         .col
           h3.mb-0.titulo-icono-text.px-0.py-2 Niveles de energía 
 
-      p.mb-5(data-aos='fade-right') Los niveles de energía de un átomo representados por el #[b número cuántico principal] (n), que puede tomar valores enteros del 1 al 7, se relaciona con las regiones (o conjunto de orbitales) alrededor del núcleo donde es más probable encontrar a los electrones, y representan los distintos estados de energía que estos puedan tener. Dependiendo de su distancia al núcleo, cada electrón se puede encontrar en un nivel energético. Cuánto más grande es el valor de n, mayor es la distancia entre un electrón en el orbital respecto del núcleo y en consecuencia más grande es el orbital. 
+      p.mb-5(data-aos='fade-right') Los niveles de energía de un átomo representados por el #[b número cuántico principal (n)], que puede tomar valores enteros del 1 al 7, se relacionan con las regiones (o conjunto de orbitales) alrededor del núcleo donde es más probable encontrar a los electrones, y representan los distintos estados de energía que estos puedan tener. Dependiendo de su distancia al núcleo, cada electrón se puede encontrar en un nivel energético. Cuánto más grande es el valor de #[b n], mayor es la distancia entre un electrón en el orbital respecto del núcleo y en consecuencia más grande es el orbital. 
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-10
           .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Figura 7.] Niveles de energía en un átomo
           figure.mb-0
-              img(src='@/assets/curso/temas/t3/15.svg', alt='')
+              img(src='@/assets/curso/temas/t3/15.svg', alt='Representación de los niveles de energía de un átomo. Se tienen siete órbitas concéntricas alrededor del núcleo, cada una correspondiente a un nivel de energía, designado por el número cuántico principal n del 1 al 7. A medida que aumenta el valor de n, el nivel se encuentra más alejado del núcleo y tiene mayor energía. Los niveles están etiquetados también con letras de la K a la Q.')
 
       .mb-5 &nbsp;
       .row.align-items-center.mb-5.titulo-icono(data-aos='fade-right')
@@ -174,7 +175,7 @@
               .titulo-sexto.color-acento-contenido
                   p.mb-0 #[b Tabla 4.] Características de los subniveles de energía 
               .tabla-a.color-acento-contenido.mb-5
-                table(alt="La tabla presenta las siete magnitudes físicas fundamentales establecidas por el Sistema Internacional de Unidades, junto con el nombre de unidad correspondiente y su símbolo. Entre ellas están la longitud, la masa, el tiempo, la corriente eléctrica, la temperatura, la cantidad de sustancia y la intensidad luminosa. ")
+                table(alt="La tabla presenta las características de los subniveles de energía en un átomo, como el valor que puede tomar el número cuántico secundario o azimutal, los orbitales y la forma de estos, además de la cantidad máxima de electrones que permite cada tipo de orbital.")
                   thead
                     tr.encabezado
                       th Valor de ℓ
@@ -235,12 +236,12 @@
               .bg-color-11.mb-0.p-4
                 p.mb-4 Es importante seguir el orden de las flechas (de arriba hacia abajo y de derecha a izquierda), de tal modo que, si se escribiera de forma horizontal, quedaría:
                 .bg-color-2.mb-0.m-auto.mb-0
-                  h5.px-3.py-2 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p6 6f14 7d10 7f14
+                  h5.px-3.py-2 1s#[sup 2] 2s#[sup 2] 2p#[sup 6] 3s#[sup 2] 3p#[sup 6] 4s#[sup 2] 3d#[sup 10] 4p#[sup 6] 5s#[sup 2] 4d#[sup 10] 5p#[sup 6] 6s#[sup 2] 4f#[sup 14] 5d#[sup 10] 6p#[sup 6] 7s#[sup 2] 5f#[sup 14] 6d#[sup 10] 7p#[sup 6] 6f#[sup 14] 7d#[sup 10] 7f#[sup 14]
             .col-sm-12.col-lg-5
               .titulo-sexto.color-acento-contenido
                   p.mb-0 #[b Figura 8.] Diagrama de Moeller
               figure.mb-0
-                  img(src='@/assets/curso/temas/t3/19.svg', alt='Diagrama que expone el orden en el cual se llenan los subniveles atómicos en un átomo polielectrónico. Comenzando con el orbital 1s y descendiendo en dirección de las flechas, siguiente el orden: 1s<2s<2p<3s<3p<4s<3d y así sucesivamente.')
+                  img(src='@/assets/curso/temas/t3/19.svg', alt='Diagrama que expone el orden en el cual se llenan los subniveles atómicos en un átomo polielectrónico. Comenzando con el orbital 1s y descendiendo en dirección de las flechas, siguiendo el orden: 1s<2s<2p<3s<3p<4s<3d y así sucesivamente.')
                   figcaption.mb-0 #[b Fuente:] https://misuperclase.com/configuracion-electronica-de-los-elementos/ 
       
       
@@ -268,7 +269,7 @@
                     .titulo-sexto.color-acento-contenido
                         p.mb-0 #[b Figura 10.]  Aplicación de la regla de Hund en el carbono
                     figure.mb-4
-                        img(src='@/assets/curso/temas/t3/22.svg', alt='')
+                        img(src='@/assets/curso/temas/t3/22.svg', alt='Configuraciones electrónicas de orbitales 2p, que muestran diferentes estados de espín.')
                         figcaption.mb-0 #[b Fuente:] Chang (2021).
                 
                 p.mb-0 Ninguna de las 3 distribuciones viola el principio de exclusión de Pauli, de modo que solo quedaría determinar cuál de ellas dará más estabilidad. La respuesta está en la regla de Hund, y la distribución c) de la figura es la que satisface esta condición. 
@@ -287,7 +288,7 @@
           p.mb-3 Si Z = 17, significa que tiene 17 electrones para distribuir en los orbitales atómicos. 
           p.mb-4 Se construye la configuración electrónica de acuerdo con el diagrama de Moeller: 
           .bg-color-5.mb-0.m-auto.mb-5
-            h5.px-3.py-3.text-center 1s2 2s2 2p6 3s2 3p5
+            h5.px-3.py-3.text-center 1s#[sup 2] 2s#[sup 2] 2p#[sup 6] 3s#[sup 2] 3p#[sup 5] 
           p.mb-4 De acuerdo con lo anteriormente expuesto, el subnivel 3p puede albergar máximo 6 electrones, pero con 5 electrones para el caso del cloro se completan los 17 electrones, así:
           .bg-color-5.mb-0.m-auto.mb-0
             h5.px-3.py-3.text-center 2 +2 + 6 + 2 + 5 = 17 electrones
@@ -324,14 +325,14 @@
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/temas/t3/25.png', alt='')
       
-      
+        
       .bg-full-width.bg-fondo-2.mb-0.pcus-4
           .px-4.px-md-5.pb-md-3
             .row.justify-content-center.mb-0(data-aos='fade-right')
               .col-sm-12.col-lg-6
                 p.mb-3 Así que, para el cloro, a partir de su configuración electrónica, se puede deducir lo siguiente:
                 .bg-color-5.mb-5.m-auto.mb-0.w-fit.px-5
-                  h5.px-3.py-3.text-center 1s#[sup 2] 2s#[sup 2] 2p#[sup 2] 3s#[sup 2] 3p#[sup 5]
+                  h5.px-3.py-3.text-center 1s#[sup 2] 2s#[sup 2] 2p#[sup 6] 3s#[sup 2] 3p#[sup 5]
                 ul.lista-ul--color.mb-5
                   li.d-flex
                     i.fas.fa-check-circle.icon-list
@@ -343,7 +344,7 @@
 
                   li.d-flex
                     i.fas.fa-check-circle.icon-list
-                    p.mb-0 La tabla periódica posee regiones relacionadas con la configuración de los orbitales. Si la configuración electrónica termina en #[b s] o #[b p], el elemento hace parte de los grupos representados por la letra #[b A], si por el contrario terminan en #[b d] o #[b f], este se ubica en los grupos representados por la letra #[b B] o elementos de transición, como se muestra en la figura 8.   
+                    p.mb-0 La tabla periódica posee regiones relacionadas con la configuración de los orbitales. Si la configuración electrónica termina en #[b s] o #[b p], el elemento hace parte de los grupos representados por la letra #[b A], si por el contrario terminan en #[b d] o #[b f], este se ubica en los grupos representados por la letra #[b B] o elementos de transición, como se muestra en la figura 11.   
 
                 .row.justify-content-center.mb-5.align-items-center
                   .col-sm-12.col-lg-2.d-none.d-lg-block
@@ -358,27 +359,30 @@
                   li.d-flex
                     i.fas.fa-check-circle.icon-list
                     p.mb-0 Con el número de electrones presentes en el último nivel de energía (7 electrones de valencia) se establece que #[b el cloro tiene una valencia de 7.] 
-                .row.justify-content-center.mb-0.bg-color-16.px-2.py-4.align-items-center.mb-cus
-                  .col-sm-12.col-lg-2.d-none.d-lg-block
-                    img.w-75.m-auto(src='@/assets/curso/temas/t3/28.svg', alt='')
-                  .col-sm-12.col-lg-10
-                      h5.mb-3 Notas 1.
-                      p.mb-0 Los electrones de valencia coinciden con el número del grupo en los elementos representativos. Por ejemplo, los elementos del grupo 1A (como el sodio) tienen 1 electrón de valencia; los del grupo 7A (como el cloro), tienen 7 electrones de valencia. 
               
               .col-sm-12.col-lg-6
                 img.mb-5.d-none.d-lg-block(src='@/assets/curso/temas/t3/29.png', alt='')
                 .titulo-sexto.color-primario
                     p.mb-0 #[b Figura 11.] Regiones de la tabla periódica de acuerdo con el último subnivel
                 figure.mb-3
-                    img(src='@/assets/curso/temas/t3/30.svg', alt='')
+                    img(src='@/assets/curso/temas/t3/30.svg', alt='Esquema de la tabla periódica separada por regiones según el último subnivel de energía (s, p, d o f), donde el bloque s incluye los elementos de los grupos IA y IIA, el bloque p abarca seis grupos (IIA, IVA, VA, VIA, VIIA y VIIA), el bloque d corresponde a los elementos de transición y el bloque f en la parte inferior corresponde a los elementos de transición interna (lantánidos y actínidos).')
                     figcaption.mb-0 #[b Fuente:] https://misuperclase.com/configuracion-electronica-de-los-elementos/ 
+            .row.justify-content-center.mb-0(data-aos='fade-right')
+              .col-sm-12.col-lg-6
+                .row.justify-content-center.mb-0.bg-color-16.px-2.py-4.align-items-center.mx-1.mb-cus
+                  .col-sm-12.col-lg-2.d-none.d-lg-block
+                    img.w-75.m-auto(src='@/assets/curso/temas/t3/28.svg', alt='')
+                  .col-sm-12.col-lg-10
+                      h5.mb-3 Nota 1.
+                      p.mb-0 Los electrones de valencia coinciden con el número del grupo en los elementos representativos. Por ejemplo, los elementos del grupo 1A (como el sodio) tienen 1 electrón de valencia; los del grupo 7A (como el cloro), tienen 7 electrones de valencia. 
+              .col-sm-12.col-lg-6
                 .row.justify-content-center.mb-0.bg-color-16.px-2.py-2.align-items-center.mx-1
                   .col-sm-12.col-lg-2.d-none.d-lg-block
                     img.w-75.m-auto(src='@/assets/curso/temas/t3/28.svg', alt='')
                   .col-sm-12.col-lg-10
-                      h5.mb-3 Notas 2.
+                      h5.mb-3 Nota 2.
                       p.mb-2 Para el caso de los elementos de transición, establecer los electrones de valencia, es un proceso más complejo, ya que no todos se usan igual en las reacciones químicas para formar los enlaces. Esto explica la existencia de varios estados de oxidación en los elementos de transición.  
-      
+
       Separador
       #t_3_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 3.3 Tabla periódica
@@ -401,7 +405,7 @@
                 a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=nV_bwV7PJpE&t=3s" target="_blank")
                   span.tit-cus-2 Consultar video
                   i.fas.fa-link.tit-cus-2
-      p.mb-5(data-aos='fade-right') En la tabla periódica los elementos están acomodados de acuerdo con su número atómico, en filas horizontales llamadas periodos, y en columnas verticales, conocidas como  grupos. Estos #[b grupos o familias], de acuerdo con sus semejanzas en las propiedades químicas. 
+      p.mb-5(data-aos='fade-right') En la tabla periódica los elementos están acomodados de acuerdo con su número atómico, en filas horizontales llamadas #[b periodos], y en columnas verticales, conocidas como #[b grupos o familias], de acuerdo con sus semejanzas en las propiedades químicas. 
       .mb-5 &nbsp;
       .row.align-items-center.mb-5.titulo-icono(data-aos='fade-right')
         .col-auto.titulo-icono-img
@@ -468,7 +472,7 @@
         .col-auto.titulo-icono-img
           img(src='@/assets/curso/temas/bg/2.svg', alt='')
         .col
-          h3.mb-0.titulo-icono-text.px-0.py-2 Regiones o categorías
+          h3.mb-0.titulo-icono-text.px-0.py-2 Propiedades periódicas
       .row.justify-content-center.mb-5.align-items-center(data-aos='fade-right')
         .col-sm-12.col-lg-10
             p.mb-3 La configuración electrónica de los elementos señala una variación periódica al aumentar el número atómico. Como consecuencia, los elementos también presentan variaciones periódicas en sus propiedades físicas y su comportamiento químico (Chang, 2021).
@@ -488,11 +492,10 @@
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
                 h4.mb-1.tit-cus-1 Capítulo 8. Relaciones periódicas entre los elementos.
-                p.mb-0 Para ampliar esta información se invita a consultar el capítulo 8 de la Química de Raymond Chang, en el siguiente enlace:  
-                p.mb-0 https://archive.org/details/libro-de-quimica-raymond-chang-12va-edi/page/n5/mode/1up 
+                p.mb-0 Para ampliar esta información se invita a consultar el capítulo 8 de la Química de Raymond Chang, en el siguiente enlace.
               .col-sm-auto
                 a.boton.color-acento-botones(href="https://archive.org/details/libro-de-quimica-raymond-chang-12va-edi/page/n5/mode/1up " target="_blank")
-                  span.tit-cus-2 Enlace web
+                  span.tit-cus-2 Ir al sitio
                   i.fas.fa-link.tit-cus-2
   </template>
 

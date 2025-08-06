@@ -70,7 +70,7 @@
               .row.justify-content-center.mb-0.pcus-1(titulo="René Descartes")
                 .col-sm-12.col-lg-8.mb-cus
                   h4.mb-5 René Descartes
-                  p.mb-0 Físico, matemático y filósofo francés nacido en 1596. Es conocido por su célebre locución filosófica “pienso, luego existo”, la cual supone una afirmación de independencia del pensamiento y del uso de la razón como único camino para alcanzar la verdad. Descartes promovía la duda, sosteniendo que se debía dudar de absolutamente todo hasta que comprobarlo mediante la experiencia y el razonamiento lógico. Es considerado el padre de la geometría analítica y uno de los fundadores de la filosofía moderna. 
+                  p.mb-0 Físico, matemático y filósofo francés nacido en 1596. Es conocido por su célebre locución filosófica “pienso, luego existo”, la cual supone una afirmación de independencia del pensamiento y del uso de la razón como único camino para alcanzar la verdad. Descartes promovía la duda, sosteniendo que se debía dudar de absolutamente todo hasta comprobarlo mediante la experiencia y el razonamiento lógico. Es considerado el padre de la geometría analítica y uno de los fundadores de la filosofía moderna. 
                 .col-sm-12.col-lg-4
                   figure.mb-0
                     img(src='@/assets/curso/temas/t1/9.png', alt='')
@@ -152,7 +152,7 @@
               .row.justify-content-center.mb-0.pcus-1(titulo="Alexander Fleming")
                 .col-sm-12.col-lg-8.mb-cus
                   h4.mb-5 Alexander Fleming
-                  p.mb-0 Médico y científico escocés, célebre por el descubrimiento de la penicilina, un antibiótico de origen fúngico. Este hallazgo se dio de forma accidental, cuando algunas de sus cajas Petri con colonias bacterianas se contaminaran con esporas de Penicillium notatum, lo que inhibió el crecimiento de las bacterias. En 1945, fue galardonado con el Premio Nobel de Fisiología o Medicina, junto con los químicos Ernst Boris Chain y Howard Walter Florey, por el desarrollo de este antibiótico que revolucionó la medicina.
+                  p.mb-0 Médico y científico escocés, célebre por el descubrimiento de la penicilina, un antibiótico de origen fúngico. Este hallazgo se dio de forma accidental, cuando algunas de sus cajas Petri con colonias bacterianas se contaminaran con esporas de #[i Penicillium notatum], lo que inhibió el crecimiento de las bacterias. En 1945, fue galardonado con el Premio Nobel de Fisiología o Medicina, junto con los químicos Ernst Boris Chain y Howard Walter Florey, por el desarrollo de este antibiótico que revolucionó la medicina.
                 .col-sm-12.col-lg-4
                   figure.mb-0
                     img(src='@/assets/curso/temas/t1/18.png', alt='')
@@ -185,7 +185,7 @@
             .row
               .col-sm-12.col-md-12.col-lg-10.mb-4.mb-md-0
                 h3 Observación
-                p.mb-0 Es el punto de partida el proceso. Consiste en examinar detenidamente un fenómeno, hecho o situación. El resultado de un ejercicio de observación minucioso es formular una pregunta y, de esta manera, plantear un problema.
+                p.mb-0 Es el punto de partida del proceso. Consiste en examinar detenidamente un fenómeno, hecho o situación. El resultado de un ejercicio de observación minucioso es formular una pregunta y, de esta manera, plantear un problema.
               .col-sm-12.col-md-6.col-lg-2.d-none.d-lg-block
                 figure
                   img(src='@/assets/curso/temas/t1/20.svg', alt='')

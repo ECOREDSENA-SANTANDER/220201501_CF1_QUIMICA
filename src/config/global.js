@@ -1,6 +1,6 @@
 export default {
   global: {
-    Name: 'Entorno químico: principios, fenómenos y leyes.',
+    Name: 'Entorno químico: principios, fenómenos y leyes',
     Description:
       'El siguiente componente formativo está diseñado para propiciar en el aprendiz la apropiación de los conceptos esenciales, así como la adquisición y el desarrollo de habilidades y destrezas relacionadas con la química. Comprender cómo interactúan las sustancias y cómo se transforman, es fundamental para interpretar procesos fisicoquímicos, aplicar principios químicos y tomar decisiones informadas en situaciones propias cotidianas o del entorno laboral.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
@@ -286,11 +286,6 @@ export default {
     },
     {
       referencia:
-        'Arroyo, S., J. E. (2014). Cambios de estado de la materia. [Esquema]. Blog de ciencias de la naturaleza.',
-      link: 'https://www.educ.ar/recursos/14466/cambios-de-estado',
-    },
-    {
-      referencia:
         'Brown, T. L. (2021). Química la ciencia central (11.a ed.). Prentice Hall/Pearson.',
     },
     {
@@ -310,7 +305,7 @@ export default {
         'https://archive.org/details/libro-de-quimica-raymond-chang-12va-edi/page/1026/mode/1up',
     },
     {
-      referencia: 'Chang, R. (2017). Química. (14.ª ed.). Mc Graw Hill.',
+      referencia: 'Chang, R. (2021). Química. (14.ª ed.). Mc Graw Hill.',
     },
     {
       referencia:
@@ -344,7 +339,7 @@ export default {
       referencia:
         'Mann, A. (2019). Confirmado: el nuevo estado de la materia es sólido y líquido a la vez. National Geographic.',
       link:
-        'https://www.nationalgeographic.es/ciencia/2019/04/confirmado-el-nuevo-estado-de-la-materia-es-solido-y-liquido-a-la-vez',
+        'https://www.nationalgeographicla.com/ciencia/2019/04/confirmado-nuevo-estado-de-la-materia-es-solido-y-liquido-a-la-vez',
     },
     {
       referencia:
@@ -401,7 +396,7 @@ export default {
         },
         {
           nombre: 'Erika Daniela Manrique Rueda',
-          cargo: 'Evaluadora instruccional',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -435,13 +430,8 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '--',
-          cargo: 'Validadora de recursos digitales',
-          centro: 'Centro Agroturístico - Regional Santander',
-        },
-        {
-          nombre: '--',
-          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          nombre: 'Erika Daniela Manrique Rueda',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],

@@ -1,1 +1,1 @@
-module.exports = 'Entorno químico: principios, fenómenos y leyes.'
+module.exports = 'Entorno químico: principios, fenómenos y leyes'

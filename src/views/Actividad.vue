@@ -17,7 +17,7 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Entorno químico: principios, fenómenos y leyes.',
+      tema: 'Entorno químico: principios, fenómenos y leyes',
       titulo: 'Cuestionario',
       introduccion:
         '<b> Objetivo:</b> evaluar la comprensión de los conceptos fundamentales en el estudio de la química, como la materia y sus cambios, el átomo como unidad fundamental, los enlaces químicos, las reacciones químicas y la nomenclatura de compuestos inorgánicos y orgánicos.',
@@ -63,7 +63,7 @@ export default {
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: true,
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
@@ -120,7 +120,7 @@ export default {
         {
           id: 5,
           texto:
-            'La densidad del cobre es de 8.94 g/cm3 a 20 °C y 8.91 g/cm3 a 60 °C. La disminución en la densidad es consecuencia de la expansión del metal.',
+            'La densidad del cobre es de 8.94 g/cm<sup>3</sup> a 20 °C y 8.91 g/cm<sup>3</sup> a 60 °C. La disminución en la densidad es consecuencia de la expansión del metal.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [

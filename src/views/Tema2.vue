@@ -25,8 +25,7 @@
         .col-sm-12.col-lg-2.d-none.d-lg-block
           img.w-75.m-auto(src='@/assets/curso/temas/t2/3.svg', alt='')
         .col-sm-12.col-lg-10
-            p.mb-0 Por su parte, la #[b materia] es cualquier cosa que ocupa un espacio y que tiene masa; todo cuanto se observa (como agua, tierra y árboles) o no (como el aire), que se puede medir con los instrumentos existentes y ocupe un lugar en el espacio, se denomina materia. Por ello, la disciplina encargada de estudiar la materia y los cambios que esta experimenta. Esta es una ciencia experimental que, sin duda, resulta fundamental para otras disciplinas del conocimiento, como la astronomía, la bioquímica, la geología, la fisicoquímica y diversas ciencias aplicadas, entre ellas la medicina y múltiples ramas de la ingeniería.
-      
+            p.mb-0 Por su parte, la #[b materia] es cualquier cosa que ocupa un espacio y que tiene masa; todo cuanto se observa (como agua, tierra y árboles) o no (como el aire), que se puede medir con los instrumentos existentes y ocupe un lugar en el espacio, se denomina materia. Por ello, la disciplina encargada de estudiar la materia y los cambios que esta experimenta, comúnmente se conoce como Química. Esta es una ciencia experimental que, sin duda, resulta fundamental para otras disciplinas del conocimiento, como la astronomía, la bioquímica, la geología, la fisicoquímica y diversas ciencias aplicadas, entre ellas la medicina y múltiples ramas de la ingeniería.
       
       
       
@@ -47,7 +46,7 @@
                       p.mb-3 Son aquellas que están compuestas por un solo tipo de átomos o moléculas y tienen una composición química fija en todas sus partes. 
                       p.mb-3 Un #[b elemento] es una sustancia que se no se puede separar en sustancias más simples por medios químicos. Los elementos son representados mediante símbolos de una o dos letras. La primera letra siempre es mayúscula y la siguiente siempre es minúscula.
                       .bg-color-2.py-2.text-center.br-2.pcus-3.mb-cus
-                        p.mb-0 Ejemplo: el oxígeno (O2), el oro (Au) y el calcio (Ca). 
+                        p.mb-0 Ejemplo: el oxígeno (O#[sub 2]), el oro (Au) y el calcio (Ca). 
                   .col-sm-12.col-lg-3
                     img(src='@/assets/curso/temas/t2/5.svg', alt='')
               
@@ -55,7 +54,7 @@
                   .col-sm-12.col-lg-9
                       p.mb-3 La mayoría de los elementos pueden interactuar con otros para formar #[b compuestos]. Un compuesto es entonces, una sustancia formada por átomos de dos o más elementos unidos químicamente en proporciones definidas. Estos solo pueden separarse en sus componentes puros (elementos) por medios químicos.
                       .bg-color-2.py-2.text-center.br-2.px-4.mb-cus
-                        p.mb-0 Ejemplo: el agua (H2O), el ácido sulfúrico (H2SO4) y la sal de cocina (NaCl).
+                        p.mb-0 Ejemplo: el agua (H#[sub 2]O), el ácido sulfúrico (H#[sub 2]SO#[sub 4]) y la sal de cocina (NaCl).
                   .col-sm-12.col-lg-3
                     img(src='@/assets/curso/temas/t2/6.svg', alt='')
       
@@ -86,7 +85,7 @@
                   .col-sm-12.col-lg-4
                     img(src='@/assets/curso/temas/t2/8.svg', alt='')
       
-                p.mb-0 Cualquier mezcla, ya sea homogénea o heterogénea, se pueden formar y volver a separar en sus componentes puros o medios físicos, sin cambiar la identidad de dichos componentes. Así, para separar los componentes de la mezcla de hierro y arena, se puede utilizar un imán para recuperar las virutas de hierro, ya que el imán no atrae a la arena. Después de la separación, no habrá ocurrido cambio alguno en las propiedades de los componentes de la mezcla.
+                p.mb-0 Cualquier mezcla, ya sea homogénea o heterogénea, se puede formar y volver a separar en sus componentes puros o medios físicos, sin cambiar la identidad de dichos componentes. Así, para separar los componentes de la mezcla de hierro y arena, se puede utilizar un imán para recuperar las virutas de hierro, ya que el imán no atrae a la arena. Después de la separación, no habrá ocurrido cambio alguno en las propiedades de los componentes de la mezcla.
       
       p.mb-5 La relación entre elementos, compuestos y otras categorías de la materia se resumen en la siguiente figura: 
       .titulo-sexto.color-acento-contenido
@@ -95,7 +94,7 @@
         .col-lg-12.bg-color-1.br-4.p-5
           figure.mb-0
               img(src='@/assets/curso/temas/t2/9.svg', alt='Esquema jerárquico que clasifica la materia en dos grandes grupos: mezclas (homogéneas y heterogéneas) y sustancias (elementos y compuestos), según si pueden separarse por métodos físicos o no.')
-      figcaption.mb-5 Fuente: tomado de Chang, (2017).
+      figcaption.mb-5 #[b Fuente:] : tomado de Chang, (2017).
 
       .row.align-items-center.mb-5.titulo-icono
         .col-auto.titulo-icono-img
@@ -171,11 +170,11 @@
               p La cromatografía comprende un conjunto de técnicas que tiene como finalidad la separación y caracterización de mezclas complejas, basándose en la capacidad de integración de cada componente en otra sustancia. 
               p De manera general, consiste en pasar una fase móvil (solvente) a través de una fase estacionaria fija o medio absorbente estacionario. La muestra se introduce en la fase móvil y sus componentes se distribuyen entre la fase estacionaria y la móvil, produciéndose la separación (Méndez et al., 2023).  
               p.mb-4 Un ejemplo de este proceso de separación es la Cromatografía de Capa Fina (CCF), en la que se separa una mezcla por adsorción selectiva, produciendo “manchas” diferentes visibles en el medio adsorbente. Esta técnica se basa en la diferencia de velocidades con las que las sustancias se mueven o migran a través de la fase estacionaria (que puede ser papel o una placa recubierta) impulsadas por la fase móvil.
-              a.anexo.mb-4.mb-lg-0(href="hhttps://www.youtube.com/watch?v=BVnyvEyhdzc" target="_blank")
+              a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=BVnyvEyhdzc" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
-                  p.mb-0 #[b Enlace web.] Para conocer sobre el proceso de separación de los elementos que componen la tinta china, se invita a explorar el siguiente video.
+                  p.mb-0 #[b El arcoiris.] Para conocer sobre el proceso de separación de los elementos que componen la tinta china, se invita a explorar el siguiente video.
             .col-sm-12.col-lg-4
               img(src='@/assets/curso/temas/t2/16.svg', alt='')
 
@@ -209,7 +208,7 @@
                   .col-sm-12.col-lg-8.mb-cus
                     figure.mb-0
                         img(src='@/assets/curso/temas/t2/19.png', alt='Se presentan 3 matraces que representan los estados, sólido, líquido y gaseoso de una sustancia, acompañados por ampliaciones microscópicas de la disposición de las partículas.')
-                        figcaption.mb-0 Fuente: tomado de Chang, (2021).
+                        figcaption.mb-0 #[b Fuente:] : tomado de Chang, (2021).
                   .col-sm-12.col-lg-4
                     p Son posibles las conversiones entre los tres estados de la materia sin que cambie la composición de la sustancia. Al calentar un sólido (por ejemplo, el hielo) se funde y se transforma en líquido (agua). Su calentamiento adicional convierte el líquido en gas. Por otra parte, el enfriamiento de un gas hace que se condense en forma de líquido. Al enfriarlo adicionalmente, este se congela, es decir, toma una forma sólida. 
                     .bg-color-3.p-3.mb-0
@@ -221,8 +220,8 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-sm-12.col-lg-8.mb-cus
           figure.mb-0
-              img(src='@/assets/curso/temas/t2/21.svg', alt='')
-              figcaption.mb-0 Fuente: tomada de Arroyo (2014). 
+              img(src='@/assets/curso/temas/t2/21.svg', alt='Diagrama que representa el ciclo de los principales cambios de estados de la materia: sólido, líquido y gaseoso. Se expresa mediante flechas, el cambio de la materia y los nombres de los procesos fusión, vaporización, condensación, solidificación, sublimación y sublimación regresiva. ')
+              figcaption.mb-0 #[b Fuente:] : tomada de Arroyo (2014). 
         .col-sm-12.col-lg-4
           img.wcus-3.mb-4.d-none.d-lg-block(src='@/assets/curso/temas/t2/22.svg', alt='')
           p.mb-4 La materia es dinámica y por ello es susceptible a experimentar cambios de estado en la medida en la que absorbe o cede calor al medio o por efectos de la presión. De acuerdo con esto, los cambios de estado comunes pueden clasificarse en:
@@ -272,7 +271,7 @@
                     img(src='@/assets/curso/temas/t2/24.svg', alt='')
             .bg-color-8.mb-4.m-auto(data-aos="fade-left")
               h3.px-4.py-1.text-white.text-center Volumen
-            p.mb-2.text-center Un cuerpo ocupa un lugar en el espacio y se define como la longitud elevada al cubo, expresada en metros cúbicos (m3) o centímetros cúbicos (cm3), también se usan otras unidades como los litros (L) o los mililitros (mL).
+            p.mb-2.text-center Un cuerpo ocupa un lugar en el espacio y se define como la longitud elevada al cubo, expresada en metros cúbicos (m#[sup 3]) o centímetros cúbicos (cm#[sup 3]), también se usan otras unidades como los litros (L) o los mililitros (mL).
 
         .tarjeta.bg-color-7.p-3.p-md-3.p-lg-5
             .row.align-items-center.my-4.justify-content-center.d-none.d-lg-block
@@ -378,7 +377,7 @@
                     img(src='@/assets/curso/temas/t2/36.svg', alt='')
             .bg-color-10.mb-4.m-auto(data-aos="fade-left")
               h3.px-4.py-1.text-center Electronegatividad
-            p.mb-0.text-center Capacidad que tiene un átomo para atraer hacia si los electrones para formar un enlace con otro átomo. 
+            p.mb-0.text-center Capacidad que tiene un átomo para atraer hacia sí los electrones para formar un enlace con otro átomo. 
 
         .tarjeta.bg-color-9.p-3.p-md-3.p-lg-4
             .row.align-items-center.my-4.justify-content-center.d-none.d-lg-block
@@ -414,7 +413,7 @@
               img(src='@/assets/curso/temas/t2/42.png', alt='')
             .col-sm-12.col-lg-8.bg-color-12.d-flex.align-items-center
               .p-4.align-items-center
-                p.mb-3 #[b Los diferentes instrumentos permiten medir las propiedades de una sustancia:] con una cinta métrica se mide la longitud, con la bureta, pipeta, probeta graduada y matraz volumétrico se mide el volumen; con la balanza se mide la masa, y con el termómetro la temperatura. 
+                p.mb-3 Los diferentes instrumentos permiten medir las propiedades de una sustancia: con una cinta métrica se mide la longitud, con la bureta, pipeta, probeta graduada y matraz volumétrico se mide el volumen; con la balanza se mide la masa, y con el termómetro la temperatura. 
                 p.mb-0 Una cantidad medida suele escribirse como un número con una unidad apropiada. Afirmar que la distancia en auto entre Nueva York y San Francisco por cierta carretera es de 5166 no tiene sentido. Se requiere especificar que la distancia es de 5166 kilómetros (km). De la misma manera ocurre en la química, las unidades son esenciales para expresar correctamente las mediciones. 
           p.mb-0 En concreto, la medición consiste en determinar, por comparación, la magnitud de un atributo respecto a un patrón o estándar. Generalmente, estos atributos corresponden a un tipo de variable presente en el sistema objeto de estudio. Dichas variables pueden ser de dos tipos: cualitativas, cuando su estimación indica una categoría o característica sin un criterio de orden o jerarquía; y cuantitativas, cuando el atributo puede describirse mediante cifras numéricas que poseen un sentido lógico-matemático.
         .col-sm-12.col-lg-3.d-none.d-lg-block
@@ -476,7 +475,7 @@
                   p.mb-0 #[b Tabla 1.] Unidades básicas del Sistema Internacional
                 .tabla-a.color-acento-contenido.mb-5
                   table(alt="La tabla presenta las siete magnitudes físicas fundamentales establecidas por el Sistema Internacional de Unidades, junto con el nombre de unidad correspondiente y su símbolo. Entre ellas están la longitud, la masa, el tiempo, la corriente eléctrica, la temperatura, la cantidad de sustancia y la intensidad luminosa. ")
-                    caption Fuente: Chang, (2017).
+                    caption #[b Fuente:] : Chang, (2017).
                     thead
                       tr
                         th Cantidad básica
@@ -486,17 +485,17 @@
                       tr
                         td Longitud
                         td Metro
-                        td M
+                        td m
 
                       tr
                         td Masa
                         td Kilogramo
-                        td Kg
+                        td kg
 
                       tr
                         td Tiempo
                         td Segundo
-                        td S
+                        td s
 
                       tr
                         td Corriente eléctrica
@@ -538,7 +537,7 @@
                   p.mb-0 #[b Tabla 2.] Prefijos usados con las unidades del Sistema Internacional 
               .tabla-a.color-acento-contenido.mb-5
                 table(alt="La tabla presenta los prefijos más comunes usados en el SI para expresar múltiplos y submúltiplos de unidades de medida. Se tiene el prefijo, el símbolo, el significado en notación decimal y exponencial y un ejemplo aplicado a la unidad de longitud, el metro. ")
-                  caption Fuente: Chang, (2017).
+                  caption #[b Fuente:] : Chang, (2017).
                   thead
                     tr
                       th.wcus-6 Prefijo
@@ -548,27 +547,27 @@
                   tbody
                     tr
                       td tera-
-                      td M
+                      td T
                       td 1 000 000 000 000 o 10¹²
                       td 1 terámetro (Tm) = 1 x 10¹² m
                     tr
                       td giga-
-                      td Kg
+                      td G
                       td 1 000 000 000 o 10⁹
                       td 1 gigámetro (Gm) = 1 x 10⁹ m
                     tr
                       td mega-
-                      td S
+                      td M
                       td 1 000 000 o 10⁶
                       td 1 megámetro (Mm) = 1 x 10⁶ m
                     tr
                       td kilo-
-                      td A
+                      td k
                       td 1 000 o 10³
-                      td 1 kilómetro (Km) = 1 x 10³ m
+                      td 1 kilómetro (km) = 1 x 10³ m
                     tr
                       td deci-
-                      td K
+                      td d
                       td 1/10 o 10⁻¹
                       td 1 decímetro (dm) = 0.1 m
                     tr
@@ -578,7 +577,7 @@
                       td 1 centímetro (cm) = 0.01 m
                     tr
                       td mili-
-                      td cd
+                      td m
                       td 1/1 000 o 10⁻³
                       td 1 milímetro (mm) = 0.001 m
                     tr
@@ -588,12 +587,12 @@
                       td 1 micrómetro (μm) = 1 x 10⁻⁶ m
                     tr
                       td nano-
-                      td cd
+                      td n
                       td 1/1 000 000 000 o 10⁻⁹
                       td 1 nanómetro (nm) = 1 x 10⁻⁹ m
                     tr
                       td pico-
-                      td cd
+                      td p
                       td 1/1 000 000 000 000 o 10⁻¹²
                       td 1 picómetro (pm) = 1 x 10⁻¹² m
         
@@ -604,7 +603,7 @@
       .row.justify-content-center.mb-5
         .col-sm-12.col-lg-8
             p.mb-3 De acuerdo con el Vocabulario Internacional de Metrología (VIM), un instrumento de medida es un dispositivo utilizado para realizar mediciones, solo o asociado a uno o varios dispositivos suplementarios. En otras palabras, es una herramienta que permite estimar el valor de una determinada magnitud. Todo instrumento debe estar calibrado en relación a un patrón o estándar definido, garantizando confiabilidad, precisión y exactitud en la medida. 
-            p.mb-0 Dado que existe una gran variedad de instrumentos de medición, así como la necesidad de asegurar su precisión y exactitud, especialmente en el sector industrial y en el control de procesos, se estableció una disciplina científica especializada en esta labor: la metrología.
+            p.mb-0 Dado que existe una gran variedad de instrumentos de medición, así como la necesidad de asegurar su precisión y exactitud, especialmente en el sector industrial y en el control de procesos, se estableció una disciplina científica especializada en esta labor: #[b la metrología].
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/temas/t2/50.svg', alt='')
 
@@ -624,7 +623,7 @@
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/temas/t2/52.png', alt='')
         .col-sm-12.col-lg-8
-            p.mb-0 Al realizar una medición, es fundamental determinar cuán exacta y precisa es la estimación obtenida. Por ello, resulta necesario diferenciar claramente ambos conceptos. Según Chang (2021), la exactitud indica qué tan cerca está una medición del valor real de la cantidad medida. Por su parte, la precisión se refiere a qué tan cerca están o que tanto concuerdan dos o más mediciones de la misma cantidad (homogeneidad o concordancia).  En consecuencia, una medición puede ser precisa (es decir, reproducible), sin ser necesariamente exacta (cercana al valor verdadero).
+            p.mb-0 Al realizar una medición, es fundamental determinar cuán exacta y precisa es la estimación obtenida. Por ello, resulta necesario diferenciar claramente ambos conceptos. Según Chang (2021), #[b la exactitud] indica qué tan cerca está una medición del valor real de la cantidad medida. Por su parte, #[b la precisión] se refiere a qué tan cerca están o que tanto concuerdan dos o más mediciones de la misma cantidad (homogeneidad o concordancia).  En consecuencia, una medición puede ser precisa (es decir, reproducible), sin ser necesariamente exacta (cercana al valor verdadero).
 
       .row.align-items-center.mb-5.titulo-icono
         .col-auto.titulo-icono-img
@@ -671,7 +670,7 @@
           h3.px-4.py-1 Densidad
       .row.justify-content-center.mb-5
         .col-sm-12.col-lg-5.mb-cus
-          p.mb-0 La unidad derivada del SI para la densidad es el kilogramo por metro cúbico (kg/m#[sup 3]). Sin embargo, esta unidad resultad demasiado grande para muchas aplicaciones químicas, en consecuencia, los gramos por centímetro cúbico (g/cm#[sup 3]) y su equivalente de gramos por mililitro (g/mL) se usan más frecuentemente para las densidades de sólidos y líquidos. La densidad de los gases tiende a ser muy baja, de modo que se expresa en gramos por litro (g/L). 
+          p.mb-0 La unidad derivada del SI para la densidad es el #[b kilogramo por metro cúbico] (kg/m#[sup 3]). Sin embargo, esta unidad resulta demasiado grande para muchas aplicaciones químicas, en consecuencia, los gramos por centímetro cúbico (g/cm#[sup 3]) y su equivalente de gramos por mililitro (g/mL) se usan más frecuentemente para las densidades de sólidos y líquidos. La densidad de los gases tiende a ser muy baja, de modo que se expresa en gramos por litro (g/L). 
         .col-sm-12.col-lg-4
           .bg-color-14.mb-0.m-auto.py-5
               h5.px-5.py-1 1 g/cm#[sup 3] = 1 g/mL = 1000 kg/m#[sup 3]
@@ -679,7 +678,7 @@
         .col-sm-12.col-lg-3.d-none.d-lg-block
           img(src='@/assets/curso//temas/t2/55.png', alt='')
       .bg-color-6.mb-4(data-aos="fade-left")
-          h3.px-4.py-1 Escalas de temperatura
+          h3.px-4.py-1 Escalas de Temperatura
       .row.justify-content-center.mb-5.align-items-center
         .col-sm-12.col-lg-1.d-none.d-lg-block
           img(src='@/assets/curso/temas/t2/56.svg', alt='')
@@ -696,7 +695,7 @@
                 p.mb-0 #[b Figura 4.] Escala de temperatura Celsius 
             figure.mb-0
                 img(src='@/assets/curso/temas/t2/57.svg', alt='Termómetro con escala Celsius, donde se especifica el punto de ebullición (100 °C) y el punto de congelación (0 °C) del agua. La escala comienza en 0 °C y asciende hasta 100 °C. Entre esos dos puntos se tienen 100 grados Celsius.')
-                figcaption.mb-0 #[b Fuente:] https://www.thermal-engineering.org/es/que-es-la-escala-celsius-temperatura-celsius-definicion/ 
+                figcaption.figcaption-cus.mb-0 #[b Fuente:] https://www.thermal-engineering.org/es/que-es-la-escala-celsius-temperatura-celsius-definicion/ 
   
   
         .col-sm-12.col-lg-4.mb-cus
@@ -707,7 +706,7 @@
                 p.mb-0 #[b Figura 5.]  Escala de temperatura Kelvin
             figure.mb-0
                 img(src='@/assets/curso/temas/t2/58.svg', alt='Termómetro con escala Kelvin, donde se especifican los puntos clave como 373.15 K (punto de ebullición del agua), 273.15 K (punto de congelación del agua) y 233.15 K (temperatura de referencia baja), además de su equivalencia en grados Celsius. ')
-                figcaption.mb-0 #[b Fuente:] https://www.nuclear-power.com/nuclear-engineering/thermodynamics/thermodynamic-properties/what-is-temperature-physics/kelvin-scale-absolute-temperature/ 
+                figcaption.figcaption-cus.mb-0 #[b Fuente:] https://www.nuclear-power.com/nuclear-engineering/ thermodynamics/thermodynamic-properties/what-is-temperature-physics/kelvin-scale-absolute-temperature/ 
         
         .col-sm-12.col-lg-4.mb-cus
           .bg-color-4.br-4.p-5.align-items-center.hcard-4
@@ -717,20 +716,20 @@
                 p.mb-0 #[b Figura 6.]  Escala de temperatura Fahrenheit 
             figure.mb-0
                 img(src='@/assets/curso/temas/t2/59.svg', alt='Termómetro con escala Fahrenheit. Se destacan 3 puntos clave: 212 °F (punto de ebullición del agua), 32 °F (punto de congelación del agua) y -40 °F (temperatura de referencia baja). Entre el punto de congelación y el de ebullición del agua hay una diferencia de 180 °F.')
-                figcaption.mb-0 #[b Fuente:] https://www.nuclear-power.com/nuclear-engineering/thermodynamics/thermodynamic-properties/what-is-temperature-physics/fahrenheit-scale-fahrenheit-temperature/ 
+                figcaption.figcaption-cus.mb-0 #[b Fuente:] https://www.nuclear-power.com/nuclear-engineering/ thermodynamics/thermodynamic-properties/what-is-temperature-physics/fahrenheit-scale-fahrenheit-temperature/ 
   
       .row.justify-content-center.mb-5
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/temas/t2/60.png', alt='')
         .col-sm-12.col-lg-4
             p.mb-4 La magnitud de un grado en la escala Fahrenheit es de apenas 5/9 de un grado en la escala Celsius. A fin de convertir grados Fahrenheit a grados Celsius y grados Celsius a grados Fahrenheit, se usan las siguientes ecuaciones:
-            .bg-color-1.mb-4.w-fit.px-5.br-5
+            .bg-color-1.mb-4.w-100.px-1.br-5
               h5.px-5.py-2 °C = (°F - 32 °F) x #[math  #[mfrac #[mn 5 °C] #[mn 9 °C]] ]
-            .bg-color-14.mb-0.px-5.br-5
+            .bg-color-14.mb-0.w-100.px-1.br-5
               h5.px-5.py-2 °F =  #[math  #[mfrac #[mn 9 °F] #[mn 5 °F]] ] x (°C) + 32 °F
         .col-sm-12.col-lg-4
             p.mb-4 Las escalas Celsius y Kelvin tienen unidades de la misma magnitud, es decir un grado Celsius es equivalente a un kelvin. Se ha comprobado que el cero absoluto de la escala Kelvin equivale a -273.15 °C. Así que para convertir grados Celsius a kelvin, se usa la ecuación:
-            .bg-color-1.mb-4.w-fit.px-5.br-5
+            .bg-color-1.mb-4.w-100.px-1.br-5
               h5.px-5.py-2 K = (°C + 273.15 °C) #[math  #[mfrac #[mn 1 K] #[mn 1 °C]] ]
   
       .row.align-items-center.mb-5.titulo-icono
@@ -749,22 +748,22 @@
               h5.px-5.py-3 𝑚 ∗ 10#[sup n]
             p.mb-0 Siendo #[b m] cualquier número real (𝑚 ∈ ℝ) en el intervalo de 1 a 10, sin incluir este último (1 ≤ 𝑚 < 10).
             p.mb-4 Y, #[b n], cualquier número entero positivo o negativo (𝑛 ∈ 𝑍), que indica qué tan grande o qué tan pequeña es la cifra. 
-            .bg-color-3.mb-5.w-fit.px-5.br-5.m-auto
-              h5.pcus-7.py-3 1 200 000 puede expresarse como 1.2 x 10#[sup 4]
+            .bg-color-3.mb-3.w-fit.px-5.br-5.m-auto
+              h5.pcus-7.py-3 1 200 000 puede expresarse como 1.2 x 10#[sup 6]
             p.mb-4 El punto, ubicado al final del último cero a la derecha del número grande se desplazó seis (6) lugares hacia la IZQUIERDA (n será positivo y con un valor de 6), hasta que el número formado estuvo entre 1 y 10. 
             .bg-color-3.mb-0.w-fit.px-5.br-5.m-auto
               h5.pcus-7.py-3 0.0000012 puede expresarse como 1.2 x 10#[sup -6]
+            p.mb-0 El punto, ubicado entre el primer y segundo cero, se desplazó seis (6) lugares hacia la DERECHA (n será negativo y con un valor de -6), hasta que el número formado estuvo entre 1 y 10. 
   
   
       .row.justify-content-center.mb-5
         .col-sm-12.col-lg-8
-            p.mb-4 El punto, ubicado entre el primer y segundo cero, se desplazó seis (6) lugares hacia la DERECHA (n será negativo y con un valor de -6), hasta que el número formado estuvo entre 1 y 10. 
-            p.mb-4 Un gran número de problemas en química, e incluso en la vida cotidiana, implican convertir una unidad de medida en otra: una conversión de divisas, una receta de cocina, la administración de un fármaco o la operación de un electrodoméstico, por citar algunos ejemplos comunes. Estas situaciones requieren cierta aptitud matemática para expresar una cantidad en la magnitud y unidad correctas, lo que se conoce como análisis dimensional. Aunque en la actualidad existen dispositivos que permiten realizar estos cálculos en cuestión de segundos, es fundamental contar con el criterio necesario para evaluar e interpretar adecuadamente los resultados obtenidos.
+            p.mb-4 Un gran número de problemas en química, e incluso en la vida cotidiana, implican convertir una unidad de medida en otra: una conversión de divisas, una receta de cocina, la administración de un fármaco o la operación de un electrodoméstico, por citar algunos ejemplos comunes. Estas situaciones requieren cierta aptitud matemática para expresar una cantidad en la magnitud y unidad correctas, lo que se conoce como #[b análisis dimensional]. Aunque en la actualidad existen dispositivos que permiten realizar estos cálculos en cuestión de segundos, es fundamental contar con el criterio necesario para evaluar e interpretar adecuadamente los resultados obtenidos.
             .row.align-items-center.mb-0.titulo-icono-b
               .col-auto.titulo-icono-b-img.d-none.d-lg-block
                 img(src='@/assets/curso/temas/t2/63.svg', alt='')
               .col
-                p.mb-0.titulo-icono-b-text.py-3 Esta labor puede verse simplificada al recurrir a la técnica de factor unitario o factor de conversión, que consiste en un multiplicar la cifra problema por una fracción, cuyo numerador y denominador resultan equivalentes (100 cm = 1 m; 1000g = 1 kg; 1h = 3600 s).
+                p.mb-0.titulo-icono-b-text.py-3 Esta labor puede verse simplificada al recurrir a la técnica de factor unitario o factor de conversión, que consiste en un multiplicar la cifra problema por una fracción, cuyo numerador y denominador resultan equivalentes (100 cm = 1 m; 1000 g = 1 kg; 1h = 3600 s).
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/temas/t2/62.png', alt='')
   
@@ -775,7 +774,6 @@
                   p.mb-0 #[b Tabla 3.] Factores unitarios de conversión
               .tabla-a.color-acento-contenido.mb-5
                 table(alt="Se presentan en la tabla una serie de factores de conversión entre unidades del sistema internacional y unidades del sistema anglosajón. Se presentan ocho unidades con su equivalencia correspondiente.")
-                  caption Fuente: 
                   thead
                     // Títulos de columna
                     tr.column-titles

@@ -402,7 +402,7 @@
                 h4.mb-1.tit-cus-1 La tabla periódica
                 p.mb-0 Para conocer las generalidades de la tabla periódica, se invita a explorar el siguiente video. 
               .col-sm-auto
-                a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=nV_bwV7PJpE&t=3s" target="_blank")
+                a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=RWTp2LcCwjk" target="_blank")
                   span.tit-cus-2 Consultar video
                   i.fas.fa-link.tit-cus-2
       p.mb-5(data-aos='fade-right') En la tabla periódica los elementos están acomodados de acuerdo con su número atómico, en filas horizontales llamadas #[b periodos], y en columnas verticales, conocidas como #[b grupos o familias], de acuerdo con sus semejanzas en las propiedades químicas. 

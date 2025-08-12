@@ -77,18 +77,18 @@
                   p.mb-0 #[b Figura 18.]  Enlace iónico en el cloruro de sodio (NaCl)
               figure.mb-0
                   img.mb-1(src='@/assets/curso/temas/t4/7.png', alt='Esquema del enlace tipo iónico que se presenta entre el sodio y el cloro, en donde el sodio le transfiere su único electrón de valencia al cloro formándose los iones Na+ y Cl-. ')
-                  figcaption.mb-0 #[b Fuente:] : https://www.shutterstock.com/es/image-vector/vector-illustration-sodium-chloride-formation-by-2231546289 
+                  figcaption.mb-0 #[b Fuente:]  https://www.shutterstock.com/es/image-vector/vector-illustration-sodium-chloride-formation-by-2231546289 
         
             .py-3.py-md-4.px-5(titulo="Enlace covalente")
               h4 Enlace covalente:
-              p.mb-3 el enlace covalente ocurre cuando se establece una unión entre átomos no metálicos. En este enlace no se produce una transferencia completa de electrones, sino que uno o más pares de electrones son compartidos por los átomos para alcanzar una configuración electrónica más estable. 
+              p.mb-3 El enlace covalente ocurre cuando se establece una unión entre átomos no metálicos. En este enlace no se produce una transferencia completa de electrones, sino que uno o más pares de electrones son compartidos por los átomos para alcanzar una configuración electrónica más estable. 
               p.mb-3 Un ejemplo de ello es la molécula de flúor (F#[sub 2]), cada átomo de flúor tiene siete electrones de valencia, uno de ellos no apareado o libre, por tanto, cada átomo comparte su electrón no apareado con el otro átomo para alcanzar una configuración más estable. Los demás electrones no enlazantes, se llaman pares libres. 
 
               .titulo-sexto.color-acento-contenido
                   p.mb-0 #[b Figura 19.]   Enlace covalente en el flúor (F#[sub 2])
               figure.mb-0
                   img.mb-1(src='@/assets/curso/temas/t4/8.svg', alt='Esquema del enlace covalente que se presenta en la molécula de flúor, en donde los dos átomos se comparten el electrón desapareado para alcanzar la configuración más estable. ')
-                  figcaption.mb-0 #[b Fuente:] : Chang, (2021). 
+                  figcaption.mb-0 #[b Fuente:]  Chang, (2021). 
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/temas/t4/6.png', alt='')
 
@@ -116,7 +116,7 @@
               p.mb-0 #[b Figura 21.] Estructura de Lewis del ácido perclórico
           figure.mb-0
               img.mb-1(src='@/assets/curso/temas/t4/11.svg', alt='Estructura de Lewis del ácido perclórico (HClO4). En el centro se tiene un átomo de cloro enlazado a cuatro átomos de oxígeno. Tres de los oxígenos están unidos al cloro mediante enlaces dobles. El cuarto oxígeno está enlazado al cloro mediante un enlace sencillo y a su vez está enlazado a un átomo de hidrógeno, formando un grupo hidroxilo. La estructura muestra la distribución de los electrones alrededor de los átomos, exponiendo el tipo de enlaces químicos que se dan en ese compuesto. ')
-              figcaption.mb-0 #[b Fuente:] : https://www.lifeder.com/acido-perclorico/ 
+              figcaption.mb-0 #[b Fuente:]  https://www.lifeder.com/acido-perclorico/ 
         .col-sm-12.col-lg-4
             img.wcus-7.mb-4.d-none.d-lg-block(src='@/assets/curso/temas/t4/12.svg', alt='')
             .bg-color-16.px-3.py-3.mb-3

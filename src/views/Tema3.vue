@@ -130,9 +130,9 @@
           p.mb-3 Lo que es igual que:
           .bg-color-4.mb-4.m-auto.w-fit.br-5
               h5.px-5.py-3 Número de masa = número atómico + número de neutrones
-          p.mb-3 Por tanto, el número de neutrones es un átomo es igual a la resta entre el número de masa y el número atómico (A - Z).
+          p.mb-3 Por tanto, el número de neutrones en un átomo es igual a la resta entre el número de masa y el número atómico (A - Z).
           .bg-color-4.mb-0.m-auto.w-fit.br-5
-              h5.px-5.py-3 Número de neutrones = número de masa - número de atómico
+              h5.px-5.py-3 Número de neutrones = número de masa - número atómico
       .row.justify-content-center.mb-5.align-items-center(data-aos='fade-right')
         .col-sm-12.col-lg-10
             p.mb-0 No todos los átomos de un elemento determinado tienen la misma masa. Los #[b isótopos] son átomos que tienen el mismo número atómico pero diferente número de masa. La mayoría de los elementos tiene dos o más isótopos. Por ejemplo, existen tres isótopos de hidrógeno. Uno de ellos, que se conoce como hidrógeno, tiene un protón y no tiene neutrones. El isótopo llamado deuterio contiene un protón y un neutrón, y el tritio tiene un protón y dos neutrones (Chang, 2021).
@@ -365,7 +365,7 @@
                 .titulo-sexto.color-primario
                     p.mb-0 #[b Figura 11.] Regiones de la tabla periódica de acuerdo con el último subnivel
                 figure.mb-3
-                    img(src='@/assets/curso/temas/t3/30.svg', alt='Esquema de la tabla periódica separada por regiones según el último subnivel de energía (s, p, d o f), donde el bloque s incluye los elementos de los grupos IA y IIA, el bloque p abarca seis grupos (IIA, IVA, VA, VIA, VIIA y VIIA), el bloque d corresponde a los elementos de transición y el bloque f en la parte inferior corresponde a los elementos de transición interna (lantánidos y actínidos).')
+                    img(src='@/assets/curso/temas/t3/30.svg', alt='Esquema de la tabla periódica separada por regiones según el último subnivel de energía (s, p, d o f), donde el bloque s incluye los elementos de los grupos IA y IIIA, el bloque p abarca seis grupos (IIA, IVA, VA, VIA, VIIIA y VIIA), el bloque d corresponde a los elementos de transición y el bloque f en la parte inferior corresponde a los elementos de transición interna (lantánidos y actínidos).')
                     figcaption.mb-0 #[b Fuente:] https://misuperclase.com/configuracion-electronica-de-los-elementos/ 
             .row.justify-content-center.mb-0(data-aos='fade-right')
               .col-sm-12.col-lg-6

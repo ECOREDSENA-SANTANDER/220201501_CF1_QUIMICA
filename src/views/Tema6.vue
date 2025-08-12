@@ -94,7 +94,7 @@
                 img(src='@/assets/curso/temas/t6/8.svg', alt='')
             .row(titulo="Alquenos")
               .col-12.pcus-2
-                p.mb-5 También conocidos como olefinas, los alquenos son compuestos formados por cadenas de carbono que contienen al menos un #[b enlace doble] entre carbonos (C=C). El alqueno más sencillo es el etileno (C2H4). Se nombran de manera similar a los alcanos, pero su terminación cambia a #[b -eno]. Es importante incluir un número antes del nombre que indique la posición del doble enlace dentro de la cadena principal.
+                p.mb-5 También conocidos como olefinas, los alquenos son compuestos formados por cadenas de carbono que contienen al menos un #[b enlace doble] entre carbonos (C=C). El alqueno más sencillo es el etileno (C#[sub 2]H#[sub 4]). Se nombran de manera similar a los alcanos, pero su terminación cambia a #[b -eno]. Es importante incluir un número antes del nombre que indique la posición del doble enlace dentro de la cadena principal.
                 img(src='@/assets/curso/temas/t6/9.svg', alt='')
 
             .row(titulo="Alquinos")
@@ -104,7 +104,7 @@
 
             .row(titulo="Aromáticos")
               .col-12.pcus-2
-                p.mb-5 Hacen referencia a los derivados del grupo benceno (C6H6). 
+                p.mb-5 Hacen referencia a los derivados del grupo benceno (C#[sub 6]H#[sub 6]). 
                 img.mb-5(src='@/assets/curso/temas/t6/11.svg', alt='')
                 p.mb-5 Existen bencenos monosustituidos, en los que un átomo o grupo de átomos sustituye uno de los hidrógenos del grupo benceno. Para nombrar esos compuestos, se coloca el nombre del grupo sustituyente seguido de la palabra #[b benceno].  
                 img.mb-5(src='@/assets/curso/temas/t6/12.svg', alt='')

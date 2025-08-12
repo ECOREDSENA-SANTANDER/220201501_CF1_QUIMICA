@@ -94,7 +94,7 @@
         .col-lg-12.bg-color-1.br-4.p-5
           figure.mb-0
               img(src='@/assets/curso/temas/t2/9.svg', alt='Esquema jerárquico que clasifica la materia en dos grandes grupos: mezclas (homogéneas y heterogéneas) y sustancias (elementos y compuestos), según si pueden separarse por métodos físicos o no.')
-      figcaption.mb-5 #[b Fuente:] : tomado de Chang, (2017).
+      figcaption.mb-5 #[b Fuente:]  tomado de Chang, (2017).
 
       .row.align-items-center.mb-5.titulo-icono
         .col-auto.titulo-icono-img
@@ -174,7 +174,7 @@
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
-                  p.mb-0 #[b El arcoiris.] Para conocer sobre el proceso de separación de los elementos que componen la tinta china, se invita a explorar el siguiente video.
+                  p.mb-0 #[b Actividad: el arcoíris.] Para conocer sobre el proceso de separación de los elementos que componen la tinta china, se invita a explorar el siguiente video.
             .col-sm-12.col-lg-4
               img(src='@/assets/curso/temas/t2/16.svg', alt='')
 
@@ -208,7 +208,7 @@
                   .col-sm-12.col-lg-8.mb-cus
                     figure.mb-0
                         img(src='@/assets/curso/temas/t2/19.png', alt='Se presentan 3 matraces que representan los estados, sólido, líquido y gaseoso de una sustancia, acompañados por ampliaciones microscópicas de la disposición de las partículas.')
-                        figcaption.mb-0 #[b Fuente:] : tomado de Chang, (2021).
+                        figcaption.mb-0 #[b Fuente:]  tomado de Chang, (2021).
                   .col-sm-12.col-lg-4
                     p Son posibles las conversiones entre los tres estados de la materia sin que cambie la composición de la sustancia. Al calentar un sólido (por ejemplo, el hielo) se funde y se transforma en líquido (agua). Su calentamiento adicional convierte el líquido en gas. Por otra parte, el enfriamiento de un gas hace que se condense en forma de líquido. Al enfriarlo adicionalmente, este se congela, es decir, toma una forma sólida. 
                     .bg-color-3.p-3.mb-0
@@ -221,7 +221,7 @@
         .col-sm-12.col-lg-8.mb-cus
           figure.mb-0
               img(src='@/assets/curso/temas/t2/21.svg', alt='Diagrama que representa el ciclo de los principales cambios de estados de la materia: sólido, líquido y gaseoso. Se expresa mediante flechas, el cambio de la materia y los nombres de los procesos fusión, vaporización, condensación, solidificación, sublimación y sublimación regresiva. ')
-              figcaption.mb-0 #[b Fuente:] : tomada de Arroyo (2014). 
+              figcaption.mb-0 #[b Fuente:]  tomada de Arroyo (2014). 
         .col-sm-12.col-lg-4
           img.wcus-3.mb-4.d-none.d-lg-block(src='@/assets/curso/temas/t2/22.svg', alt='')
           p.mb-4 La materia es dinámica y por ello es susceptible a experimentar cambios de estado en la medida en la que absorbe o cede calor al medio o por efectos de la presión. De acuerdo con esto, los cambios de estado comunes pueden clasificarse en:
@@ -475,7 +475,7 @@
                   p.mb-0 #[b Tabla 1.] Unidades básicas del Sistema Internacional
                 .tabla-a.color-acento-contenido.mb-5
                   table(alt="La tabla presenta las siete magnitudes físicas fundamentales establecidas por el Sistema Internacional de Unidades, junto con el nombre de unidad correspondiente y su símbolo. Entre ellas están la longitud, la masa, el tiempo, la corriente eléctrica, la temperatura, la cantidad de sustancia y la intensidad luminosa. ")
-                    caption #[b Fuente:] : Chang, (2017).
+                    caption #[b Fuente:]  Chang, (2017).
                     thead
                       tr
                         th Cantidad básica
@@ -537,7 +537,7 @@
                   p.mb-0 #[b Tabla 2.] Prefijos usados con las unidades del Sistema Internacional 
               .tabla-a.color-acento-contenido.mb-5
                 table(alt="La tabla presenta los prefijos más comunes usados en el SI para expresar múltiplos y submúltiplos de unidades de medida. Se tiene el prefijo, el símbolo, el significado en notación decimal y exponencial y un ejemplo aplicado a la unidad de longitud, el metro. ")
-                  caption #[b Fuente:] : Chang, (2017).
+                  caption #[b Fuente:]  Chang, (2017).
                   thead
                     tr
                       th.wcus-6 Prefijo
@@ -572,7 +572,7 @@
                       td 1 decímetro (dm) = 0.1 m
                     tr
                       td centi-
-                      td mol
+                      td c
                       td 1/100 o 10⁻²
                       td 1 centímetro (cm) = 0.01 m
                     tr
@@ -678,7 +678,7 @@
         .col-sm-12.col-lg-3.d-none.d-lg-block
           img(src='@/assets/curso//temas/t2/55.png', alt='')
       .bg-color-6.mb-4(data-aos="fade-left")
-          h3.px-4.py-1 Escalas de Temperatura
+          h3.px-4.py-1 Temperatura
       .row.justify-content-center.mb-5.align-items-center
         .col-sm-12.col-lg-1.d-none.d-lg-block
           img(src='@/assets/curso/temas/t2/56.svg', alt='')

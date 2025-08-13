@@ -724,9 +724,9 @@
         .col-sm-12.col-lg-4
             p.mb-4 La magnitud de un grado en la escala Fahrenheit es de apenas 5/9 de un grado en la escala Celsius. A fin de convertir grados Fahrenheit a grados Celsius y grados Celsius a grados Fahrenheit, se usan las siguientes ecuaciones:
             .bg-color-1.mb-4.w-100.px-1.br-5
-              h5.px-5.py-2 °C = (°F - 32 °F) x #[math  #[mfrac #[mn 5 °C] #[mn 9 °C]] ]
+              h5.px-5.py-2 °C = (°F - 32 °F) x #[math  #[mfrac #[mn 5 °C] #[mn 9 °F]] ]
             .bg-color-14.mb-0.w-100.px-1.br-5
-              h5.px-5.py-2 °F =  #[math  #[mfrac #[mn 9 °F] #[mn 5 °F]] ] x (°C) + 32 °F
+              h5.px-5.py-2 °F =  #[math  #[mfrac #[mn 9 °F] #[mn 5 °C]] ] x (°C) + 32 °F
         .col-sm-12.col-lg-4
             p.mb-4 Las escalas Celsius y Kelvin tienen unidades de la misma magnitud, es decir un grado Celsius es equivalente a un kelvin. Se ha comprobado que el cero absoluto de la escala Kelvin equivale a -273.15 °C. Así que para convertir grados Celsius a kelvin, se usa la ecuación:
             .bg-color-1.mb-4.w-100.px-1.br-5

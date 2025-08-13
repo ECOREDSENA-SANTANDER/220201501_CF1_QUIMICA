@@ -365,7 +365,7 @@
                 .titulo-sexto.color-primario
                     p.mb-0 #[b Figura 11.] Regiones de la tabla periódica de acuerdo con el último subnivel
                 figure.mb-3
-                    img(src='@/assets/curso/temas/t3/30.svg', alt='Esquema de la tabla periódica separada por regiones según el último subnivel de energía (s, p, d o f), donde el bloque s incluye los elementos de los grupos IA y IIIA, el bloque p abarca seis grupos (IIA, IVA, VA, VIA, VIIIA y VIIA), el bloque d corresponde a los elementos de transición y el bloque f en la parte inferior corresponde a los elementos de transición interna (lantánidos y actínidos).')
+                    img(src='@/assets/curso/temas/t3/30.svg', alt='Esquema de la tabla periódica separada por regiones según el último subnivel de energía (s, p, d o f), donde el bloque s incluye los elementos de los grupos IA y IIA, el bloque p abarca seis grupos (IIIA, IVA, VA, VIA, VIIA y VIIIA), el bloque d corresponde a los elementos de transición y el bloque f en la parte inferior corresponde a los elementos de transición interna (lantánidos y actínidos).')
                     figcaption.mb-0 #[b Fuente:] https://misuperclase.com/configuracion-electronica-de-los-elementos/ 
             .row.justify-content-center.mb-0(data-aos='fade-right')
               .col-sm-12.col-lg-6

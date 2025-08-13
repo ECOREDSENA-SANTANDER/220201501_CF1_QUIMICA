@@ -115,7 +115,7 @@ export default {
           mensaje_correcto:
             'Ha captado con claridad los conceptos fundamentales del componente formativo.',
           mensaje_incorrecto:
-            'Revise nuevamente el conteido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 5,

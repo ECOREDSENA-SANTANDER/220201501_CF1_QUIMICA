@@ -32,7 +32,7 @@
       Separador
       #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 2.1 Sustancias puras y mezclas
-      p.mb-5 Una sustancia es una forma de materia que tiene una composición fija (constante), químicamente definida y propiedades características.  Las sustancias difieren entre sí en su composición y pueden identificarse por su apariencia, olor sabor y otras propiedades. 
+      p.mb-5 Una sustancia es una forma de materia que tiene una composición fija (constante), químicamente definida y propiedades características.  Las sustancias difieren entre sí en su composición y pueden identificarse por su apariencia, olor, sabor y otras propiedades. 
       
       .row.justify-content-center.mb-5
         .col-sm-12.col-lg-3.d-none.d-lg-block
@@ -465,7 +465,7 @@
             p.mb-4 Se define como un conjunto de medidas estandarizadas y consistentes que resultan útiles para cuantificar magnitudes físicas. Por convención, se han establecido siete magnitudes fundamentales o básicas: masa, longitud, tiempo, temperatura, corriente eléctrica, cantidad de sustancia e intensidad luminosa. Una magnitud se describe mediante una cifra numérica y una unidad de medida lo que le confiere un sentido físico. 
             p.mb-0 Los científicos coincidían en la necesidad de establecer un sistema de unidades que pudiera ser adoptado universalmente, independientemente de la cultura o de la ubicación geográfica. Así fue, que durante la XI Conferencia General de Pesas y Medidas, celebrada en París en 1960, se propuso un sistema métrico revisado, al que se le llamó #[b Sistema Internacional de Unidades] (SI, del francés #[em Système Internationale d’Unites]). 
       p.mb-3 Este sistema fue adoptado oficialmente sin reparos por la mayoría de países del mundo, a excepción de Estados Unidos, Birmania, Puerto Rico, entre otros, quienes consideraron pertinente mantener su legado colonial y conservar su sistema imperial o anglosajón de unidades.
-      p.mb-5 En la siguiente tabla se muestras las 7 unidades de medición básicas o fundamentales del SI.
+      p.mb-5 En la siguiente tabla se presentan las 7 unidades de medición básicas o fundamentales del SI.
       .row.mb-5.justify-content-center.align-items-center
         .col-sm-12.col-md-12.col-lg-10.mb-5.mb-lg-0
           .tarjeta-avatar-cus
@@ -763,7 +763,7 @@
               .col-auto.titulo-icono-b-img.d-none.d-lg-block
                 img(src='@/assets/curso/temas/t2/63.svg', alt='')
               .col
-                p.mb-0.titulo-icono-b-text.py-3 Esta labor puede verse simplificada al recurrir a la técnica de factor unitario o factor de conversión, que consiste en un multiplicar la cifra problema por una fracción, cuyo numerador y denominador resultan equivalentes (100 cm = 1 m; 1000 g = 1 kg; 1h = 3600 s).
+                p.mb-0.titulo-icono-b-text.py-3 Esta labor puede verse simplificada al recurrir a la técnica de factor unitario o factor de conversión, que consiste en un multiplicar la cifra problema por una fracción, cuyo numerador y denominador resultan equivalentes (100 cm = 1 m; 1000 g = 1 kg; 1 h = 3600 s).
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/temas/t2/62.png', alt='')
   

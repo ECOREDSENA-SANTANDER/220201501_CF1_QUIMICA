@@ -70,7 +70,7 @@
 
             .bg-color-15.mb-4.m-auto(data-aos="fade-left")
               h3.px-4.py-1.text-center Electrón
-            p.mb-0.text-center Es una partícula subatómica con carga negativa (-1.6022 x 10#[sup -19] C, donde C corresponde a coulombs) y masa de 9.1 x 10-#[sup -28] g, que se localiza con probabilidad en la periferia del átomo. 
+            p.mb-0.text-center Es una partícula subatómica con carga negativa (-1.6022 x 10#[sup -19] C, donde C corresponde a coulombs) y masa de 9.1 x 10#[sup -28] g, que se localiza con probabilidad en la periferia del átomo. 
         .col-sm-6.col-lg-4.mb-4.mb-lg-0
           .tarjeta--boton.bg-color-12.p-4.hcard-5
             .row.justify-content-center.mb-3
@@ -366,7 +366,7 @@
                     p.mb-0 #[b Figura 11.] Regiones de la tabla periódica de acuerdo con el último subnivel
                 figure.mb-3
                     img(src='@/assets/curso/temas/t3/30.svg', alt='Esquema de la tabla periódica separada por regiones según el último subnivel de energía (s, p, d o f), donde el bloque s incluye los elementos de los grupos IA y IIA, el bloque p abarca seis grupos (IIIA, IVA, VA, VIA, VIIA y VIIIA), el bloque d corresponde a los elementos de transición y el bloque f en la parte inferior corresponde a los elementos de transición interna (lantánidos y actínidos).')
-                    figcaption.mb-0 #[b Fuente:] https://misuperclase.com/configuracion-electronica-de-los-elementos/ 
+                    figcaption.mb-0 #[b Fuente:] Mateus - González, (2021).
             .row.justify-content-center.mb-0(data-aos='fade-right')
               .col-sm-12.col-lg-6
                 .row.justify-content-center.mb-0.bg-color-16.px-2.py-4.align-items-center.mx-1.mb-cus
@@ -403,7 +403,7 @@
                 p.mb-0 Para conocer las generalidades de la tabla periódica, se invita a explorar el siguiente video. 
               .col-sm-auto
                 a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=RWTp2LcCwjk" target="_blank")
-                  span.tit-cus-2 Consultar video
+                  span.tit-cus-2 Ir al sitio
                   i.fas.fa-link.tit-cus-2
       p.mb-5(data-aos='fade-right') En la tabla periódica los elementos están acomodados de acuerdo con su número atómico, en filas horizontales llamadas #[b periodos], y en columnas verticales, conocidas como #[b grupos o familias], de acuerdo con sus semejanzas en las propiedades químicas. 
       .mb-5 &nbsp;
@@ -431,11 +431,12 @@
       p.mb-5(data-aos='fade-right') También conocidos como familias. Existen 18 grupos y dependiendo de la distribución electrónica, la tabla se fracciona en zonas o regiones de elementos con propiedades similares. Los grupos se identifican con números y letras, por ejemplo, grupo 1A, grupo 2A, grupo 1B, grupo 2B, y así sucesivamente. 
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           p.mb-0 #[b Figura 13.] Grupos de la tabla periódica
-      .row.justify-content-center.mb-5.align-items-center.bg-color-1(data-aos='fade-right')
+      .row.justify-content-center.mb-0.align-items-center.bg-color-1(data-aos='fade-right')
         .col-sm-12.col-lg-10
           .pcus-5.py-5.mb-0
-            img(src='@/assets/curso/temas/t3/35.svg', alt='Tabla periódica de los elementos, codificada por colores para identificar los distintos grupos o familias. Se tienen 18 grupos en total, etiquetados con letras y números del grupo 1A, al grupo 8 A y del grupo 1B al grupo 8B.  ')
-      
+            figure 
+              img(src='@/assets/curso/temas/t3/35.svg', alt='Tabla periódica de los elementos, codificada por colores para identificar los distintos grupos o familias. Se tienen 18 grupos en total, etiquetados con letras y números del grupo 1A, al grupo 8 A y del grupo 1B al grupo 8B.  ')
+      figcaption.mb-5 #[b Fuente:] https://mx.pinterest.com/pin/pin-de-andrea-toral-en-qumica--473159504612322694/ 
       .mb-5 &nbsp;
       .row.align-items-center.mb-5.titulo-icono(data-aos='fade-right')
         .col-auto.titulo-icono-img

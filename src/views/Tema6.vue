@@ -177,7 +177,7 @@
             .col-sm-12
               h4.mb-4 Ácidos carboxílicos
               p.mb-2 Están formados por cadenas de carbono que contienen es su estructura el grupo #[b carboxilo] (-COOH). Los ácidos carboxílicos abundan en la naturaleza, se encuentran tanto en el reino vegetal como animal. Todas las moléculas de proteínas están formadas por aminoácidos, los cuales son ácidos carboxílicos con un grupo amino (-NH#[sub 2]). 
-              p.mb-4 A diferencia de los ácidos orgánicos, los ácidos carboxílicos son débiles. Reaccionan con los alcoholes para formar ésteres. Se nombran de manera similar a los alcanos, considerando que el grupo carboxilo siempre está ubicado al final de la cadena y lleva el primer número indicador (C1), se antepone la palabra ácido, se nombra la cadena base de acuerdo con el número total de carbonos y se cambia la terminación #[b -o] del alcano por #[b -oico].
+              p.mb-4 A diferencia de los ácidos inorgánicos, los ácidos carboxílicos son débiles. Reaccionan con los alcoholes para formar ésteres. Se nombran de manera similar a los alcanos, considerando que el grupo carboxilo siempre está ubicado al final de la cadena y lleva el primer número indicador (C1), se antepone la palabra ácido, se nombra la cadena base de acuerdo con el número total de carbonos y se cambia la terminación #[b -o] del alcano por #[b -oico].
               img(src='@/assets/curso/temas/t6/19.svg', alt='')
 
         .tarjeta.bg-color-5.p-4(titulo="Ésteres")

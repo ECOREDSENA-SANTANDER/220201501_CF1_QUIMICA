@@ -314,7 +314,7 @@ export default {
     },
     {
       referencia:
-        'Equipo editorial, Etecé (16 de febrero de 2025). Ciencia. Enciclopedia Concepto. Recuperado el 4 de junio de 2025 de',
+        'Equipo editorial, Etecé (16 de febrero de 2025). Ciencia. Enciclopedia Concepto.',
       link: 'https://concepto.de/ciencia/.',
     },
     {
@@ -347,7 +347,7 @@ export default {
     },
     {
       referencia:
-        'Schneegans, S.; Lewis, J. y T. Straza (editores) (2021) Informe de l’UNESCO sobre la Ciencia:  La Carrera contra el Reloj para un Desarrollo más Inteligente – Resumen Ejecutivo. UNESCO: Paris.',
+        'Schneegans, S.; Lewis, J. y T. Straza (editores). (2021). Informe de la UNESCO sobre la Ciencia:  La Carrera contra el Reloj para un Desarrollo más Inteligente – Resumen Ejecutivo. UNESCO: París.',
       link: 'https://unesdoc.unesco.org/ark:/48223/pf0000377250_spa',
     },
     {
@@ -355,6 +355,10 @@ export default {
         'Yacolca – Tejada, J.D. Los estados de la materia: ¿Cuántos estados existen? Universidad Nacional Mayor de San Marcos. Perú.',
       link:
         'https://www.researchgate.net/publication/380052103_LOS_ESTADOS_DE_LA_MATERIA_CUANTOS_ESTADOS_EXISTEN',
+    },
+    {
+      referencia:
+        'Mateus - González, N. Y. (2021). Números cuánticos y configuración electrónica. Colegio Instituto Técnico Internacional IED. Bogotá, Colombia.',
     },
   ],
   creditos: [
@@ -432,6 +436,11 @@ export default {
         {
           nombre: 'Erika Daniela Manrique Rueda',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
+        {
+          nombre: 'Andrea Ardila Chaparro',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],

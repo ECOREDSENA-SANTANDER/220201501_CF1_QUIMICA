@@ -299,7 +299,7 @@
                   td He, Ne, Ar
                   td 0 (no reaccionan)
                 tr
-                  td VIII (8)
+                  td VIIIB (8)
                   td Hierro
                   td Fe
                   td +2, +3
@@ -391,7 +391,6 @@
                   
                   p.mb-4 En este sistema se incluyen números romanos que indican la valencia de los átomos presentes en la molécula del compuesto. Se construye colocando el nombre del grupo funcional, seguido del nombre del átomo que lo acompaña y entre paréntesis en números romanos, se coloca el estado de oxidación del elemento. Por ejemplo:
                   .bg-color-2.br-4.p-4
-                    p FeO = óxido ferroso.
                     p Fe#[sub 2]O#[sub 3] = óxido de hierro (III).
                     p Ni#[sub 2]O#[sub 3] = óxido de níquel (III).
                     p CuO = óxido de cobre (II).

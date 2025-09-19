@@ -78,7 +78,7 @@
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/temas/t6/5.png', alt='')
         .col-sm-12.col-lg-8
-            p.mb-3 Los hidrocarburos constituyen el tipo más sencillo de compuestos orgánicos, contienen sólo átomos de carbono e hidrógeno. Estos elementos pueden formar cadenas abiertas o cerradas, lineales o ramificadas. Para nombrar estos compuestos, se utilizan prefijos que indican la cantidad de átomos de carbono presentes en la cadena principal. 
+            p.mb-3 Los hidrocarburos constituyen el tipo más sencillo de compuestos orgánicos, contienen solo átomos de carbono e hidrógeno. Estos elementos pueden formar cadenas abiertas o cerradas, lineales o ramificadas. Para nombrar estos compuestos, se utilizan prefijos que indican la cantidad de átomos de carbono presentes en la cadena principal. 
             p.mb-0 Con base en la estructura, los hidrocarburos se dividen en dos clases principales: alifáticos y aromáticos. Los hidrocarburos alifáticos (alcanos, cicloalcanos, alquenos y alquinos), no contienen el grupo benceno o anillo bencénico, sin embargo, los hidrocarburos aromáticos contienen uno o más de ellos.
       
       .row.justify-content-center.mb-5
@@ -123,7 +123,7 @@
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
                 h4.mb-1.tit-cus-1 Química orgánica. 
-                p.mb-0 Para profundizar en los diferentes tipos de compuestos orgánicos, nomenclatura, propiedades y reacciones, se invita a consultar el capitulo 24 de la Química de Raymond Chang, disponible en el siguiente enlace.
+                p.mb-0 Para profundizar en los diferentes tipos de compuestos orgánicos, nomenclatura, propiedades y reacciones, se invita a consultar el capítulo 24 de la Química de Raymond Chang, disponible en el siguiente enlace.
               .col-sm-auto
                 a.boton.color-acento-botones(href="https://archive.org/details/libro-de-quimica-raymond-chang-12va-edi/page/1026/mode/1up" target="_blank")
                   span.tit-cus-2 Ir al sitio
@@ -154,7 +154,7 @@
           .row.justify-content-center.mb-0
             .col-sm-12
               h4.mb-4 Éteres
-              p.mb-4 Los éteres contienen los enlaces #[b R – O – R’], donde R y R’ son grupos derivados de un hidrocarburo, ya sea alifáticos o aromáticos, llamados grupos alquilo o arilo, respectivamente. Uno de los éteres más conocidos es el éter dietílico, usado principalmente como solvente orgánico. Los éteres, al igual que los alcoholes son muy inflamables y cuando se dejan al aire libre en reposo, tienden a formar, lentamente, peróxidos explosivos.  
+              p.mb-4 Los éteres contienen los enlaces #[b R – O – R’], donde R y R’ son grupos derivados de un hidrocarburo, ya sea alifáticos o aromáticos, llamados grupos alquilo o arilo, respectivamente. Uno de los éteres más conocidos es el éter dietílico, usado principalmente como solvente orgánico. Los éteres, al igual que los alcoholes, son muy inflamables y cuando se dejan al aire libre en reposo, tienden a formar, lentamente, peróxidos explosivos.  
               img(src='@/assets/curso/temas/t6/16.svg', alt='')
 
         .tarjeta.bg-color-5.p-4(titulo="Aldehídos")
@@ -168,7 +168,7 @@
           .row.justify-content-center.mb-0
             .col-sm-12
               h4.mb-4 Cetonas
-              p.mb-2 Estos compuestos, al igual de los aldehídos tienen el grupo #[b carbonilo] en su estructura, sin embargo, en una cetona, el átomo de carbono del grupo carbonilo está unido a dos grupos hidrocarbonados, es decir, que está dentro de la cadena carbonada. 
+              p.mb-2 Estos compuestos, al igual que los aldehídos tienen el grupo #[b carbonilo] en su estructura, sin embargo, en una cetona, el átomo de carbono del grupo carbonilo está unido a dos grupos hidrocarbonados, es decir, que está dentro de la cadena carbonada. 
               p.mb-4 La cetona más sencilla es la acetona, un líquido de olor agradable que se usa principalmente como solvente de compuestos orgánicos y como removedor que esmalte de uñas. Por lo general, las cetonas son menos reactivas que los aldehídos. Se nombran similar a los alcanos, se debe indicar el carbono en el que se encuentra el grupo carbonilo y su terminación es #[b -ona.] 
               img(src='@/assets/curso/temas/t6/18.svg', alt='')
 

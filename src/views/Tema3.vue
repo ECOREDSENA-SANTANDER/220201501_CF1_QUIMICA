@@ -48,7 +48,7 @@
 
             li.d-flex
               i.fas.fa-check-circle.icon-list
-              p.mb-0 Una reacción química implica sólo la separación, combinación o reordenamiento de los átomos, nunca supone la creación o destrucción de los mismos.  
+              p.mb-0 Una reacción química implica solo la separación, combinación o reordenamiento de los átomos, nunca supone la creación o destrucción de los mismos.  
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/temas/t3/4.png', alt='')
       
@@ -117,8 +117,8 @@
         .col-sm-12.col-lg-5.d-none.d-lg-block
           img(src='@/assets/curso/temas/t3/10.svg', alt='')
         .col-sm-12.col-lg-7
-            p.mb-4 #[b El número atómico (Z)] es el número de protones en el núcleo del átomo de un elemento. En un átomo neutro el número de protones es igual al número de electrones, de manera que el número atómico también indica el número de electrones presentes en un átomo. Así es que, la identidad química de un átomo queda determinada por su número atómico. 
-            p.mb-0 #[b El número de masa (A)] o número másico es el número total de neutrones y protones presentes en el núcleo de un átomo. En general el número de masa está dado por:
+            p.mb-4 #[b El número atómico (Z)] es el número de protones en el núcleo del átomo de un elemento. En un átomo neutro, el número de protones es igual al número de electrones, de manera que el número atómico también indica el número de electrones presentes en un átomo. Así es que, la identidad química de un átomo queda determinada por su número atómico. 
+            p.mb-0 #[b El número de masa (A)] o número másico es el número total de neutrones y protones presentes en el núcleo de un átomo. En general, el número de masa está dado por:
 
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-5.d-none.d-lg-block

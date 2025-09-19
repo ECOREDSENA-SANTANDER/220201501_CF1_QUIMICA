@@ -36,7 +36,7 @@
               img.w-75.m-auto(src='@/assets/curso/temas/t3/26.svg', alt='')
             .col-sm-12.col-lg-10
                 h5.mb-3 Nota
-                p.mb-0 En el caso del H#[sub 2]O, no aparece subíndice para el O, debido a que sólo hay un átomo de oxígeno en una molécula de agua; de esta manera se omite el subíndice “uno” en las fórmulas.
+                p.mb-0 En el caso del H#[sub 2]O, no aparece subíndice para el O, debido a que solo hay un átomo de oxígeno en una molécula de agua; de esta manera se omite el subíndice “uno” en las fórmulas.
       
      
 
@@ -53,7 +53,7 @@
         .col-sm-12.col-lg-2.mb-cus
           img.wcus-8.m-auto(src='@/assets/curso/temas/t4/4.png', alt='')
         .col-sm-12.col-lg-5
-          p.mb-3 Cuando los átomos interactúan para formar un enlace químico, sólo entran en contacto sus regiones más externas. Por esta razón, cuando se estudian los enlaces químicos se consideran sobre todo los electrones de valencia de los átomos. Para reconocer los electrones de valencia y asegurarse de que el número total de electrones no cambia en una reacción química, se utiliza el #[b sistema de puntos desarrollado por Lewis]. 
+          p.mb-3 Cuando los átomos interactúan para formar un enlace químico, solo entran en contacto sus regiones más externas. Por esta razón, cuando se estudian los enlaces químicos se consideran sobre todo los electrones de valencia de los átomos. Para reconocer los electrones de valencia y asegurarse de que el número total de electrones no cambia en una reacción química, se utiliza el #[b sistema de puntos desarrollado por Lewis]. 
           p.mb-0 En los elementos representativos, a excepción del helio, el número de electrones de valencia de cada átomo es igual al número del grupo del elemento. Por ejemplo, el litio (Li) es un elemento del grupo 1A y tienen un electrón de valencia, el berilio (Be) es un elemento del grupo 2A y tiene dos electrones de valencia, y así sucesivamente. Los elementos de un mismo grupo poseen configuraciones electrónicas externas similares y, por tanto, también sus puntos de Lewis. 
         .col-sm-12.col-lg-5.d-none.d-lg-block
           img(src='@/assets/curso/temas/t4/5.png', alt='')
@@ -65,7 +65,7 @@
               img.w-75.m-auto(src='@/assets/curso/temas/t3/26.svg', alt='')
             .col-sm-12.col-lg-10
                 h5.mb-3 Nota
-                p.mb-0 Los metales de transición, lantánidos y actínidos, tienen capas internas incompletas y en general no es posible escribir sistemas sencillos de puntos de Lewis para ellos. 
+                p.mb-0 Los metales de transición, lantánidos y actínidos, tienen capas internas incompletas y en general, no es posible escribir sistemas sencillos de puntos de Lewis para ellos. 
       
       .row.justify-content-center.align-items-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-8
@@ -110,7 +110,7 @@
       .row.justify-content-center.align-items-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-4.mb-cus
           img.wfit-1.mb-4.d-none.d-lg-block(src='@/assets/curso/temas/t4/10.png', alt='')
-          p.mb-0 Una estructura de Lewis es una representación de un enlace covalente, donde el par de electrones compartidos se indica con líneas o como pares de puntos entre dos átomos y los pares libres no compartidos se indican como pares de puntos en los átomos individuales. En una estructura de Lewis sólo se muestran los electrones de valencia y la formación de los enlaces para conseguir la estabilidad de la molécula o compuesto cumpliendo la #[b regla del octeto]. 
+          p.mb-0 Una estructura de Lewis es una representación de un enlace covalente, donde el par de electrones compartidos se indica con líneas o como pares de puntos entre dos átomos y los pares libres no compartidos se indican como pares de puntos en los átomos individuales. En una estructura de Lewis solo se muestran los electrones de valencia y la formación de los enlaces para conseguir la estabilidad de la molécula o compuesto cumpliendo la #[b regla del octeto]. 
         .col-sm-12.col-lg-4.mb-cus
           .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Figura 21.] Estructura de Lewis del ácido perclórico
@@ -183,7 +183,7 @@
       Separador
       #t_4_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 4.4 Nomenclatura de los compuestos inorgánicos
-      p.mb-5(data-aos='fade-right') Para iniciar el estudio de la #[b nomenclatura de los compuestos químicos], es necesario, primero distinguir entre compuestos inorgánicos y orgánicos. Los compuestos orgánicos contienen carbono, comúnmente combinados con elementos como hidrogeno, oxígeno, nitrógeno y azufre. El resto de los compuestos se clasifican como compuestos inorgánicos. Sin embargo, algunos compuestos que contienen carbono como monóxido de carbono (CO) y dióxido de carbono (CO#[sub 2]), se consideran compuestos inorgánicos. 
+      p.mb-5(data-aos='fade-right') Para iniciar el estudio de la #[b nomenclatura de los compuestos químicos], es necesario, primero distinguir entre compuestos inorgánicos y orgánicos. Los compuestos orgánicos contienen carbono, comúnmente combinados con elementos como hidrógeno, oxígeno, nitrógeno y azufre. El resto de los compuestos se clasifican como compuestos inorgánicos. Sin embargo, algunos compuestos que contienen carbono como monóxido de carbono (CO) y dióxido de carbono (CO#[sub 2]), se consideran compuestos inorgánicos. 
       .bg-color-6.mb-4(data-aos="fade-left")
           h3.px-4.py-1 Estados de oxidación
       .row.justify-content-center.mb-5(data-aos='fade-right')
@@ -346,7 +346,7 @@
 
             .row(titulo="Ácidos")
               .col-sm-12.col-lg-12
-                p.mb-0 Son compuestos químicos que se forman de la unión del hidrógeno con un no metal, en presencia o no del oxígeno. Existen dos tipos de ácidos: los ácidos oxácidos, en donde el hidrogeno se unió a un no metal en presencia del oxígeno, por ejemplo, el ácido sulfúrico (H#[sub 2]SO#[sub 4]), y los ácidos hidrácidos, en donde el hidrogeno se unió a un no metal en ausencia de oxígeno, como en el caso del ácido clorhídrico (HCl). 
+                p.mb-0 Son compuestos químicos que se forman de la unión del hidrógeno con un no metal, en presencia o no del oxígeno. Existen dos tipos de ácidos: los ácidos oxácidos, en donde el hidrógeno se unió a un no metal en presencia del oxígeno, por ejemplo, el ácido sulfúrico (H#[sub 2]SO#[sub 4]), y los ácidos hidrácidos, en donde el hidrógeno se unió a un no metal en ausencia de oxígeno, como en el caso del ácido clorhídrico (HCl). 
 
             .row(titulo="Sales")
               .col-sm-12.col-lg-12

@@ -126,7 +126,7 @@
           .row.justify-content-center.mb-0
             .col-sm-12.col-lg-8.mb-cus
               h4.mb-4 Decantación
-              p.mb-0 Es un método utilizado para separar dos sustancias que no se mezclan entre sí (mezclas heterogéneas), generalmente un líquido y un sólido o dos líquidos de diferentes densidades. Para decantar una mezcla, esta se deja reposar para que el sólido, por efecto de la gravedad, se precipite al fondo del recipiente. En el caso de las mezclas heterogéneas líquidas, este método sólo tiene éxito si se tiene una diferencia de densidades. 
+              p.mb-0 Es un método utilizado para separar dos sustancias que no se mezclan entre sí (mezclas heterogéneas), generalmente un líquido y un sólido o dos líquidos de diferentes densidades. Para decantar una mezcla, esta se deja reposar para que el sólido, por efecto de la gravedad, se precipite al fondo del recipiente. En el caso de las mezclas heterogéneas líquidas, este método solo tiene éxito si se tiene una diferencia de densidades. 
             
             .col-sm-12.col-lg-4
               img(src='@/assets/curso/temas/t2/12.svg', alt='')
@@ -213,7 +213,7 @@
                     p Son posibles las conversiones entre los tres estados de la materia sin que cambie la composición de la sustancia. Al calentar un sólido (por ejemplo, el hielo) se funde y se transforma en líquido (agua). Su calentamiento adicional convierte el líquido en gas. Por otra parte, el enfriamiento de un gas hace que se condense en forma de líquido. Al enfriarlo adicionalmente, este se congela, es decir, toma una forma sólida. 
                     .bg-color-3.p-3.mb-0
                       img.wcus-3.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/t2/20.svg', alt='')
-                      p.mb-0 La temperatura en la que ocurre la transición de solido a líquido se denomina #[b punto de fusión] y la temperatura en la que ocurre la transición de líquido a gas se denomina #[b punto de ebullición]. 
+                      p.mb-0 La temperatura en la que ocurre la transición de sólido a líquido se denomina #[b punto de fusión] y la temperatura en la que ocurre la transición de líquido a gas se denomina #[b punto de ebullición]. 
 
       .titulo-sexto.color-primario
           p.mb-0 #[b Figura 3.] Cambios de estado más comunes de la materia
@@ -400,7 +400,7 @@
         .col-sm-12.col-lg-7
           img.wcus-4.mb-2.d-none.d-lg-block(src='@/assets/curso/temas/t2/40.svg', alt='')
           .bg-color-11.p-4
-            p.mb-0 Cada vez que se cuece un huevo ocurre un cambio químico. Cuando la yema y la clara se someten a temperaturas cercanas a 100 °C, experimentan cambios que no sólo modifican su aspecto físico, sino también su composición química. Después, al ser consumido, el huevo se modifica nuevamente, por efecto de sustancias del cuerpo humano llamadas enzimas. Esta acción digestiva es un ejemplo de un cambio químico. Lo que ocurre durante la digestión depende de las propiedades químicas de las enzimas y de los alimentos. 
+            p.mb-0 Cada vez que se cuece un huevo ocurre un cambio químico. Cuando la yema y la clara se someten a temperaturas cercanas a 100 °C, experimentan cambios que no solo modifican su aspecto físico, sino también su composición química. Después, al ser consumido, el huevo se modifica nuevamente, por efecto de sustancias del cuerpo humano llamadas enzimas. Esta acción digestiva es un ejemplo de un cambio químico. Lo que ocurre durante la digestión depende de las propiedades químicas de las enzimas y de los alimentos. 
       
       Separador
       #t_2_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -462,7 +462,7 @@
         .col-sm-12.col-lg-5.d-none.d-lg-block
           img(src='@/assets/curso/temas/t2/47.png', alt='')
         .col-sm-12.col-lg-7
-            p.mb-4 Se define como un conjunto de medidas estandarizadas y consistentes que resultan útiles para cuantificar magnitudes físicas. Por convención, se han establecido siete magnitudes fundamentales o básicas: masa, longitud, tiempo, temperatura, corriente eléctrica, cantidad de sustancia e intensidad luminosa. Una magnitud se describe mediante una cifra numérica y una unidad de medida lo que le confiere un sentido físico. 
+            p.mb-4 Se define como un conjunto de medidas estandarizadas y consistentes que resultan útiles para cuantificar magnitudes físicas. Por convención, se han establecido siete magnitudes fundamentales o básicas: masa, longitud, tiempo, temperatura, corriente eléctrica, cantidad de sustancia e intensidad luminosa. Una magnitud se describe mediante una cifra numérica y una unidad de medida, lo que le confiere un sentido físico. 
             p.mb-0 Los científicos coincidían en la necesidad de establecer un sistema de unidades que pudiera ser adoptado universalmente, independientemente de la cultura o de la ubicación geográfica. Así fue, que durante la XI Conferencia General de Pesas y Medidas, celebrada en París en 1960, se propuso un sistema métrico revisado, al que se le llamó #[b Sistema Internacional de Unidades] (SI, del francés #[em Système Internationale d’Unites]). 
       p.mb-3 Este sistema fue adoptado oficialmente sin reparos por la mayoría de países del mundo, a excepción de Estados Unidos, Birmania, Puerto Rico, entre otros, quienes consideraron pertinente mantener su legado colonial y conservar su sistema imperial o anglosajón de unidades.
       p.mb-5 En la siguiente tabla se presentan las 7 unidades de medición básicas o fundamentales del SI.

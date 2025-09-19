@@ -16,7 +16,7 @@
               .col-sm-12.col-lg-2.d-none.d-lg-block
                 img(src='@/assets/curso/temas/t1/2.svg', alt='')
               .col-sm-12.col-lg-10
-                  p.mb-0 Por, tanto la ciencia, constituye un elemento fundamental para el desarrollo de cualquier sociedad y para el progreso de la humanidad. Es a través de la generación e implementación de conocimiento científico que se construyen el bienestar social, la calidad de vida y el desarrollo económico. 
+                  p.mb-0 Por tanto, la ciencia constituye un elemento fundamental para el desarrollo de cualquier sociedad y para el progreso de la humanidad. Es a través de la generación e implementación de conocimiento científico que se construyen el bienestar social, la calidad de vida y el desarrollo económico. 
             p.mb-0 En términos generales, la ciencia se clasifica en tres grandes categorías: #[b las ciencias formales, las ciencias sociales y las ciencias naturales.]
       
       

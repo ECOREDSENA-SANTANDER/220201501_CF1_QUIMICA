@@ -319,7 +319,7 @@ export default {
     },
     {
       referencia:
-        'Freire, N. (2024). Qué es la enigmática energía oscura y por qué no podemos detectarla. National Geografic.',
+        'Freire, N. (2024). Qué es la enigmática energía oscura y por qué no podemos detectarla. National Geographic.',
       link:
         'https://www.nationalgeographic.com.es/ciencia/que-es-energia-oscura-y-por-que-no-podemos-detectarla_23634',
     },

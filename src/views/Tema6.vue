@@ -168,7 +168,7 @@
           .row.justify-content-center.mb-0
             .col-sm-12
               h4.mb-4 Cetonas
-              p.mb-2 Estos compuestos, al igual que los aldehídos tienen el grupo #[b carbonilo] en su estructura, sin embargo, en una cetona, el átomo de carbono del grupo carbonilo está unido a dos grupos hidrocarbonados, es decir, que está dentro de la cadena carbonada. 
+              p.mb-2 Estos compuestos, al igual que los aldehídos, tienen el grupo #[b carbonilo] en su estructura, sin embargo, en una cetona, el átomo de carbono del grupo carbonilo está unido a dos grupos hidrocarbonados, es decir, que está dentro de la cadena carbonada. 
               p.mb-4 La cetona más sencilla es la acetona, un líquido de olor agradable que se usa principalmente como solvente de compuestos orgánicos y como removedor que esmalte de uñas. Por lo general, las cetonas son menos reactivas que los aldehídos. Se nombran similar a los alcanos, se debe indicar el carbono en el que se encuentra el grupo carbonilo y su terminación es #[b -ona.] 
               img(src='@/assets/curso/temas/t6/18.svg', alt='')
 

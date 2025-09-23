@@ -344,7 +344,7 @@
 
                   li.d-flex
                     i.fas.fa-check-circle.icon-list
-                    p.mb-0 La tabla periódica posee regiones relacionadas con la configuración de los orbitales. Si la configuración electrónica termina en #[b s] o #[b p], el elemento hace parte de los grupos representados por la letra #[b A], si por el contrario terminan en #[b d] o #[b f], este se ubica en los grupos representados por la letra #[b B] o elementos de transición, como se muestra en la figura 11.   
+                    p.mb-0 La tabla periódica posee regiones relacionadas con la configuración de los orbitales. Si la configuración electrónica termina en #[b s] o #[b p], el elemento hace parte de los grupos representados por la letra #[b A]. Si, por el contrario, terminan en #[b d] o #[b f], este se ubica en los grupos representados por la letra #[b B] o elementos de transición, como se muestra en la figura 11.   
 
                 .row.justify-content-center.mb-5.align-items-center
                   .col-sm-12.col-lg-2.d-none.d-lg-block
